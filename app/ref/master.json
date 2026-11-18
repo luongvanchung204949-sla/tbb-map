@@ -1,0 +1,7542 @@
+{
+"620101": {
+"ten": "Phường Him Lam",
+"huyen": "Thành phố Điện Biên Phủ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Phường Điện Biên Phủ",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22032000",
+"bc": "(DBI) Điện Biên Phủ",
+"ten_dm": "Phường Him Lam"
+},
+"620106": {
+"ten": "Phường Thanh Bình",
+"huyen": "Thành phố Điện Biên Phủ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Phường Điện Biên Phủ",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22032000",
+"bc": "(DBI) Điện Biên Phủ",
+"ten_dm": "Phường Thanh Bình"
+},
+"620105": {
+"ten": "Phường Tân Thanh",
+"huyen": "Thành phố Điện Biên Phủ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Phường Điện Biên Phủ",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22032000",
+"bc": "(DBI) Điện Biên Phủ",
+"ten_dm": "Phường Tân Thanh"
+},
+"620102": {
+"ten": "Phường Mường Thanh",
+"huyen": "Thành phố Điện Biên Phủ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Phường Điện Biên Phủ",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22032000",
+"bc": "(DBI) Điện Biên Phủ",
+"ten_dm": "Phường Mường Thanh"
+},
+"620107": {
+"ten": "Phường Thanh Trường",
+"huyen": "Thành phố Điện Biên Phủ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Phường Điện Biên Phủ",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22032000",
+"bc": "(DBI) Điện Biên Phủ",
+"ten_dm": "Phường Thanh Trường"
+},
+"620109": {
+"ten": "Xã Thanh Minh",
+"huyen": "Thành phố Điện Biên Phủ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Phường Điện Biên Phủ",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22032000",
+"bc": "(DBI) Điện Biên Phủ",
+"ten_dm": "Xã Thanh Minh"
+},
+"620202": {
+"ten": "Phường Sông Đà",
+"huyen": "Thị xã Mường Lay",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Phường Mường Lay",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Phường Sông Đà"
+},
+"620201": {
+"ten": "Phường Na Lay",
+"huyen": "Thị xã Mường Lay",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Phường Mường Lay",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Phường Na Lay"
+},
+"620203": {
+"ten": "Xã Lay Nưa",
+"huyen": "Thị xã Mường Lay",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Phường Mường Lay",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Lay Nưa"
+},
+"620512": {
+"ten": "Xã Sá Tổng",
+"huyen": "Huyện Mường Chà",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Phường Mường Lay",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Xá Tổng"
+},
+"620104": {
+"ten": "Phường Noong Bua",
+"huyen": "Thành phố Điện Biên Phủ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Phường Mường Thanh",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22032000",
+"bc": "(DBI) Điện Biên Phủ",
+"ten_dm": "Phường Noong Bua"
+},
+"620103": {
+"ten": "Phường Nam Thanh",
+"huyen": "Thành phố Điện Biên Phủ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Phường Mường Thanh",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22032000",
+"bc": "(DBI) Điện Biên Phủ",
+"ten_dm": "Phường Nam Thanh"
+},
+"620324": {
+"ten": "Xã Thanh Xương",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Phường Mường Thanh",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22032000",
+"bc": "(DBI) Điện Biên Phủ",
+"ten_dm": "Xã Thanh Xương"
+},
+"620811": {
+"ten": "Xã Sín Thầu",
+"huyen": "Huyện Mường Nhé",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Sín Thầu",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20968000",
+"bc": "(DBI) Mường Nhé",
+"ten_dm": "Xã Sín Thầu"
+},
+"620810": {
+"ten": "Xã Sen Thượng",
+"huyen": "Huyện Mường Nhé",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Sín Thầu",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20968000",
+"bc": "(DBI) Mường Nhé",
+"ten_dm": "Xã Sen Thượng"
+},
+"620803": {
+"ten": "Xã Leng Su Sìn",
+"huyen": "Huyện Mường Nhé",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Sín Thầu",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20968000",
+"bc": "(DBI) Mường Nhé",
+"ten_dm": "Xã Leng Su Sìn"
+},
+"620801": {
+"ten": "Xã Chung Chải",
+"huyen": "Huyện Mường Nhé",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Nhé",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20968000",
+"bc": "(DBI) Mường Nhé",
+"ten_dm": "Xã Chung Chải"
+},
+"620804": {
+"ten": "Xã Mường Nhé",
+"huyen": "Huyện Mường Nhé",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Nhé",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20968000",
+"bc": "(DBI) Mường Nhé",
+"ten_dm": "Xã Mường Nhé"
+},
+"620807": {
+"ten": "Xã Nậm Vì",
+"huyen": "Huyện Mường Nhé",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Nhé",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20968000",
+"bc": "(DBI) Mường Nhé",
+"ten_dm": "Xã Nậm Vì"
+},
+"620808": {
+"ten": "Xã Pá Mỳ",
+"huyen": "Huyện Mường Nhé",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Nậm Kè",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20968000",
+"bc": "(DBI) Mường Nhé",
+"ten_dm": "Xã Pá Mỳ"
+},
+"620806": {
+"ten": "Xã Nậm Kè",
+"huyen": "Huyện Mường Nhé",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Nậm Kè",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20968000",
+"bc": "(DBI) Mường Nhé",
+"ten_dm": "Xã Nậm Kè"
+},
+"620805": {
+"ten": "Xã Mường Toong",
+"huyen": "Huyện Mường Nhé",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Toong",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20968000",
+"bc": "(DBI) Mường Nhé",
+"ten_dm": "Xã Mường Toong"
+},
+"620802": {
+"ten": "Xã Huổi Lếch",
+"huyen": "Huyện Mường Nhé",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Toong",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20968000",
+"bc": "(DBI) Mường Nhé",
+"ten_dm": "Xã Huổi Lếnh"
+},
+"621005": {
+"ten": "Xã Na Cô Sa",
+"huyen": "Huyện Nậm Pồ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Quảng Lâm",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20968000",
+"bc": "(DBI) Mường Nhé",
+"ten_dm": "Xã Na Cô Sa"
+},
+"620809": {
+"ten": "Xã Quảng Lâm",
+"huyen": "Huyện Mường Nhé",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Quảng Lâm",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20968000",
+"bc": "(DBI) Mường Nhé",
+"ten_dm": "Xã Quảng Lâm"
+},
+"621011": {
+"ten": "Xã Nậm Tin",
+"huyen": "Huyện Nậm Pồ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Chà",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Nậm Tin"
+},
+"621012": {
+"ten": "Xã Pa Tần",
+"huyen": "Huyện Nậm Pồ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Chà",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Pa Tần"
+},
+"621001": {
+"ten": "Xã Chà Cang",
+"huyen": "Huyện Nậm Pồ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Chà",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Chà Cang"
+},
+"621002": {
+"ten": "Xã Chà Nưa",
+"huyen": "Huyện Nậm Pồ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Chà",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Chà Nưa"
+},
+"621007": {
+"ten": "Xã Nà Khoa",
+"huyen": "Huyện Nậm Pồ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Nà Hỳ",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Nà Khoa"
+},
+"621006": {
+"ten": "Xã Nà Hỳ",
+"huyen": "Huyện Nậm Pồ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Nà Hỳ",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Nà Hỳ"
+},
+"621010": {
+"ten": "Xã Nậm Nhừ",
+"huyen": "Huyện Nậm Pồ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Nà Hỳ",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Nậm Nhừ"
+},
+"621008": {
+"ten": "Xã Nậm Chua",
+"huyen": "Huyện Nậm Pồ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Nà Hỳ",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Nậm Chua"
+},
+"620501": {
+"ten": "Thị trấn Mường Chà",
+"huyen": "Huyện Mường Chà",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Na Sang",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Thị Trấn Mường Chà"
+},
+"620511": {
+"ten": "Xã Sa Lông",
+"huyen": "Huyện Mường Chà",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Na Sang",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Sa Lông"
+},
+"620505": {
+"ten": "Xã Ma Thì Hồ",
+"huyen": "Huyện Mường Chà",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Na Sang",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Ma Thì Hồ"
+},
+"620508": {
+"ten": "Xã Na Sang",
+"huyen": "Huyện Mường Chà",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Na Sang",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Na Sang"
+},
+"621009": {
+"ten": "Xã Nậm Khăn",
+"huyen": "Huyện Nậm Pồ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Chà Tở",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Nậm Khăn"
+},
+"621003": {
+"ten": "Xã Chà Tở",
+"huyen": "Huyện Nậm Pồ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Chà Tở",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Chà Tở"
+},
+"621004": {
+"ten": "Xã Nà Bủng",
+"huyen": "Huyện Nậm Pồ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Nà Bủng",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Nà Bủng"
+},
+"621015": {
+"ten": "Xã Vàng Đán",
+"huyen": "Huyện Nậm Pồ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Nà Bủng",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Vàng Đán"
+},
+"620507": {
+"ten": "Xã Mường Tùng",
+"huyen": "Huyện Mường Chà",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Tùng",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Mường Tùng"
+},
+"620503": {
+"ten": "Xã Huổi Lèng",
+"huyen": "Huyện Mường Chà",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Tùng",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Huổi Lèng"
+},
+"620502": {
+"ten": "Xã Hừa Ngài",
+"huyen": "Huyện Mường Chà",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Pa Ham",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Hừa Ngài"
+},
+"620510": {
+"ten": "Xã Pa Ham",
+"huyen": "Huyện Mường Chà",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Pa Ham",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": "Xã Pa Ham"
+},
+"620504": {
+"ten": "Xã Huổi Mí",
+"huyen": "Huyện Mường Chà",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Nậm Nèn",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": "Xã Huổi Mí"
+},
+"620509": {
+"ten": "Xã Nậm Nèn",
+"huyen": "Huyện Mường Chà",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Nậm Nèn",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": "Xã Nậm Nèn"
+},
+"621013": {
+"ten": "Xã Phìn Hồ",
+"huyen": "Huyện Nậm Pồ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Si Pa Phìn",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Phìn Hồ"
+},
+"621014": {
+"ten": "Xã Si Pa Phìn",
+"huyen": "Huyện Nậm Pồ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Si Pa Phìn",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Si Pa Phìn"
+},
+"620306": {
+"ten": "Xã Mường Pồn",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Pồn",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22032000",
+"bc": "(DBI) Điện Biên Phủ",
+"ten_dm": "Xã Mường Pồn"
+},
+"620506": {
+"ten": "Xã Mường Mươn",
+"huyen": "Huyện Mường Chà",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Pồn",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20714000",
+"bc": "(DBI) Na Sang",
+"ten_dm": "Xã Mường Mươn"
+},
+"620707": {
+"ten": "Xã Na Son",
+"huyen": "Huyện Điện Biên Đông",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Na Son",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22390000",
+"bc": "(DBI) Na Son",
+"ten_dm": "Xã Na Son"
+},
+"620704": {
+"ten": "Xã Keo Lôm",
+"huyen": "Huyện Điện Biên Đông",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Na Son",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22390000",
+"bc": "(DBI) Na Son",
+"ten_dm": "Xã Keo Lôm"
+},
+"620701": {
+"ten": "Thị trấn Điện Biên Đông",
+"huyen": "Huyện Điện Biên Đông",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Na Son",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22390000",
+"bc": "(DBI) Na Son",
+"ten_dm": "Thị trấn Điện Biên Đông"
+},
+"620709": {
+"ten": "Xã Phì Nhừ",
+"huyen": "Huyện Điện Biên Đông",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Xa Dung",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22390000",
+"bc": "(DBI) Na Son",
+"ten_dm": "Xã Phì Nhừ"
+},
+"620714": {
+"ten": "Xã Xa Dung",
+"huyen": "Huyện Điện Biên Đông",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Xa Dung",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22390000",
+"bc": "(DBI) Na Son",
+"ten_dm": "Xã Xa Dung"
+},
+"620702": {
+"ten": "Xã Chiềng Sơ",
+"huyen": "Huyện Điện Biên Đông",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Luân",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22390000",
+"bc": "(DBI) Na Son",
+"ten_dm": "Xã Chiềng Sơ"
+},
+"620706": {
+"ten": "Xã Mường Luân",
+"huyen": "Huyện Điện Biên Đông",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Luân",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22390000",
+"bc": "(DBI) Na Son",
+"ten_dm": "Xã Mường Luân"
+},
+"620705": {
+"ten": "Xã Luân Giới",
+"huyen": "Huyện Điện Biên Đông",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Luân",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22390000",
+"bc": "(DBI) Na Son",
+"ten_dm": "Xã Luân Giới"
+},
+"620601": {
+"ten": "Thị trấn Tủa Chùa",
+"huyen": "Huyện Tủa Chùa",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Tủa Chùa",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": "Thị trấn Tủa Chùa"
+},
+"620604": {
+"ten": "Xã Mường Báng",
+"huyen": "Huyện Tủa Chùa",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Tủa Chùa",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": "Xã Mường Báng"
+},
+"620409": {
+"ten": "Xã Nà Tòng",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Tủa Chùa",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": "Xã Nà Tòng"
+},
+"620602": {
+"ten": "Xã Huổi Só",
+"huyen": "Huyện Tủa Chùa",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Tủa Thàng",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": "Xã Huổi Só"
+},
+"620611": {
+"ten": "Xã Tủa Thàng",
+"huyen": "Huyện Tủa Chùa",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Tủa Thàng",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": "Xã Tủa Thàng"
+},
+"620612": {
+"ten": "Xã Sín Chải",
+"huyen": "Huyện Tủa Chùa",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Sín Chải",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": "Xã Xín Chải"
+},
+"620609": {
+"ten": "Xã Tả Sìn Thàng",
+"huyen": "Huyện Tủa Chùa",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Sín Chải",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": "Xã Tả Sìn Thàng"
+},
+"620603": {
+"ten": "Xã Lao Xả Phình",
+"huyen": "Huyện Tủa Chùa",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Sín Chải",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": "Xã Lao Xả Phình"
+},
+"620608": {
+"ten": "Xã Tả Phìn",
+"huyen": "Huyện Tủa Chùa",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Sính Phình",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": "Xã Tả Phìn"
+},
+"620610": {
+"ten": "Xã Trung Thu",
+"huyen": "Huyện Tủa Chùa",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Sính Phình",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": "Xã Trung Thu"
+},
+"620607": {
+"ten": "Xã Sính Phình",
+"huyen": "Huyện Tủa Chùa",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Sính Phình",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": "Xã Sính Phình"
+},
+"620606": {
+"ten": "Xã Xá Nhè",
+"huyen": "Huyện Tủa Chùa",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Sáng Nhè",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": ""
+},
+"620605": {
+"ten": "Xã Mường Đun",
+"huyen": "Huyện Tủa Chùa",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Sáng Nhè",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": "Xã Mường Đun"
+},
+"620410": {
+"ten": "Xã Phình Sáng",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Sáng Nhè",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20749000",
+"bc": "(DBI) Tuần Giáo",
+"ten_dm": "Xã Phình Sáng"
+},
+"620401": {
+"ten": "Thị trấn Tuần Giáo",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Tuần Giáo",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20749000",
+"bc": "(DBI) Tuần Giáo",
+"ten_dm": "Thị trấn Tuần Giáo"
+},
+"620414": {
+"ten": "Xã Quài Nưa",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Tuần Giáo",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20749000",
+"bc": "(DBI) Tuần Giáo",
+"ten_dm": "Xã Quài Nưa"
+},
+"620413": {
+"ten": "Xã Quài Cang",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Tuần Giáo",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20749000",
+"bc": "(DBI) Tuần Giáo",
+"ten_dm": "Xã Quài Cang"
+},
+"620901": {
+"ten": "Thị trấn Mường Ảng",
+"huyen": "Huyện Mường Ảng",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Ảng",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22947000",
+"bc": "(DBI) Mường Ảng",
+"ten_dm": "Thị trấn Mường Ảng"
+},
+"620903": {
+"ten": "Xã Ẳng Nưa",
+"huyen": "Huyện Mường Ảng",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Ảng",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22947000",
+"bc": "(DBI) Mường Ảng",
+"ten_dm": "Xã Ẳng Nưa"
+},
+"620902": {
+"ten": "Xã Ẳng Cang",
+"huyen": "Huyện Mường Ảng",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Ảng",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22947000",
+"bc": "(DBI) Mường Ảng",
+"ten_dm": "Xã Ẳng Cang"
+},
+"620416": {
+"ten": "Xã Rạng Đông",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Pú Nhung",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20749000",
+"bc": "(DBI) Tuần Giáo",
+"ten_dm": "Xã Rạng Đông"
+},
+"620417": {
+"ten": "Xã Ta Ma",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Pú Nhung",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20749000",
+"bc": "(DBI) Tuần Giáo",
+"ten_dm": "Xã Ta Ma"
+},
+"620411": {
+"ten": "Xã Pú Nhung",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Pú Nhung",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20749000",
+"bc": "(DBI) Tuần Giáo",
+"ten_dm": "Xã Pú Nhung"
+},
+"620404": {
+"ten": "Xã Mùn Chung",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Mùn",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20749000",
+"bc": "(DBI) Tuần Giáo",
+"ten_dm": "Xã Mùn Chung"
+},
+"620406": {
+"ten": "Xã Mường Mùn",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Mùn",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": "Xã Mường Mùn"
+},
+"620412": {
+"ten": "Xã Pú Xi",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Mùn",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20993000",
+"bc": "(DBI) Tủa Chùa",
+"ten_dm": "Xã Pú Xi"
+},
+"620407": {
+"ten": "Xã Mường Thín",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Chiềng Sinh",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20749000",
+"bc": "(DBI) Tuần Giáo",
+"ten_dm": "Xã Mường Thín"
+},
+"620408": {
+"ten": "Xã Nà Sáy",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Chiềng Sinh",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20749000",
+"bc": "(DBI) Tuần Giáo",
+"ten_dm": "Xã Nà Sáy"
+},
+"620405": {
+"ten": "Xã Mường Khong",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Chiềng Sinh",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20749000",
+"bc": "(DBI) Tuần Giáo",
+"ten_dm": "Xã Mường Khong"
+},
+"620403": {
+"ten": "Xã Chiềng Sinh",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Chiềng Sinh",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20749000",
+"bc": "(DBI) Tuần Giáo",
+"ten_dm": "Xã Chiềng Sinh"
+},
+"620419": {
+"ten": "Xã Tỏa Tình",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Quài Tở",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20749000",
+"bc": "(DBI) Tuần Giáo",
+"ten_dm": "Xã Tỏa Tình"
+},
+"620415": {
+"ten": "Xã Quài Tở",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Quài Tở",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20749000",
+"bc": "(DBI) Tuần Giáo",
+"ten_dm": "Xã Quài Tở"
+},
+"620418": {
+"ten": "Xã Tênh Phông",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Quài Tở",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20749000",
+"bc": "(DBI) Tuần Giáo",
+"ten_dm": "Xã Tênh Phông"
+},
+"620904": {
+"ten": "Xã Ẳng Tở",
+"huyen": "Huyện Mường Ảng",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Búng Lao",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22947000",
+"bc": "(DBI) Mường Ảng",
+"ten_dm": "Xã Ẳng Tở"
+},
+"620905": {
+"ten": "Xã Búng Lao",
+"huyen": "Huyện Mường Ảng",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Búng Lao",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22947000",
+"bc": "(DBI) Mường Ảng",
+"ten_dm": "Xã Búng Lao"
+},
+"620402": {
+"ten": "Xã Chiềng Đông",
+"huyen": "Huyện Tuần Giáo",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Búng Lao",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "20749000",
+"bc": "(DBI) Tuần Giáo",
+"ten_dm": "Xã Chiềng Đông"
+},
+"620910": {
+"ten": "Xã Xuân Lao",
+"huyen": "Huyện Mường Ảng",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Lạn",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22947000",
+"bc": "(DBI) Mường Ảng",
+"ten_dm": "Xã Xuân Lao"
+},
+"620908": {
+"ten": "Xã Nặm Lịch",
+"huyen": "Huyện Mường Ảng",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Lạn",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22947000",
+"bc": "(DBI) Mường Ảng",
+"ten_dm": "Xã Nặm Lịch"
+},
+"620907": {
+"ten": "Xã Mường Lạn",
+"huyen": "Huyện Mường Ảng",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Lạn",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22947000",
+"bc": "(DBI) Mường Ảng",
+"ten_dm": "Xã Mường Lạn"
+},
+"800204": {
+"ten": "Xã Nà Tấu",
+"huyen": "Thành phố Điện Biên Phủ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Nà Tấu",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22947000",
+"bc": "(DBI) Mường Ảng",
+"ten_dm": "Xã Nà Tấu"
+},
+"620906": {
+"ten": "Xã Mường Đăng",
+"huyen": "Huyện Mường Ảng",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Nà Tấu",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22947000",
+"bc": "(DBI) Mường Ảng",
+"ten_dm": "Xã Mường Đăng"
+},
+"620909": {
+"ten": "Xã Ngối Cáy",
+"huyen": "Huyện Mường Ảng",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Nà Tấu",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22947000",
+"bc": "(DBI) Mường Ảng",
+"ten_dm": "Xã Ngối Cáy"
+},
+"800203": {
+"ten": "Xã Nà Nhạn",
+"huyen": "Thành phố Điện Biên Phủ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Phăng",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22947000",
+"bc": "(DBI) Mường Ảng",
+"ten_dm": "Xã Nà Nhạn"
+},
+"800202": {
+"ten": "Xã Mường Phăng",
+"huyen": "Thành phố Điện Biên Phủ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Phăng",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22947000",
+"bc": "(DBI) Mường Ảng",
+"ten_dm": "Xã Mường Phăng"
+},
+"800205": {
+"ten": "Xã Pá Khoang",
+"huyen": "Thành phố Điện Biên Phủ",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Phăng",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22947000",
+"bc": "(DBI) Mường Ảng",
+"ten_dm": "Xã Pá Khoang"
+},
+"620323": {
+"ten": "Xã Thanh Nưa",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Thanh Nưa",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22032000",
+"bc": "(DBI) Điện Biên Phủ",
+"ten_dm": "Xã Thanh Nưa"
+},
+"620302": {
+"ten": "Xã Hua Thanh",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Thanh Nưa",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22032000",
+"bc": "(DBI) Điện Biên Phủ",
+"ten_dm": "Xã Hua Thanh"
+},
+"620322": {
+"ten": "Xã Thanh Luông",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Thanh Nưa",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22032000",
+"bc": "(DBI) Điện Biên Phủ",
+"ten_dm": "Xã Thanh Luông"
+},
+"620321": {
+"ten": "Xã Thanh Hưng",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Thanh Nưa",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22032000",
+"bc": "(DBI) Điện Biên Phủ",
+"ten_dm": "Xã Thanh Hưng"
+},
+"620320": {
+"ten": "Xã Thanh Chăn",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Thanh Nưa",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "21438000",
+"bc": "(DBI) Thanh An",
+"ten_dm": "Xã Thanh Chăn"
+},
+"620315": {
+"ten": "Xã Pa Thơm",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Thanh Yên",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "21438000",
+"bc": "(DBI) Thanh An",
+"ten_dm": "Xã Pa Thơm"
+},
+"620325": {
+"ten": "Xã Thanh Yên",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Thanh Yên",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "21438000",
+"bc": "(DBI) Thanh An",
+"ten_dm": "Xã Thanh Yên"
+},
+"620312": {
+"ten": "Xã Noong Luống",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Thanh Yên",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "21438000",
+"bc": "(DBI) Thanh An",
+"ten_dm": "Xã Noong Luống"
+},
+"620319": {
+"ten": "Xã Thanh An",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Thanh An",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "21438000",
+"bc": "(DBI) Thanh An",
+"ten_dm": "Xã Thanh An"
+},
+"620311": {
+"ten": "Xã Noong Hẹt",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Thanh An",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "21438000",
+"bc": "(DBI) Thanh An",
+"ten_dm": "Xã Noọng Hẹt"
+},
+"620318": {
+"ten": "Xã Sam Mứn",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Thanh An",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "21438000",
+"bc": "(DBI) Thanh An",
+"ten_dm": "Xã Sam Mứn"
+},
+"620317": {
+"ten": "Xã Pom Lót",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Sam Mứn",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "21438000",
+"bc": "(DBI) Thanh An",
+"ten_dm": "Xã Pom Lót"
+},
+"620310": {
+"ten": "Xã Na Ư",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Sam Mứn",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "21438000",
+"bc": "(DBI) Thanh An",
+"ten_dm": "Xã Na Ư"
+},
+"620313": {
+"ten": "Xã Núa Ngam",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Núa Ngam",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "21438000",
+"bc": "(DBI) Thanh An",
+"ten_dm": "Xã Núa Ngam"
+},
+"620301": {
+"ten": "Xã Hẹ Muông",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Núa Ngam",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "21438000",
+"bc": "(DBI) Thanh An",
+"ten_dm": "Xã Hẹ Muông"
+},
+"620309": {
+"ten": "Xã Na Tông",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Núa Ngam",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "21438000",
+"bc": "(DBI) Thanh An",
+"ten_dm": "Xã Na Tông"
+},
+"620304": {
+"ten": "Xã Mường Nhà",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Nhà",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "21438000",
+"bc": "(DBI) Thanh An",
+"ten_dm": "Xã Mường Nhà"
+},
+"620303": {
+"ten": "Xã Mường Lói",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Nhà",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "21438000",
+"bc": "(DBI) Thanh An",
+"ten_dm": "Xã Mường Lói"
+},
+"620316": {
+"ten": "Xã Phu Luông",
+"huyen": "Huyện Điện Biên",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Mường Nhà",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "21438000",
+"bc": "(DBI) Thanh An",
+"ten_dm": "Xã Phu Luông"
+},
+"620712": {
+"ten": "Xã Pu Nhi",
+"huyen": "Huyện Điện Biên Đông",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Pu Nhi",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22390000",
+"bc": "(DBI) Na Son",
+"ten_dm": "Xã Pú Nhi"
+},
+"620708": {
+"ten": "Xã Nong U",
+"huyen": "Huyện Điện Biên Đông",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Pu Nhi",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22390000",
+"bc": "(DBI) Na Son",
+"ten_dm": "Xã Nong U"
+},
+"620710": {
+"ten": "Xã Phình Giàng",
+"huyen": "Huyện Điện Biên Đông",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Phình Giàng",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22390000",
+"bc": "(DBI) Na Son",
+"ten_dm": "Xã Phình Giàng"
+},
+"620711": {
+"ten": "Xã Pú Hồng",
+"huyen": "Huyện Điện Biên Đông",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Phình Giàng",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22390000",
+"bc": "(DBI) Na Son",
+"ten_dm": "Xã Pú Hồng"
+},
+"620713": {
+"ten": "Xã Tìa Dình",
+"huyen": "Huyện Điện Biên Đông",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Tìa Dình",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22390000",
+"bc": "(DBI) Na Son",
+"ten_dm": "Xã Tìa Dình"
+},
+"620703": {
+"ten": "Xã Háng Lìa",
+"huyen": "Huyện Điện Biên Đông",
+"tinh_cu": "Tỉnh Điện Biên",
+"xa_moi": "Xã Tìa Dình",
+"tinh_moi": "Tỉnh Điện Biên",
+"bc_id": "22390000",
+"bc": "(DBI) Na Son",
+"ten_dm": "Xã Háng Lìa"
+},
+"70307": {
+"ten": "Xã Lản Nhì Thàng",
+"huyen": "Huyện Phong Thổ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Phường Đoàn Kết",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21564000",
+"bc": "(LCH) Phong Thổ",
+"ten_dm": "Xã Lả Nhì Thàng"
+},
+"70103": {
+"ten": "Phường Quyết Thắng",
+"huyen": "Thành phố Lai Châu",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Phường Đoàn Kết",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22680000",
+"bc": "(LCH) Tân Phong",
+"ten_dm": "Phường Quyết Thắng"
+},
+"70104": {
+"ten": "Phường Quyết Tiến",
+"huyen": "Thành phố Lai Châu",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Phường Đoàn Kết",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22680000",
+"bc": "(LCH) Tân Phong",
+"ten_dm": "Phường Quyết Tiến"
+},
+"70101": {
+"ten": "Phường Đoàn Kết",
+"huyen": "Thành phố Lai Châu",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Phường Đoàn Kết",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22680000",
+"bc": "(LCH) Tân Phong",
+"ten_dm": "Phường Đoàn Kết"
+},
+"800251": {
+"ten": "Xã Sùng Phài",
+"huyen": "Thành phố Lai Châu",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Phường Đoàn Kết",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22680000",
+"bc": "(LCH) Tân Phong",
+"ten_dm": "Xã Sùng Phài"
+},
+"70105": {
+"ten": "Phường Tân Phong",
+"huyen": "Thành phố Lai Châu",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Phường Tân Phong",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22680000",
+"bc": "(LCH) Tân Phong",
+"ten_dm": "Phường Tân Phong"
+},
+"70102": {
+"ten": "Phường Đông Phong",
+"huyen": "Thành phố Lai Châu",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Phường Tân Phong",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22680000",
+"bc": "(LCH) Tân Phong",
+"ten_dm": "Phường Đông Phong"
+},
+"70107": {
+"ten": "Xã San Thàng",
+"huyen": "Thành phố Lai Châu",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Phường Tân Phong",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22680000",
+"bc": "(LCH) Tân Phong",
+"ten_dm": "Xã San Thàng"
+},
+"70210": {
+"ten": "Xã Nùng Nàng",
+"huyen": "Huyện Tam Đường",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Phường Tân Phong",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22680000",
+"bc": "(LCH) Tân Phong",
+"ten_dm": "Xã Nùng Nàng"
+},
+"70203": {
+"ten": "Xã Bản Giang",
+"huyen": "Huyện Tam Đường",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Phường Tân Phong",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21382000",
+"bc": "(LCH) Bình Lư",
+"ten_dm": "Xã Bản Giang"
+},
+"70201": {
+"ten": "Thị trấn Tam Đường",
+"huyen": "Huyện Tam Đường",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Bình Lư",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21382000",
+"bc": "(LCH) Bình Lư",
+"ten_dm": "Thị trấn Tam Đường"
+},
+"70205": {
+"ten": "Xã Bình Lư",
+"huyen": "Huyện Tam Đường",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Bình Lư",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21382000",
+"bc": "(LCH) Bình Lư",
+"ten_dm": "Xã Bình Lư"
+},
+"70211": {
+"ten": "Xã Sơn Bình",
+"huyen": "Huyện Tam Đường",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Bình Lư",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21382000",
+"bc": "(LCH) Bình Lư",
+"ten_dm": "Xã Sơn Bình"
+},
+"70313": {
+"ten": "Xã Nậm Xe",
+"huyen": "Huyện Phong Thổ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Sin Suối Hồ",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21564000",
+"bc": "(LCH) Phong Thổ",
+"ten_dm": "Xã Nậm Xe"
+},
+"70316": {
+"ten": "Xã Sin Suối Hồ",
+"huyen": "Huyện Phong Thổ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Sin Suối Hồ",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21564000",
+"bc": "(LCH) Phong Thổ",
+"ten_dm": "Xã Sin Suối Hồ"
+},
+"70214": {
+"ten": "Xã Thèn Sin",
+"huyen": "Huyện Tam Đường",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Sin Suối Hồ",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22680000",
+"bc": "(LCH) Tân Phong",
+"ten_dm": "Xã Thèn Sin"
+},
+"70213": {
+"ten": "Xã Tả Lèng",
+"huyen": "Huyện Tam Đường",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Tả Lèng",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22680000",
+"bc": "(LCH) Tân Phong",
+"ten_dm": "Xã Tả Lèng"
+},
+"70206": {
+"ten": "Xã Giang Ma",
+"huyen": "Huyện Tam Đường",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Tả Lèng",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21382000",
+"bc": "(LCH) Bình Lư",
+"ten_dm": "Xã Giang Ma"
+},
+"70207": {
+"ten": "Xã Hồ Thầu",
+"huyen": "Huyện Tam Đường",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Tả Lèng",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21382000",
+"bc": "(LCH) Bình Lư",
+"ten_dm": "Xã Hồ Thầu"
+},
+"70202": {
+"ten": "Xã Bản Bo",
+"huyen": "Huyện Tam Đường",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Bản Bo",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21382000",
+"bc": "(LCH) Bình Lư",
+"ten_dm": "Xã Bản Bo"
+},
+"70209": {
+"ten": "Xã Nà Tăm",
+"huyen": "Huyện Tam Đường",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Bản Bo",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21382000",
+"bc": "(LCH) Bình Lư",
+"ten_dm": "Xã Nà Tăm"
+},
+"70204": {
+"ten": "Xã Bản Hon",
+"huyen": "Huyện Tam Đường",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Khun Há",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21382000",
+"bc": "(LCH) Bình Lư",
+"ten_dm": "Xã Bản Hon"
+},
+"70208": {
+"ten": "Xã Khun Há",
+"huyen": "Huyện Tam Đường",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Khun Há",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21382000",
+"bc": "(LCH) Bình Lư",
+"ten_dm": "Xã Khun Há"
+},
+"70501": {
+"ten": "Thị trấn Mường Tè",
+"huyen": "Huyện Mường Tè",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Bum Tở",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22679000",
+"bc": "(LCH) Bum Tở",
+"ten_dm": "Thị trấn Mường Tè"
+},
+"70503": {
+"ten": "Xã Bum Tở",
+"huyen": "Huyện Mường Tè",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Bum Tở",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22679000",
+"bc": "(LCH) Bum Tở",
+"ten_dm": "Xã Bum Tở"
+},
+"70505": {
+"ten": "Xã Can Hồ",
+"huyen": "Huyện Mường Tè",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Bum Tở",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22679000",
+"bc": "(LCH) Bum Tở",
+"ten_dm": "Xã Kan Hồ"
+},
+"70801": {
+"ten": "Thị trấn Nậm Nhùn",
+"huyen": "Huyện Nậm Nhùn",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Nậm Hàng",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22660000",
+"bc": "(LCH) Nậm Hàng",
+"ten_dm": "Thị trấn Nậm Nhùn"
+},
+"70808": {
+"ten": "Xã Nậm Manh",
+"huyen": "Huyện Nậm Nhùn",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Nậm Hàng",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22660000",
+"bc": "(LCH) Nậm Hàng",
+"ten_dm": "Xã Nậm Manh"
+},
+"70807": {
+"ten": "Xã Nậm Hàng",
+"huyen": "Huyện Nậm Nhùn",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Nậm Hàng",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22660000",
+"bc": "(LCH) Nậm Hàng",
+"ten_dm": "Xã Nậm Hàng"
+},
+"70513": {
+"ten": "Xã Thu Lũm",
+"huyen": "Huyện Mường Tè",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Thu Lũm",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22679000",
+"bc": "(LCH) Bum Tở",
+"ten_dm": "Xã Thu Lũm"
+},
+"70504": {
+"ten": "Xã Ka Lăng",
+"huyen": "Huyện Mường Tè",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Thu Lũm",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22679000",
+"bc": "(LCH) Bum Tở",
+"ten_dm": "Xã Ka Lăng"
+},
+"70511": {
+"ten": "Xã Tá Bạ",
+"huyen": "Huyện Mường Tè",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Pa Ủ",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22679000",
+"bc": "(LCH) Bum Tở",
+"ten_dm": "Xã Tá Bạ"
+},
+"70509": {
+"ten": "Xã Pa Ủ",
+"huyen": "Huyện Mường Tè",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Pa Ủ",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22679000",
+"bc": "(LCH) Bum Tở",
+"ten_dm": "Xã Pa ủ"
+},
+"70507": {
+"ten": "Xã Mường Tè",
+"huyen": "Huyện Mường Tè",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Mường Tè",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22679000",
+"bc": "(LCH) Bum Tở",
+"ten_dm": "Thị trấn Mường Tè"
+},
+"70508": {
+"ten": "Xã Nậm Khao",
+"huyen": "Huyện Mường Tè",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Mường Tè",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22679000",
+"bc": "(LCH) Bum Tở",
+"ten_dm": "Xã Nậm Khao"
+},
+"70506": {
+"ten": "Xã Mù Cả",
+"huyen": "Huyện Mường Tè",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Mù Cả",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22679000",
+"bc": "(LCH) Bum Tở",
+"ten_dm": "Xã Mù Cả"
+},
+"70802": {
+"ten": "Xã Hua Bum",
+"huyen": "Huyện Nậm Nhùn",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Hua Bum",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22679000",
+"bc": "(LCH) Bum Tở",
+"ten_dm": "Xã Hua Bun"
+},
+"70514": {
+"ten": "Xã Vàng San",
+"huyen": "Huyện Mường Tè",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Hua Bum",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22679000",
+"bc": "(LCH) Bum Tở",
+"ten_dm": "Xã Vàng San"
+},
+"70512": {
+"ten": "Xã Tà Tổng",
+"huyen": "Huyện Mường Tè",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Tà Tổng",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22679000",
+"bc": "(LCH) Bum Tở",
+"ten_dm": "Xã Tà Tổng"
+},
+"70510": {
+"ten": "Xã Pa Vệ Sử",
+"huyen": "Huyện Mường Tè",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Bum Nưa",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22679000",
+"bc": "(LCH) Bum Tở",
+"ten_dm": "Xã Pa Vệ Sử"
+},
+"70502": {
+"ten": "Xã Bum Nưa",
+"huyen": "Huyện Mường Tè",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Bum Nưa",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22679000",
+"bc": "(LCH) Bum Tở",
+"ten_dm": "Xã Bum Nưa"
+},
+"70804": {
+"ten": "Xã Mường Mô",
+"huyen": "Huyện Nậm Nhùn",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Mường Mô",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22660000",
+"bc": "(LCH) Nậm Hàng",
+"ten_dm": "Xã Mường Mô"
+},
+"70806": {
+"ten": "Xã Nậm Chà",
+"huyen": "Huyện Nậm Nhùn",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Mường Mô",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22660000",
+"bc": "(LCH) Nậm Hàng",
+"ten_dm": "Xã Nậm Chà"
+},
+"70401": {
+"ten": "Thị trấn Sìn Hồ",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Sìn Hồ",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22853000",
+"bc": "(LCH) Sìn Hồ",
+"ten_dm": "Thị trấn Sìn Hồ"
+},
+"70416": {
+"ten": "Xã Phăng Sô Lin",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Sìn Hồ",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22853000",
+"bc": "(LCH) Sìn Hồ",
+"ten_dm": "Xã Phăng Sô Lin"
+},
+"70421": {
+"ten": "Xã Tả Phìn",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Sìn Hồ",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22853000",
+"bc": "(LCH) Sìn Hồ",
+"ten_dm": "Xã Tả Phìn"
+},
+"70419": {
+"ten": "Xã Sà Dề Phìn",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Sìn Hồ",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22853000",
+"bc": "(LCH) Sìn Hồ",
+"ten_dm": "Xã Sà Dề Phìn"
+},
+"70803": {
+"ten": "Xã Lê Lợi",
+"huyen": "Huyện Nậm Nhùn",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Lê Lợi",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22660000",
+"bc": "(LCH) Nậm Hàng",
+"ten_dm": "Xã Lê Lợi"
+},
+"70810": {
+"ten": "Xã Pú Đao",
+"huyen": "Huyện Nậm Nhùn",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Lê Lợi",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22660000",
+"bc": "(LCH) Nậm Hàng",
+"ten_dm": "Xã Pú Đao"
+},
+"70809": {
+"ten": "Xã Nậm Pì",
+"huyen": "Huyện Nậm Nhùn",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Lê Lợi",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22660000",
+"bc": "(LCH) Nậm Hàng",
+"ten_dm": "Xã Nậm Pì"
+},
+"70403": {
+"ten": "Xã Chăn Nưa",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Lê Lợi",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22660000",
+"bc": "(LCH) Nậm Hàng",
+"ten_dm": "Xã Chăn Nưa"
+},
+"70805": {
+"ten": "Xã Nậm Ban",
+"huyen": "Huyện Nậm Nhùn",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Pa Tần",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22660000",
+"bc": "(LCH) Nậm Hàng",
+"ten_dm": "Xã Nậm Ban"
+},
+"70811": {
+"ten": "Xã Trung Chải",
+"huyen": "Huyện Nậm Nhùn",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Pa Tần",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22660000",
+"bc": "(LCH) Nậm Hàng",
+"ten_dm": "Xã Trung Chải"
+},
+"70415": {
+"ten": "Xã Pa Tần",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Pa Tần",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22660000",
+"bc": "(LCH) Nậm Hàng",
+"ten_dm": "Xã Pa Tần"
+},
+"70417": {
+"ten": "Xã Phìn Hồ",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Hồng Thu",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22853000",
+"bc": "(LCH) Sìn Hồ",
+"ten_dm": "Xã Phìn Hồ"
+},
+"70404": {
+"ten": "Xã Hồng Thu",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Hồng Thu",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22853000",
+"bc": "(LCH) Sìn Hồ",
+"ten_dm": "Xã Hồng Thu"
+},
+"70407": {
+"ten": "Xã Ma Quai",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Hồng Thu",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "20121005",
+"bc": "(LCH) Nậm Mạ",
+"ten_dm": "Xã Ma Quai"
+},
+"70406": {
+"ten": "Xã Lùng Thàng",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Nậm Tăm",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "20121005",
+"bc": "(LCH) Nậm Mạ",
+"ten_dm": "Xã Lùng Thàng"
+},
+"70412": {
+"ten": "Xã Nậm Tăm",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Nậm Tăm",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "20121005",
+"bc": "(LCH) Nậm Mạ",
+"ten_dm": "Xã Nậm Tăm"
+},
+"70408": {
+"ten": "Xã Nậm Cha",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Nậm Tăm",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "20121005",
+"bc": "(LCH) Nậm Mạ",
+"ten_dm": "Xã Nậm Cha"
+},
+"70420": {
+"ten": "Xã Tả Ngảo",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Tủa Sín Chải",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22853000",
+"bc": "(LCH) Sìn Hồ",
+"ten_dm": "Xã Tả Ngảo"
+},
+"70405": {
+"ten": "Xã Làng Mô",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Tủa Sín Chải",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22853000",
+"bc": "(LCH) Sìn Hồ",
+"ten_dm": "Xã Làng Mô"
+},
+"70422": {
+"ten": "Xã Tủa Sín Chải",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Tủa Sín Chải",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22853000",
+"bc": "(LCH) Sìn Hồ",
+"ten_dm": "Xã Tủa Sín Chải"
+},
+"70418": {
+"ten": "Xã Pu Sam Cáp",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Pu Sam Cáp",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "20121005",
+"bc": "(LCH) Nậm Mạ",
+"ten_dm": "Xã Pu Sam Cáp"
+},
+"70414": {
+"ten": "Xã Pa Khóa",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Pu Sam Cáp",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "20121005",
+"bc": "(LCH) Nậm Mạ",
+"ten_dm": "Xã Pa Khoá"
+},
+"70413": {
+"ten": "Xã Noong Hẻo",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Pu Sam Cáp",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "20121005",
+"bc": "(LCH) Nậm Mạ",
+"ten_dm": "Xã Noong Hẻo"
+},
+"70411": {
+"ten": "Xã Nậm Mạ",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Nậm Mạ",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "20121005",
+"bc": "(LCH) Nậm Mạ",
+"ten_dm": "Xã Nậm Mạ"
+},
+"70402": {
+"ten": "Xã Căn Co",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Nậm Mạ",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "20121005",
+"bc": "(LCH) Nậm Mạ",
+"ten_dm": "Xã Căn Co"
+},
+"70409": {
+"ten": "Xã Nậm Cuổi",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Nậm Cuổi",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "20121005",
+"bc": "(LCH) Nậm Mạ",
+"ten_dm": "Xã Nậm Cuổi"
+},
+"70410": {
+"ten": "Xã Nậm Hăn",
+"huyen": "Huyện Sìn Hồ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Nậm Cuổi",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "20121005",
+"bc": "(LCH) Nậm Mạ",
+"ten_dm": "Xã Nậm Hăn"
+},
+"70305": {
+"ten": "Xã Huổi Luông",
+"huyen": "Huyện Phong Thổ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Phong Thổ",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21564000",
+"bc": "(LCH) Phong Thổ",
+"ten_dm": "Xã Huổi Luông"
+},
+"70301": {
+"ten": "Thị trấn Phong Thổ",
+"huyen": "Huyện Phong Thổ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Phong Thổ",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21564000",
+"bc": "(LCH) Phong Thổ",
+"ten_dm": "Thị trấn Phong Thổ"
+},
+"70309": {
+"ten": "Xã Ma Li Pho",
+"huyen": "Huyện Phong Thổ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Phong Thổ",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21564000",
+"bc": "(LCH) Phong Thổ",
+"ten_dm": "Xã Ma Ly Pho"
+},
+"70312": {
+"ten": "Xã Mường So",
+"huyen": "Huyện Phong Thổ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Phong Thổ",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21564000",
+"bc": "(LCH) Phong Thổ",
+"ten_dm": "Xã Mường So"
+},
+"800252": {
+"ten": "Xã Sì Lở Lầu",
+"huyen": "Huyện Phong Thổ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Sì Lở Lầu",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21564000",
+"bc": "(LCH) Phong Thổ",
+"ten_dm": "Xã Sì Lở Lầu"
+},
+"70310": {
+"ten": "Xã Mồ Sì San",
+"huyen": "Huyện Phong Thổ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Sì Lở Lầu",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21564000",
+"bc": "(LCH) Phong Thổ",
+"ten_dm": "Xã Mồ Sì San"
+},
+"70314": {
+"ten": "Xã Pa Vây Sử",
+"huyen": "Huyện Phong Thổ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Sì Lở Lầu",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21564000",
+"bc": "(LCH) Phong Thổ",
+"ten_dm": "Xã Pa Vây Sử"
+},
+"70318": {
+"ten": "Xã Vàng Ma Chải",
+"huyen": "Huyện Phong Thổ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Sì Lở Lầu",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21564000",
+"bc": "(LCH) Phong Thổ",
+"ten_dm": "Xã Vàng Ma Chải"
+},
+"70317": {
+"ten": "Xã Tung Qua Lìn",
+"huyen": "Huyện Phong Thổ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Dào San",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21564000",
+"bc": "(LCH) Phong Thổ",
+"ten_dm": "Xã Tông Qua Lìn"
+},
+"70311": {
+"ten": "Xã Mù Sang",
+"huyen": "Huyện Phong Thổ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Dào San",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21564000",
+"bc": "(LCH) Phong Thổ",
+"ten_dm": "Xã Mù Sang"
+},
+"70303": {
+"ten": "Xã Dào San",
+"huyen": "Huyện Phong Thổ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Dào San",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21564000",
+"bc": "(LCH) Phong Thổ",
+"ten_dm": "Xã Dào San"
+},
+"70302": {
+"ten": "Xã Bản Lang",
+"huyen": "Huyện Phong Thổ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Khổng Lào",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21564000",
+"bc": "(LCH) Phong Thổ",
+"ten_dm": "Xã Bản Lang"
+},
+"70304": {
+"ten": "Xã Hoang Thèn",
+"huyen": "Huyện Phong Thổ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Khổng Lào",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21564000",
+"bc": "(LCH) Phong Thổ",
+"ten_dm": "Xã Hoang Thèn"
+},
+"70306": {
+"ten": "Xã Khổng Lào",
+"huyen": "Huyện Phong Thổ",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Khổng Lào",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21564000",
+"bc": "(LCH) Phong Thổ",
+"ten_dm": "Xã Khổng Lào"
+},
+"70601": {
+"ten": "Thị trấn Than Uyên",
+"huyen": "Huyện Than Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Than Uyên",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21448000",
+"bc": "(LCH) Than Uyên",
+"ten_dm": "Thị trấn Than Uyên"
+},
+"70607": {
+"ten": "Xã Mường Than",
+"huyen": "Huyện Than Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Than Uyên",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21448000",
+"bc": "(LCH) Than Uyên",
+"ten_dm": "Xã Mường Than"
+},
+"70604": {
+"ten": "Xã Mường Cang",
+"huyen": "Huyện Than Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Than Uyên",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21448000",
+"bc": "(LCH) Than Uyên",
+"ten_dm": "Xã Mường Cang"
+},
+"70602": {
+"ten": "Xã Hua Nà",
+"huyen": "Huyện Than Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Than Uyên",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21448000",
+"bc": "(LCH) Than Uyên",
+"ten_dm": "Xã Hua Nà"
+},
+"70701": {
+"ten": "Thị trấn Tân Uyên",
+"huyen": "Huyện Tân Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Tân Uyên",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22661000",
+"bc": "(LCH) Tân Uyên",
+"ten_dm": "Thị trấn Tân Uyên"
+},
+"70709": {
+"ten": "Xã Thân Thuộc",
+"huyen": "Huyện Tân Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Tân Uyên",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22661000",
+"bc": "(LCH) Tân Uyên",
+"ten_dm": "Xã Thân Thuộc"
+},
+"70710": {
+"ten": "Xã Trung Đồng",
+"huyen": "Huyện Tân Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Tân Uyên",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22661000",
+"bc": "(LCH) Tân Uyên",
+"ten_dm": "Xã Trung Đồng"
+},
+"70704": {
+"ten": "Xã Nậm Cần",
+"huyen": "Huyện Tân Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Tân Uyên",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22661000",
+"bc": "(LCH) Tân Uyên",
+"ten_dm": "Xã Nậm Cần"
+},
+"70703": {
+"ten": "Xã Mường Khoa",
+"huyen": "Huyện Tân Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Mường Khoa",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22661000",
+"bc": "(LCH) Tân Uyên",
+"ten_dm": "Xã Mường Khoa"
+},
+"70707": {
+"ten": "Xã Phúc Khoa",
+"huyen": "Huyện Tân Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Mường Khoa",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22661000",
+"bc": "(LCH) Tân Uyên",
+"ten_dm": "Xã Phúc Khoa"
+},
+"70705": {
+"ten": "Xã Nậm Sỏ",
+"huyen": "Huyện Tân Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Nậm Sỏ",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22661000",
+"bc": "(LCH) Tân Uyên",
+"ten_dm": "Xã Nậm Sỏ"
+},
+"70708": {
+"ten": "Xã Tà Mít",
+"huyen": "Huyện Tân Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Nậm Sỏ",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22661000",
+"bc": "(LCH) Tân Uyên",
+"ten_dm": "Xã Tà Mít"
+},
+"70702": {
+"ten": "Xã Hố Mít",
+"huyen": "Huyện Tân Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Pắc Ta",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22661000",
+"bc": "(LCH) Tân Uyên",
+"ten_dm": "Xã Hố Mít"
+},
+"70706": {
+"ten": "Xã Pắc Ta",
+"huyen": "Huyện Tân Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Pắc Ta",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "22661000",
+"bc": "(LCH) Tân Uyên",
+"ten_dm": "Xã Pắc Ta"
+},
+"70609": {
+"ten": "Xã Phúc Than",
+"huyen": "Huyện Than Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Mường Than",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21448000",
+"bc": "(LCH) Than Uyên",
+"ten_dm": "Xã Phúc Than"
+},
+"70606": {
+"ten": "Xã Mường Mít",
+"huyen": "Huyện Than Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Mường Than",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21448000",
+"bc": "(LCH) Than Uyên",
+"ten_dm": "Xã Mường Mít"
+},
+"70608": {
+"ten": "Xã Pha Mu",
+"huyen": "Huyện Than Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Mường Kim",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21448000",
+"bc": "(LCH) Than Uyên",
+"ten_dm": "Xã Pha Mu"
+},
+"70611": {
+"ten": "Xã Tà Hừa",
+"huyen": "Huyện Than Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Mường Kim",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21448000",
+"bc": "(LCH) Than Uyên",
+"ten_dm": "Xã Tà Hừa"
+},
+"70605": {
+"ten": "Xã Mường Kim",
+"huyen": "Huyện Than Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Mường Kim",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21448000",
+"bc": "(LCH) Than Uyên",
+"ten_dm": "Xã Mường Kim"
+},
+"70612": {
+"ten": "Xã Tà Mung",
+"huyen": "Huyện Than Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Mường Kim",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21448000",
+"bc": "(LCH) Than Uyên",
+"ten_dm": "Xã Tà Mung"
+},
+"70610": {
+"ten": "Xã Ta Gia",
+"huyen": "Huyện Than Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Khoen On",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21448000",
+"bc": "(LCH) Than Uyên",
+"ten_dm": "Xã Tà Gia"
+},
+"70603": {
+"ten": "Xã Khoen On",
+"huyen": "Huyện Than Uyên",
+"tinh_cu": "Tỉnh Lai Châu",
+"xa_moi": "Xã Khoen On",
+"tinh_moi": "Tỉnh Lai Châu",
+"bc_id": "21448000",
+"bc": "(LCH) Than Uyên",
+"ten_dm": "Xã Khoen On"
+},
+"140103": {
+"ten": "Phường Chiềng Lề",
+"huyen": "Thành phố Sơn La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Tô Hiệu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20603000",
+"bc": "(SLA) Tô Hiệu",
+"ten_dm": "Phường Chiềng Lề"
+},
+"140107": {
+"ten": "Phường Tô Hiệu",
+"huyen": "Thành phố Sơn La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Tô Hiệu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20603000",
+"bc": "(SLA) Tô Hiệu",
+"ten_dm": "Phường Tô Hiệu"
+},
+"140106": {
+"ten": "Phường Quyết Thắng",
+"huyen": "Thành phố Sơn La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Tô Hiệu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20603000",
+"bc": "(SLA) Tô Hiệu",
+"ten_dm": "Phường Quyết Thắng"
+},
+"140105": {
+"ten": "Phường Quyết Tâm",
+"huyen": "Thành phố Sơn La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Tô Hiệu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20603000",
+"bc": "(SLA) Tô Hiệu",
+"ten_dm": "Phường Quyết Tâm"
+},
+"140109": {
+"ten": "Xã Chiềng Đen",
+"huyen": "Thành phố Sơn La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Chiềng An",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20603000",
+"bc": "(SLA) Tô Hiệu",
+"ten_dm": "Xã Chiềng Đen"
+},
+"140111": {
+"ten": "Xã Chiềng Xôm",
+"huyen": "Thành phố Sơn La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Chiềng An",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20603000",
+"bc": "(SLA) Tô Hiệu",
+"ten_dm": "Xã Chiềng Xôm"
+},
+"140101": {
+"ten": "Phường Chiềng An",
+"huyen": "Thành phố Sơn La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Chiềng An",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20603000",
+"bc": "(SLA) Tô Hiệu",
+"ten_dm": "Phường Chiềng An"
+},
+"140108": {
+"ten": "Xã Chiềng Cọ",
+"huyen": "Thành phố Sơn La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Chiềng Cơi",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20603000",
+"bc": "(SLA) Tô Hiệu",
+"ten_dm": "Xã Chiềng Cọ"
+},
+"140102": {
+"ten": "Phường Chiềng Cơi",
+"huyen": "Thành phố Sơn La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Chiềng Cơi",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20603000",
+"bc": "(SLA) Tô Hiệu",
+"ten_dm": "Phường Chiềng Cơi"
+},
+"140112": {
+"ten": "Xã Hua La",
+"huyen": "Thành phố Sơn La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Chiềng Cơi",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20603000",
+"bc": "(SLA) Tô Hiệu",
+"ten_dm": "Xã Hua La"
+},
+"140110": {
+"ten": "Xã Chiềng Ngần",
+"huyen": "Thành phố Sơn La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Chiềng Sinh",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22945000",
+"bc": "(SLA) Chiềng Sinh",
+"ten_dm": "Xã Chiềng Ngần"
+},
+"140104": {
+"ten": "Phường Chiềng Sinh",
+"huyen": "Thành phố Sơn La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Chiềng Sinh",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22945000",
+"bc": "(SLA) Chiềng Sinh",
+"ten_dm": "Phường Chiềng Sinh"
+},
+"91287": {
+"ten": "Phường Mộc Sơn",
+"huyen": "Thị xã Mộc Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Mộc Sơn",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "23066000",
+"bc": "(SLA) Mộc Sơn",
+"ten_dm": "Phường Mộc Sơn"
+},
+"141006": {
+"ten": "Phường Đông Sang",
+"huyen": "Thị xã Mộc Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Mộc Sơn",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "23066000",
+"bc": "(SLA) Mộc Sơn",
+"ten_dm": "Phường Đông Sang"
+},
+"91288": {
+"ten": "Phường Mộc Lỵ",
+"huyen": "Thị xã Mộc Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Mộc Châu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "23066000",
+"bc": "(SLA) Mộc Sơn",
+"ten_dm": "Phường Mộc Lỵ"
+},
+"141003": {
+"ten": "Xã Chiềng Hắc",
+"huyen": "Thị xã Mộc Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Mộc Châu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "23066000",
+"bc": "(SLA) Mộc Sơn",
+"ten_dm": "Xã Chiềng Hắc"
+},
+"141009": {
+"ten": "Phường Mường Sang",
+"huyen": "Thị xã Mộc Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Mộc Châu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "23066000",
+"bc": "(SLA) Mộc Sơn",
+"ten_dm": "Phường Mường Sang"
+},
+"91289": {
+"ten": "Phường Thảo Nguyên",
+"huyen": "Thị xã Mộc Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Thảo Nguyên",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22731000",
+"bc": "(SLA) Thảo Nguyên",
+"ten_dm": "Phường Thảo Nguyên"
+},
+"91291": {
+"ten": "Phường Cờ Đỏ",
+"huyen": "Thị xã Mộc Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Thảo Nguyên",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22731000",
+"bc": "(SLA) Thảo Nguyên",
+"ten_dm": "Phường Cờ Đỏ"
+},
+"91290": {
+"ten": "Phường Bình Minh",
+"huyen": "Thị xã Mộc Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Vân Sơn",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22731000",
+"bc": "(SLA) Thảo Nguyên",
+"ten_dm": "Phường Bình Minh"
+},
+"91295": {
+"ten": "Phường Vân Sơn",
+"huyen": "Thị xã Mộc Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Phường Vân Sơn",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22731000",
+"bc": "(SLA) Thảo Nguyên",
+"ten_dm": "Phường Vân Sơn"
+},
+"140206": {
+"ten": "Xã Mường Chiên",
+"huyen": "Huyện Quỳnh Nhai",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Chiên",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21360000",
+"bc": "(SLA) Quỳnh Nhai",
+"ten_dm": "Xã Mường Chiên"
+},
+"140201": {
+"ten": "Xã Cà Nàng",
+"huyen": "Huyện Quỳnh Nhai",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Chiên",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21360000",
+"bc": "(SLA) Quỳnh Nhai",
+"ten_dm": "Xã Cà Nàng"
+},
+"140203": {
+"ten": "Xã Chiềng Khay",
+"huyen": "Huyện Quỳnh Nhai",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Chiên",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21360000",
+"bc": "(SLA) Quỳnh Nhai",
+"ten_dm": "Xã Chiềng Khay"
+},
+"140208": {
+"ten": "Xã Mường Giôn",
+"huyen": "Huyện Quỳnh Nhai",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Giôn",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21360000",
+"bc": "(SLA) Quỳnh Nhai",
+"ten_dm": "Xã Mường Giôn"
+},
+"140211": {
+"ten": "Xã Pá Ma Pha Khinh",
+"huyen": "Huyện Quỳnh Nhai",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Giôn",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21360000",
+"bc": "(SLA) Quỳnh Nhai",
+"ten_dm": "Xã Pá Ma Pha Khinh"
+},
+"140205": {
+"ten": "Xã Chiềng Ơn",
+"huyen": "Huyện Quỳnh Nhai",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Quỳnh Nhai",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21360000",
+"bc": "(SLA) Quỳnh Nhai",
+"ten_dm": "Xã Chiềng Ơn"
+},
+"140207": {
+"ten": "Thị trấn Mường Giàng",
+"huyen": "Huyện Quỳnh Nhai",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Quỳnh Nhai",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21360000",
+"bc": "(SLA) Quỳnh Nhai",
+"ten_dm": "Thị trấn Mường Giàng"
+},
+"140202": {
+"ten": "Xã Chiềng Bằng",
+"huyen": "Huyện Quỳnh Nhai",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Quỳnh Nhai",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21360000",
+"bc": "(SLA) Quỳnh Nhai",
+"ten_dm": "Xã Chiềng Bằng"
+},
+"140204": {
+"ten": "Xã Chiềng Khoang",
+"huyen": "Huyện Quỳnh Nhai",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Quỳnh Nhai",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21360000",
+"bc": "(SLA) Quỳnh Nhai",
+"ten_dm": "Xã Chiềng Khoang"
+},
+"140209": {
+"ten": "Xã Mường Sại",
+"huyen": "Huyện Quỳnh Nhai",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Sại",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21360000",
+"bc": "(SLA) Quỳnh Nhai",
+"ten_dm": "Xã Mường Sại"
+},
+"140210": {
+"ten": "Xã Nậm Ét",
+"huyen": "Huyện Quỳnh Nhai",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Sại",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21360000",
+"bc": "(SLA) Quỳnh Nhai",
+"ten_dm": "Xã Nậm ét"
+},
+"140401": {
+"ten": "Thị trấn Thuận Châu",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Thuận Châu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Thị trấn Thuận Châu"
+},
+"91285": {
+"ten": "Xã Phổng Ly",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Thuận Châu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Phổng Ly"
+},
+"140427": {
+"ten": "Xã Thôm Mòn",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Thuận Châu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Thôm Mòn"
+},
+"800120": {
+"ten": "Xã Tông Lạnh",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Thuận Châu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Tông Lạnh"
+},
+"140409": {
+"ten": "Xã Chiềng Pấc",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Thuận Châu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Chiềng Pấc"
+},
+"140424": {
+"ten": "Xã Phỏng Lái",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Bình Thuận",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Phổng Lái"
+},
+"140410": {
+"ten": "Xã Chiềng Pha",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Bình Thuận",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Chiềng Pha"
+},
+"140419": {
+"ten": "Xã Mường É",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường É",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Mường é"
+},
+"140425": {
+"ten": "Xã Phổng Lập",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường É",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Phổng Lập"
+},
+"140406": {
+"ten": "Xã Chiềng La",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng La",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Chiềng La"
+},
+"140408": {
+"ten": "Xã Chiềng Ngàm",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng La",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Chiềng Ngàm"
+},
+"140422": {
+"ten": "Xã Nong Lay",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng La",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Noong Lay"
+},
+"140428": {
+"ten": "Xã Tòng Cọ",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng La",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Tông Cọ"
+},
+"140415": {
+"ten": "Xã Liệp Tè",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Khiêng",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Liệp Tè"
+},
+"140420": {
+"ten": "Xã Mường Khiêng",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Khiêng",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Mường Khiêng"
+},
+"140403": {
+"ten": "Xã Bó Mười",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Khiêng",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Bó Mười"
+},
+"140418": {
+"ten": "Xã Mường Bám",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Bám",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Mường Bám"
+},
+"140414": {
+"ten": "Xã É Tòng",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Long Hẹ",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã é Tòng"
+},
+"140416": {
+"ten": "Xã Long Hẹ",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Long Hẹ",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Long Hẹ"
+},
+"140412": {
+"ten": "Xã Co Mạ",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Co Mạ",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Co Mạ"
+},
+"140413": {
+"ten": "Xã Co Tòng",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Co Mạ",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Co Tòng"
+},
+"140423": {
+"ten": "Xã Pá Lông",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Co Mạ",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Pá Lông"
+},
+"140405": {
+"ten": "Xã Chiềng Bôm",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Nậm Lầu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Chiềng Bôm"
+},
+"140426": {
+"ten": "Xã Púng Tra",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Nậm Lầu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Púng Tra"
+},
+"140421": {
+"ten": "Xã Nậm Lầu",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Nậm Lầu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Nậm Lầu"
+},
+"140404": {
+"ten": "Xã Bon Phặng",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Muổi Nọi",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Bon Phặng"
+},
+"140417": {
+"ten": "Xã Muổi Nọi",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Muổi Nọi",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Muổi Nọi"
+},
+"140402": {
+"ten": "Xã Bản Lầm",
+"huyen": "Huyện Thuận Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Muổi Nọi",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20973000",
+"bc": "(SLA) Thuận Châu",
+"ten_dm": "Xã Bản Lầm"
+},
+"140301": {
+"ten": "Thị trấn Ít Ong",
+"huyen": "Huyện Mường La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường La",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22505000",
+"bc": "(SLA) Mường La",
+"ten_dm": "Thị trấn Ít Ong"
+},
+"140311": {
+"ten": "Xã Mường Trai",
+"huyen": "Huyện Mường La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường La",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22505000",
+"bc": "(SLA) Mường La",
+"ten_dm": "Xã Mường Trai"
+},
+"140313": {
+"ten": "Xã Nậm Păm",
+"huyen": "Huyện Mường La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường La",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22505000",
+"bc": "(SLA) Mường La",
+"ten_dm": "Xã Nậm Păm"
+},
+"140306": {
+"ten": "Xã Chiềng Muôn",
+"huyen": "Huyện Mường La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường La",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22505000",
+"bc": "(SLA) Mường La",
+"ten_dm": "Xã Chiềng Muôn"
+},
+"140315": {
+"ten": "Xã Pi Toong",
+"huyen": "Huyện Mường La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường La",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22505000",
+"bc": "(SLA) Mường La",
+"ten_dm": "Xã Pi Toong"
+},
+"140307": {
+"ten": "Xã Chiềng San",
+"huyen": "Huyện Mường La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường La",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22505000",
+"bc": "(SLA) Mường La",
+"ten_dm": "Xã Chiềng San"
+},
+"140312": {
+"ten": "Xã Nậm Giôn",
+"huyen": "Huyện Mường La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Lao",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22505000",
+"bc": "(SLA) Mường La",
+"ten_dm": "Xã Nậm Giôn"
+},
+"140305": {
+"ten": "Xã Chiềng Lao",
+"huyen": "Huyện Mường La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Lao",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22505000",
+"bc": "(SLA) Mường La",
+"ten_dm": "Xã Chiềng Lao"
+},
+"140308": {
+"ten": "Xã Hua Trai",
+"huyen": "Huyện Mường La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Lao",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22505000",
+"bc": "(SLA) Mường La",
+"ten_dm": "Xã Hua Trai"
+},
+"140314": {
+"ten": "Xã Ngọc Chiến",
+"huyen": "Huyện Mường La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Ngọc Chiến",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22505000",
+"bc": "(SLA) Mường La",
+"ten_dm": "Xã Ngọc Chiến"
+},
+"140316": {
+"ten": "Xã Tạ Bú",
+"huyen": "Huyện Mường La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Bú",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22505000",
+"bc": "(SLA) Mường La",
+"ten_dm": "Xã Tạ Bú"
+},
+"140309": {
+"ten": "Xã Mường Bú",
+"huyen": "Huyện Mường La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Bú",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22505000",
+"bc": "(SLA) Mường La",
+"ten_dm": "Xã Mường Bú"
+},
+"140310": {
+"ten": "Xã Mường Chùm",
+"huyen": "Huyện Mường La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Bú",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22505000",
+"bc": "(SLA) Mường La",
+"ten_dm": "Xã Mường Chùm"
+},
+"140302": {
+"ten": "Xã Chiềng Ân",
+"huyen": "Huyện Mường La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Hoa",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22505000",
+"bc": "(SLA) Mường La",
+"ten_dm": "Xã Chiềng Ân"
+},
+"140303": {
+"ten": "Xã Chiềng Công",
+"huyen": "Huyện Mường La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Hoa",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22505000",
+"bc": "(SLA) Mường La",
+"ten_dm": "Xã Chiềng Công"
+},
+"140304": {
+"ten": "Xã Chiềng Hoa",
+"huyen": "Huyện Mường La",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Hoa",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22505000",
+"bc": "(SLA) Mường La",
+"ten_dm": "Xã Chiềng Hoa"
+},
+"140501": {
+"ten": "Thị trấn Bắc Yên",
+"huyen": "Huyện Bắc Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Bắc Yên",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22650000",
+"bc": "(SLA) Bắc Yên",
+"ten_dm": "Thị trấn Bắc Yên"
+},
+"140511": {
+"ten": "Xã Phiêng Ban",
+"huyen": "Huyện Bắc Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Bắc Yên",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22650000",
+"bc": "(SLA) Bắc Yên",
+"ten_dm": "Xã Phiêng Ban"
+},
+"140513": {
+"ten": "Xã Song Pe",
+"huyen": "Huyện Bắc Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Bắc Yên",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22650000",
+"bc": "(SLA) Bắc Yên",
+"ten_dm": "Xã Song Pe"
+},
+"140507": {
+"ten": "Xã Hồng Ngài",
+"huyen": "Huyện Bắc Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Bắc Yên",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22650000",
+"bc": "(SLA) Bắc Yên",
+"ten_dm": "Xã Hồng Ngài"
+},
+"140505": {
+"ten": "Xã Hang Chú",
+"huyen": "Huyện Bắc Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Xím Vàng",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22650000",
+"bc": "(SLA) Bắc Yên",
+"ten_dm": "Xã Hang Chú"
+},
+"140516": {
+"ten": "Xã Xím Vàng",
+"huyen": "Huyện Bắc Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Xím Vàng",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22650000",
+"bc": "(SLA) Bắc Yên",
+"ten_dm": "Xã Xím Vàng"
+},
+"140515": {
+"ten": "Xã Tà Xùa",
+"huyen": "Huyện Bắc Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tà Xùa",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22650000",
+"bc": "(SLA) Bắc Yên",
+"ten_dm": "Xã Tà Xùa"
+},
+"140506": {
+"ten": "Xã Háng Đồng",
+"huyen": "Huyện Bắc Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tà Xùa",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22650000",
+"bc": "(SLA) Bắc Yên",
+"ten_dm": "Xã Háng Đồng"
+},
+"140509": {
+"ten": "Xã Làng Chếu",
+"huyen": "Huyện Bắc Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tà Xùa",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22650000",
+"bc": "(SLA) Bắc Yên",
+"ten_dm": "Xã Làng Chếu"
+},
+"140502": {
+"ten": "Xã Pắc Ngà",
+"huyen": "Huyện Bắc Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Pắc Ngà",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22650000",
+"bc": "(SLA) Bắc Yên",
+"ten_dm": "Xã Pắc Ngà"
+},
+"140504": {
+"ten": "Xã Chim Vàn",
+"huyen": "Huyện Bắc Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Pắc Ngà",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22650000",
+"bc": "(SLA) Bắc Yên",
+"ten_dm": "Xã Chim Vàn"
+},
+"140510": {
+"ten": "Xã Mường Khoa",
+"huyen": "Huyện Bắc Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tạ Khoa",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22650000",
+"bc": "(SLA) Bắc Yên",
+"ten_dm": "Xã Mường Khoa"
+},
+"140514": {
+"ten": "Xã Tạ Khoa",
+"huyen": "Huyện Bắc Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tạ Khoa",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22650000",
+"bc": "(SLA) Bắc Yên",
+"ten_dm": "Xã Tạ Khoa"
+},
+"140508": {
+"ten": "Xã Hua Nhàn",
+"huyen": "Huyện Bắc Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tạ Khoa",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22650000",
+"bc": "(SLA) Bắc Yên",
+"ten_dm": "Xã Hua Nhàn"
+},
+"140512": {
+"ten": "Xã Phiêng Côn",
+"huyen": "Huyện Bắc Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Sại",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22429000",
+"bc": "(SLA) Yên Châu",
+"ten_dm": "Xã Phiêng Côn"
+},
+"140503": {
+"ten": "Xã Chiềng Sại",
+"huyen": "Huyện Bắc Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Sại",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22429000",
+"bc": "(SLA) Yên Châu",
+"ten_dm": "Xã Chiềng Sại"
+},
+"140620": {
+"ten": "Xã Suối Tọ",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Suối Tọ",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Suối Tọ"
+},
+"140615": {
+"ten": "Xã Mường Thải",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Cơi",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Mường Thải"
+},
+"140612": {
+"ten": "Xã Mường Cơi",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Cơi",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Mường Cơi"
+},
+"140621": {
+"ten": "Xã Tân Lang",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Cơi",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Tân Lang"
+},
+"140617": {
+"ten": "Thị trấn Quang Huy",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Phù Yên",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Thị trấn Quang Huy"
+},
+"140608": {
+"ten": "Xã Huy Thượng",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Phù Yên",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Huy Thượng"
+},
+"140606": {
+"ten": "Xã Huy Hạ",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Phù Yên",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Huy Hạ"
+},
+"140607": {
+"ten": "Xã Huy Tân",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Phù Yên",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Huy Tân"
+},
+"140609": {
+"ten": "Xã Huy Tường",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Phù Yên",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Huy Tường"
+},
+"140604": {
+"ten": "Xã Gia Phù",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Gia Phù",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Gia Phù"
+},
+"140625": {
+"ten": "Xã Tường Phù",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Gia Phù",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Tường Phù"
+},
+"140619": {
+"ten": "Xã Suối Bau",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Gia Phù",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Suối Bau"
+},
+"140618": {
+"ten": "Xã Sập Xa",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Gia Phù",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Sập Xa"
+},
+"140614": {
+"ten": "Xã Mường Lang",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Bang",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Mường Lang"
+},
+"140613": {
+"ten": "Xã Mường Do",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Bang",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Mường Do"
+},
+"140611": {
+"ten": "Xã Mường Bang",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Bang",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Mường Bang"
+},
+"140626": {
+"ten": "Xã Tường Thượng",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tường Hạ",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Tường Thượng"
+},
+"140627": {
+"ten": "Xã Tường Tiến",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tường Hạ",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Tường Tiến"
+},
+"140624": {
+"ten": "Xã Tường Phong",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tường Hạ",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Tường Phong"
+},
+"140623": {
+"ten": "Xã Tường Hạ",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tường Hạ",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Tường Hạ"
+},
+"140610": {
+"ten": "Xã Kim Bon",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Kim Bon",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Kim Bon"
+},
+"140603": {
+"ten": "Xã Đá Đỏ",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Kim Bon",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Đá Đỏ"
+},
+"140622": {
+"ten": "Xã Tân Phong",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tân Phong",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Tân Phong"
+},
+"140616": {
+"ten": "Xã Nam Phong",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tân Phong",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Nam Phong"
+},
+"140602": {
+"ten": "Xã Bắc Phong",
+"huyen": "Huyện Phù Yên",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tân Phong",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20206000",
+"bc": "(SLA) Phù Yên",
+"ten_dm": "Xã Bắc Phong"
+},
+"141005": {
+"ten": "Xã Chiềng Sơn",
+"huyen": "Thị xã Mộc Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Sơn",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "23066000",
+"bc": "(SLA) Mộc Sơn",
+"ten_dm": "Xã Chiềng Sơn"
+},
+"141202": {
+"ten": "Xã Chiềng Xuân",
+"huyen": "Huyện Vân Hồ",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Sơn",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21567000",
+"bc": "(SLA) Vân Hồ",
+"ten_dm": "Xã Chiềng Xuân"
+},
+"91292": {
+"ten": "Xã Tân Yên",
+"huyen": "Thị xã Mộc Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tân Yên",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22731000",
+"bc": "(SLA) Thảo Nguyên",
+"ten_dm": "Xã Tân Yên"
+},
+"91293": {
+"ten": "Xã Đoàn Kết",
+"huyen": "Thị xã Mộc Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Đoàn Kết",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22731000",
+"bc": "(SLA) Thảo Nguyên",
+"ten_dm": "Xã Đoàn Kết"
+},
+"91294": {
+"ten": "Xã Chiềng Chung",
+"huyen": "Thị xã Mộc Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Đoàn Kết",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22731000",
+"bc": "(SLA) Thảo Nguyên",
+"ten_dm": "Xã Chiềng Chung"
+},
+"141209": {
+"ten": "Xã Song Khủa",
+"huyen": "Huyện Vân Hồ",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Song Khủa",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21567000",
+"bc": "(SLA) Vân Hồ",
+"ten_dm": "Xã Song Khủa"
+},
+"141204": {
+"ten": "Xã Liên Hòa",
+"huyen": "Huyện Vân Hồ",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Song Khủa",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21567000",
+"bc": "(SLA) Vân Hồ",
+"ten_dm": "Xã Liên Hoà"
+},
+"141207": {
+"ten": "Xã Mường Tè",
+"huyen": "Huyện Vân Hồ",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Song Khủa",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21567000",
+"bc": "(SLA) Vân Hồ",
+"ten_dm": "Xã Mường Tè"
+},
+"141208": {
+"ten": "Xã Quang Minh",
+"huyen": "Huyện Vân Hồ",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Song Khủa",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21567000",
+"bc": "(SLA) Vân Hồ",
+"ten_dm": "Xã Quang Minh"
+},
+"141210": {
+"ten": "Xã Suối Bàng",
+"huyen": "Huyện Vân Hồ",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tô Múa",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21567000",
+"bc": "(SLA) Vân Hồ",
+"ten_dm": "Xã Suối Bàng"
+},
+"141212": {
+"ten": "Xã Tô Múa",
+"huyen": "Huyện Vân Hồ",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tô Múa",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21567000",
+"bc": "(SLA) Vân Hồ",
+"ten_dm": "Xã Tô Múa"
+},
+"141201": {
+"ten": "Xã Chiềng Khoa",
+"huyen": "Huyện Vân Hồ",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tô Múa",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21567000",
+"bc": "(SLA) Vân Hồ",
+"ten_dm": "Xã Chiềng Khoa"
+},
+"141004": {
+"ten": "Xã Chiềng Khừa",
+"huyen": "Thị xã Mộc Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Lóng Sập",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "23066000",
+"bc": "(SLA) Mộc Sơn",
+"ten_dm": "Xã Chiềng Khừa"
+},
+"141008": {
+"ten": "Xã Lóng Sập",
+"huyen": "Thị xã Mộc Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Lóng Sập",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "23066000",
+"bc": "(SLA) Mộc Sơn",
+"ten_dm": "Xã Lóng Sập"
+},
+"141206": {
+"ten": "Xã Mường Men",
+"huyen": "Huyện Vân Hồ",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Vân Hồ",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21567000",
+"bc": "(SLA) Vân Hồ",
+"ten_dm": "Xã Mường Men"
+},
+"141213": {
+"ten": "Xã Vân Hồ",
+"huyen": "Huyện Vân Hồ",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Vân Hồ",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21567000",
+"bc": "(SLA) Vân Hồ",
+"ten_dm": "Xã Vân Hồ"
+},
+"141205": {
+"ten": "Xã Lóng Luông",
+"huyen": "Huyện Vân Hồ",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Vân Hồ",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21567000",
+"bc": "(SLA) Vân Hồ",
+"ten_dm": "Xã Lóng Luông"
+},
+"141203": {
+"ten": "Xã Chiềng Yên",
+"huyen": "Huyện Vân Hồ",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Vân Hồ",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21567000",
+"bc": "(SLA) Vân Hồ",
+"ten_dm": "Xã Chiềng Yên"
+},
+"141214": {
+"ten": "Xã Xuân Nha",
+"huyen": "Huyện Vân Hồ",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Xuân Nha",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21567000",
+"bc": "(SLA) Vân Hồ",
+"ten_dm": "Xã Xuân Nha"
+},
+"141211": {
+"ten": "Xã Tân Xuân",
+"huyen": "Huyện Vân Hồ",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Xuân Nha",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21567000",
+"bc": "(SLA) Vân Hồ",
+"ten_dm": "Xã Tân Xuân"
+},
+"140802": {
+"ten": "Xã Chiềng Đông",
+"huyen": "Huyện Yên Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Yên Châu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22429000",
+"bc": "(SLA) Yên Châu",
+"ten_dm": "Xã Chiềng Đông"
+},
+"140812": {
+"ten": "Xã Sặp Vạt",
+"huyen": "Huyện Yên Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Yên Châu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22429000",
+"bc": "(SLA) Yên Châu",
+"ten_dm": "Xã Sặp Vạt"
+},
+"140807": {
+"ten": "Xã Chiềng Sàng",
+"huyen": "Huyện Yên Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Yên Châu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22429000",
+"bc": "(SLA) Yên Châu",
+"ten_dm": "Xã Chiềng Sàng"
+},
+"140806": {
+"ten": "Xã Chiềng Pằn",
+"huyen": "Huyện Yên Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Yên Châu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22429000",
+"bc": "(SLA) Yên Châu",
+"ten_dm": "Xã Chiềng Pằn"
+},
+"140801": {
+"ten": "Thị trấn Yên Châu",
+"huyen": "Huyện Yên Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Yên Châu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22429000",
+"bc": "(SLA) Yên Châu",
+"ten_dm": "Thị trấn Yên Châu"
+},
+"140804": {
+"ten": "Xã Chiềng Khoi",
+"huyen": "Huyện Yên Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Yên Châu",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22429000",
+"bc": "(SLA) Yên Châu",
+"ten_dm": "Xã Chiềng Khoi"
+},
+"140803": {
+"ten": "Xã Chiềng Hặc",
+"huyen": "Huyện Yên Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Hặc",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22429000",
+"bc": "(SLA) Yên Châu",
+"ten_dm": "Xã Chiềng Hặc"
+},
+"140810": {
+"ten": "Xã Mường Lựm",
+"huyen": "Huyện Yên Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Hặc",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22429000",
+"bc": "(SLA) Yên Châu",
+"ten_dm": "Xã Mường Lựm"
+},
+"140813": {
+"ten": "Xã Tú Nang",
+"huyen": "Huyện Yên Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Hặc",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22429000",
+"bc": "(SLA) Yên Châu",
+"ten_dm": "Xã Tú Nang"
+},
+"140805": {
+"ten": "Xã Chiềng On",
+"huyen": "Huyện Yên Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Yên Sơn",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22429000",
+"bc": "(SLA) Yên Châu",
+"ten_dm": "Xã Chiềng On"
+},
+"140815": {
+"ten": "Xã Yên Sơn",
+"huyen": "Huyện Yên Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Yên Sơn",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22429000",
+"bc": "(SLA) Yên Châu",
+"ten_dm": "Xã Yên Sơn"
+},
+"140809": {
+"ten": "Xã Lóng Phiêng",
+"huyen": "Huyện Yên Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Lóng Phiêng",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22429000",
+"bc": "(SLA) Yên Châu",
+"ten_dm": "Xã Lóng Phiêng"
+},
+"140808": {
+"ten": "Xã Chiềng Tương",
+"huyen": "Huyện Yên Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Lóng Phiêng",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22429000",
+"bc": "(SLA) Yên Châu",
+"ten_dm": "Xã Chiềng Tương"
+},
+"140811": {
+"ten": "Xã Phiêng Khoài",
+"huyen": "Huyện Yên Châu",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Phiêng Khoài",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22429000",
+"bc": "(SLA) Yên Châu",
+"ten_dm": "Xã Phiêng Khoài"
+},
+"140701": {
+"ten": "Thị trấn Hát Lót",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mai Sơn",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21600000",
+"bc": "(SLA) Mai Sơn",
+"ten_dm": "Thị trấn Hát Lót"
+},
+"140714": {
+"ten": "Xã Hát Lót",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mai Sơn",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21600000",
+"bc": "(SLA) Mai Sơn",
+"ten_dm": "Thị trấn Hát Lót"
+},
+"140713": {
+"ten": "Xã Cò Nòi",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mai Sơn",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21600000",
+"bc": "(SLA) Mai Sơn",
+"ten_dm": "Xã Cò  Nòi"
+},
+"140711": {
+"ten": "Xã Chiềng Sung",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Sung",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21600000",
+"bc": "(SLA) Mai Sơn",
+"ten_dm": "Xã Chiềng Sung"
+},
+"140703": {
+"ten": "Xã Chiềng Chăn",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Sung",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21600000",
+"bc": "(SLA) Mai Sơn",
+"ten_dm": "Xã Chiềng Chăn"
+},
+"140717": {
+"ten": "Xã Mường Chanh",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Chanh",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22945000",
+"bc": "(SLA) Chiềng Sinh",
+"ten_dm": "Xã Mương Chanh"
+},
+"140704": {
+"ten": "Xã Chiềng Chung",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Chanh",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22945000",
+"bc": "(SLA) Chiềng Sinh",
+"ten_dm": "Xã Chiềng Chung"
+},
+"140715": {
+"ten": "Xã Mường Bằng",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Mung",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21600000",
+"bc": "(SLA) Mai Sơn",
+"ten_dm": "Xã Mường Bằng"
+},
+"140709": {
+"ten": "Xã Chiềng Mung",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Mung",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21600000",
+"bc": "(SLA) Mai Sơn",
+"ten_dm": "Xã Chiềng Mung"
+},
+"140716": {
+"ten": "Xã Mường Bon",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Mung",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21600000",
+"bc": "(SLA) Mai Sơn",
+"ten_dm": "Xã Mường Bon"
+},
+"140702": {
+"ten": "Xã Chiềng Ban",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Mai",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22945000",
+"bc": "(SLA) Chiềng Sinh",
+"ten_dm": "Xã Chiềng Ban"
+},
+"140708": {
+"ten": "Xã Chiềng Mai",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Mai",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22945000",
+"bc": "(SLA) Chiềng Sinh",
+"ten_dm": "Xã Chiềng Mai"
+},
+"140705": {
+"ten": "Xã Chiềng Dong",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Mai",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22945000",
+"bc": "(SLA) Chiềng Sinh",
+"ten_dm": "Xã Chiềng Dong"
+},
+"140706": {
+"ten": "Xã Chiềng Kheo",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Mai",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22945000",
+"bc": "(SLA) Chiềng Sinh",
+"ten_dm": "Xã Chiềng Kheo"
+},
+"140712": {
+"ten": "Xã Chiềng Ve",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Mai",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22945000",
+"bc": "(SLA) Chiềng Sinh",
+"ten_dm": "Xã Chiềng Ve"
+},
+"140719": {
+"ten": "Xã Nà Bó",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tà Hộc",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21600000",
+"bc": "(SLA) Mai Sơn",
+"ten_dm": "Xã Nà Pó"
+},
+"140722": {
+"ten": "Xã Tà Hộc",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Tà Hộc",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21600000",
+"bc": "(SLA) Mai Sơn",
+"ten_dm": "Xã Tà Hộc"
+},
+"140710": {
+"ten": "Xã Chiềng Nơi",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Phiêng Cằm",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21600000",
+"bc": "(SLA) Mai Sơn",
+"ten_dm": "Xã Chiềng Nơi"
+},
+"140720": {
+"ten": "Xã Phiêng Cằm",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Phiêng Cằm",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21600000",
+"bc": "(SLA) Mai Sơn",
+"ten_dm": "Xã Phiêng Cằm"
+},
+"140707": {
+"ten": "Xã Chiềng Lương",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Phiêng Pằn",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21600000",
+"bc": "(SLA) Mai Sơn",
+"ten_dm": "Xã Chiềng Lương"
+},
+"140721": {
+"ten": "Xã Phiêng Pằn",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Phiêng Pằn",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21600000",
+"bc": "(SLA) Mai Sơn",
+"ten_dm": "Xã Phiêng Pằn"
+},
+"140718": {
+"ten": "Xã Nà Ớt",
+"huyen": "Huyện Mai Sơn",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Phiêng Pằn",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "21600000",
+"bc": "(SLA) Mai Sơn",
+"ten_dm": "Xã Nà Ơt"
+},
+"140901": {
+"ten": "Thị trấn Sông Mã",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Sông Mã",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Thị trấn Sông Mã"
+},
+"140915": {
+"ten": "Xã Nà Nghịu",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Sông Mã",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Nà Nghịu"
+},
+"140902": {
+"ten": "Xã Bó Sinh",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Bó Sinh",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Bó Sinh"
+},
+"140918": {
+"ten": "Xã Pú Bẩu",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Bó Sinh",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Pú Pẩu"
+},
+"140904": {
+"ten": "Xã Chiềng En",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Bó Sinh",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Chiềng En"
+},
+"140913": {
+"ten": "Xã Mường Lầm",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Lầm",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Mường Lầm"
+},
+"140909": {
+"ten": "Xã Đứa Mòn",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Lầm",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Đứa Mòn"
+},
+"140907": {
+"ten": "Xã Chiềng Phung",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Nậm Ty",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Chiềng Phung"
+},
+"140917": {
+"ten": "Xã Nậm Ty",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Nậm Ty",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Nậm Ty"
+},
+"140919": {
+"ten": "Xã Yên Hưng",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Sơ",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Yên Hưng"
+},
+"140908": {
+"ten": "Xã Chiềng Sơ",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Sơ",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Chiềng Sơ"
+},
+"140905": {
+"ten": "Xã Chiềng Khoong",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Khoong",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Chiềng Khoong"
+},
+"140911": {
+"ten": "Xã Mường Cai",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Khoong",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Mường Cai"
+},
+"140916": {
+"ten": "Xã Nậm Mằn",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Huổi Một",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Nậm Mằn"
+},
+"140910": {
+"ten": "Xã Huổi Một",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Huổi Một",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Huổi Một"
+},
+"140903": {
+"ten": "Xã Chiềng Cang",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Hung",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Chiềng Cang"
+},
+"140912": {
+"ten": "Xã Mường Hung",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Hung",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Mường Hung"
+},
+"140914": {
+"ten": "Xã Mường Sai",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Khương",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Mường Sai"
+},
+"140906": {
+"ten": "Xã Chiềng Khương",
+"huyen": "Huyện Sông Mã",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Chiềng Khương",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "20222000",
+"bc": "(SLA) Sông Mã",
+"ten_dm": "Xã Chiềng Khương"
+},
+"141107": {
+"ten": "Xã Sam Kha",
+"huyen": "Huyện Sốp Cộp",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Púng Bánh",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22504000",
+"bc": "(SLA) Sốp Cộp",
+"ten_dm": "Xã Sam Kha"
+},
+"141106": {
+"ten": "Xã Púng Bánh",
+"huyen": "Huyện Sốp Cộp",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Púng Bánh",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22504000",
+"bc": "(SLA) Sốp Cộp",
+"ten_dm": "Xã Púng Bánh"
+},
+"141101": {
+"ten": "Xã Dồm Cang",
+"huyen": "Huyện Sốp Cộp",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Púng Bánh",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22504000",
+"bc": "(SLA) Sốp Cộp",
+"ten_dm": "Xã Dồm Cang"
+},
+"800118": {
+"ten": "Xã Sốp Cộp",
+"huyen": "Huyện Sốp Cộp",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Sốp Cộp",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22504000",
+"bc": "(SLA) Sốp Cộp",
+"ten_dm": "Xã Sốp Cộp"
+},
+"141105": {
+"ten": "Xã Nậm Lạnh",
+"huyen": "Huyện Sốp Cộp",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Sốp Cộp",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22504000",
+"bc": "(SLA) Sốp Cộp",
+"ten_dm": "Xã Nậm Lạnh"
+},
+"141104": {
+"ten": "Xã Mường Và",
+"huyen": "Huyện Sốp Cộp",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Sốp Cộp",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22504000",
+"bc": "(SLA) Sốp Cộp",
+"ten_dm": "Xã Mường Và"
+},
+"141103": {
+"ten": "Xã Mường Lèo",
+"huyen": "Huyện Sốp Cộp",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Lèo",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22504000",
+"bc": "(SLA) Sốp Cộp",
+"ten_dm": "Xã Mường Lèo"
+},
+"141102": {
+"ten": "Xã Mường Lạn",
+"huyen": "Huyện Sốp Cộp",
+"tinh_cu": "Tỉnh Sơn La",
+"xa_moi": "Xã Mường Lạn",
+"tinh_moi": "Tỉnh Sơn La",
+"bc_id": "22504000",
+"bc": "(SLA) Sốp Cộp",
+"ten_dm": "Xã Mường Lạn"
+},
+"80105": {
+"ten": "Phường Duyên Hải",
+"huyen": "Thành phố Lào Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Lào Cai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21706000",
+"bc": "(LCA) Lào Cai",
+"ten_dm": "Phường Duyên Hải"
+},
+"80107": {
+"ten": "Phường Lào Cai",
+"huyen": "Thành phố Lào Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Lào Cai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21072000",
+"bc": "(LCA) Cam Đường 1",
+"ten_dm": "Phường Lào Cai"
+},
+"80104": {
+"ten": "Phường Cốc Lếu",
+"huyen": "Thành phố Lào Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Lào Cai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21706000",
+"bc": "(LCA) Lào Cai",
+"ten_dm": "Phường Cốc Lếu"
+},
+"80106": {
+"ten": "Phường Kim Tân",
+"huyen": "Thành phố Lào Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Lào Cai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21072000",
+"bc": "(LCA) Cam Đường 1",
+"ten_dm": "Phường Kim Tân"
+},
+"80117": {
+"ten": "Xã Vạn Hòa",
+"huyen": "Thành phố Lào Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Lào Cai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21072000",
+"bc": "(LCA) Cam Đường 1",
+"ten_dm": "Xã Vạn Hoà"
+},
+"80405": {
+"ten": "Xã Bản Phiệt",
+"huyen": "Huyện Bảo Thắng",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Lào Cai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21706000",
+"bc": "(LCA) Lào Cai",
+"ten_dm": "Xã Bản Phiệt"
+},
+"80102": {
+"ten": "Phường Bắc Lệnh",
+"huyen": "Thành phố Lào Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Cam Đường",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20650000",
+"bc": "(LCA) Cam Đường 2",
+"ten_dm": "Phường Bắc Lệnh"
+},
+"80110": {
+"ten": "Phường Pom Hán",
+"huyen": "Thành phố Lào Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Cam Đường",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20650000",
+"bc": "(LCA) Cam Đường 2",
+"ten_dm": "Phường Pom Hán"
+},
+"80112": {
+"ten": "Phường Xuân Tăng",
+"huyen": "Thành phố Lào Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Cam Đường",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20650000",
+"bc": "(LCA) Cam Đường 2",
+"ten_dm": "Phường Xuân Tăng"
+},
+"80103": {
+"ten": "Phường Bình Minh",
+"huyen": "Thành phố Lào Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Cam Đường",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20650000",
+"bc": "(LCA) Cam Đường 2",
+"ten_dm": "Phường Bình Minh"
+},
+"80101": {
+"ten": "Phường Bắc Cường",
+"huyen": "Thành phố Lào Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Cam Đường",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20650000",
+"bc": "(LCA) Cam Đường 2",
+"ten_dm": "Phường Bắc Cường"
+},
+"80108": {
+"ten": "Phường Nam Cường",
+"huyen": "Thành phố Lào Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Cam Đường",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20650000",
+"bc": "(LCA) Cam Đường 2",
+"ten_dm": "Phường Nam Cường"
+},
+"80113": {
+"ten": "Xã Cam Đường",
+"huyen": "Thành phố Lào Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Cam Đường",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20650000",
+"bc": "(LCA) Cam Đường 2",
+"ten_dm": "Xã Cam Đường"
+},
+"80501": {
+"ten": "Phường Sa Pa",
+"huyen": "Thị xã Sa Pa",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Sa Pa",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20703000",
+"bc": "(LCA) Sa Pa",
+"ten_dm": "Phường Sa Pa"
+},
+"80509": {
+"ten": "Phường Sa Pả",
+"huyen": "Thị xã Sa Pa",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Sa Pa",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20703000",
+"bc": "(LCA) Sa Pa",
+"ten_dm": "Phường Sa Pa"
+},
+"800168": {
+"ten": "Phường Ô Quý Hồ",
+"huyen": "Thị xã Sa Pa",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Sa Pa",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20703000",
+"bc": "(LCA) Sa Pa",
+"ten_dm": "Phường Ô Quý Hồ"
+},
+"800166": {
+"ten": "Phường Phan Si Păng",
+"huyen": "Thị xã Sa Pa",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Sa Pa",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20703000",
+"bc": "(LCA) Sa Pa",
+"ten_dm": "Phường Phan Si Păng"
+},
+"800161": {
+"ten": "Phường Hàm Rồng",
+"huyen": "Thị xã Sa Pa",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Sa Pa",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20703000",
+"bc": "(LCA) Sa Pa",
+"ten_dm": "Phường Hàm Rồng"
+},
+"800159": {
+"ten": "Phường Cầu Mây",
+"huyen": "Thị xã Sa Pa",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Phường Sa Pa",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20703000",
+"bc": "(LCA) Sa Pa",
+"ten_dm": "Phường Cầu Mây"
+},
+"130108": {
+"ten": "Phường Yên Ninh",
+"huyen": "Thành phố Yên Bái",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Yên Bái",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20896000",
+"bc": "(YBA) Âu Lâu",
+"ten_dm": "Phường Yên Ninh"
+},
+"130104": {
+"ten": "Phường Minh Tân",
+"huyen": "Thành phố Yên Bái",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Yên Bái",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23049000",
+"bc": "(YBA) Văn Phú",
+"ten_dm": "Phường Minh Tân"
+},
+"130107": {
+"ten": "Phường Nguyễn Thái Học",
+"huyen": "Thành phố Yên Bái",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Yên Bái",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20896000",
+"bc": "(YBA) Âu Lâu",
+"ten_dm": "Phường Nguyễn Thái Học"
+},
+"130101": {
+"ten": "Phường Đồng Tâm",
+"huyen": "Thành phố Yên Bái",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Yên Bái",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23049000",
+"bc": "(YBA) Văn Phú",
+"ten_dm": "Phường Đồng Tâm"
+},
+"130102": {
+"ten": "Phường Hồng Hà",
+"huyen": "Thành phố Yên Bái",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Yên Bái",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20896000",
+"bc": "(YBA) Âu Lâu",
+"ten_dm": "Phường Hồng Hà"
+},
+"130112": {
+"ten": "Xã Minh Bảo",
+"huyen": "Thành phố Yên Bái",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Nam Cường",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23049000",
+"bc": "(YBA) Văn Phú",
+"ten_dm": "Xã Minh Bảo"
+},
+"130105": {
+"ten": "Phường Nam Cường",
+"huyen": "Thành phố Yên Bái",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Nam Cường",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20896000",
+"bc": "(YBA) Âu Lâu",
+"ten_dm": "Phường Nam Cường"
+},
+"130115": {
+"ten": "Xã Tuy Lộc",
+"huyen": "Thành phố Yên Bái",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Nam Cường",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20896000",
+"bc": "(YBA) Âu Lâu",
+"ten_dm": "Xã Tuy Lộc"
+},
+"130704": {
+"ten": "Xã Cường Thịnh",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Nam Cường",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22519000",
+"bc": "(YBA) Trấn Yên",
+"ten_dm": "Xã Cường Thịnh"
+},
+"130109": {
+"ten": "Phường Yên Thịnh",
+"huyen": "Thành phố Yên Bái",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Văn Phú",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23049000",
+"bc": "(YBA) Văn Phú",
+"ten_dm": "Phường Yên Thịnh"
+},
+"130114": {
+"ten": "Xã Tân Thịnh",
+"huyen": "Thành phố Yên Bái",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Văn Phú",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23049000",
+"bc": "(YBA) Văn Phú",
+"ten_dm": "Xã Tân Thịnh"
+},
+"130116": {
+"ten": "Xã Văn Phú",
+"huyen": "Thành phố Yên Bái",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Văn Phú",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23049000",
+"bc": "(YBA) Văn Phú",
+"ten_dm": "Xã Văn Phú"
+},
+"130413": {
+"ten": "Xã Phú Thịnh",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Văn Phú",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23049000",
+"bc": "(YBA) Văn Phú",
+"ten_dm": "Xã Phú Thịnh"
+},
+"130202": {
+"ten": "Phường Pú Trạng",
+"huyen": "Thị xã Nghĩa Lộ",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Nghĩa Lộ",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Phường Pú Trạng"
+},
+"130203": {
+"ten": "Phường Tân An",
+"huyen": "Thị xã Nghĩa Lộ",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Nghĩa Lộ",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Phường Tân An"
+},
+"130205": {
+"ten": "Xã Nghĩa An",
+"huyen": "Thị xã Nghĩa Lộ",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Nghĩa Lộ",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Nghĩa An"
+},
+"130616": {
+"ten": "Xã Nghĩa Sơn",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Nghĩa Lộ",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Nghĩa Sơn"
+},
+"130110": {
+"ten": "Xã Âu Lâu",
+"huyen": "Thành phố Yên Bái",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Âu Lâu",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20896000",
+"bc": "(YBA) Âu Lâu",
+"ten_dm": "Xã Âu Lâu"
+},
+"130111": {
+"ten": "Xã Giới Phiên",
+"huyen": "Thành phố Yên Bái",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Âu Lâu",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20896000",
+"bc": "(YBA) Âu Lâu",
+"ten_dm": "Xã Giới Phiên"
+},
+"130103": {
+"ten": "Phường Hợp Minh",
+"huyen": "Thành phố Yên Bái",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Âu Lâu",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20896000",
+"bc": "(YBA) Âu Lâu",
+"ten_dm": "Phường Hợp Minh"
+},
+"130713": {
+"ten": "Xã Minh Quân",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Âu Lâu",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20896000",
+"bc": "(YBA) Âu Lâu",
+"ten_dm": "Xã Minh Quán"
+},
+"130204": {
+"ten": "Phường Trung Tâm",
+"huyen": "Thị xã Nghĩa Lộ",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Trung Tâm",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Phường Trung Tâm"
+},
+"130206": {
+"ten": "Xã Nghĩa Lợi",
+"huyen": "Thị xã Nghĩa Lộ",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Trung Tâm",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Nghĩa Lợi"
+},
+"800253": {
+"ten": "Xã Nghĩa Lộ",
+"huyen": "Thị xã Nghĩa Lộ",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Trung Tâm",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Nghĩa Lộ"
+},
+"800255": {
+"ten": "Xã Phù Nham",
+"huyen": "Thị xã Nghĩa Lộ",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Trung Tâm",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Phù Nham"
+},
+"130201": {
+"ten": "Phường Cầu Thia",
+"huyen": "Thị xã Nghĩa Lộ",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Cầu Thia",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Phường Cầu Thia"
+},
+"800256": {
+"ten": "Xã Thanh Lương",
+"huyen": "Thị xã Nghĩa Lộ",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Cầu Thia",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Thanh Lương"
+},
+"800257": {
+"ten": "Xã Hạnh Sơn",
+"huyen": "Thị xã Nghĩa Lộ",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Cầu Thia",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Hạnh Sơn"
+},
+"800258": {
+"ten": "Xã Phúc Sơn",
+"huyen": "Thị xã Nghĩa Lộ",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Cầu Thia",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Phúc Sơn"
+},
+"800259": {
+"ten": "Xã Thạch Lương",
+"huyen": "Thị xã Nghĩa Lộ",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Phường Cầu Thia",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Thạch Lương"
+},
+"80116": {
+"ten": "Xã Tả Phời",
+"huyen": "Thành phố Lào Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Hợp Thành",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20650000",
+"bc": "(LCA) Cam Đường 2",
+"ten_dm": "Xã Tả Phời"
+},
+"80115": {
+"ten": "Xã Hợp Thành",
+"huyen": "Thành phố Lào Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Hợp Thành",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20650000",
+"bc": "(LCA) Cam Đường 2",
+"ten_dm": "Xã Hợp Thành"
+},
+"80301": {
+"ten": "Thị trấn Bát Xát",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bát Xát",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Thị trấn Bát Xát"
+},
+"80305": {
+"ten": "Xã Bản Vược",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bát Xát",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã Bản Vược"
+},
+"80304": {
+"ten": "Xã Bản Qua",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bát Xát",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã Bản Qua"
+},
+"80318": {
+"ten": "Xã Quang Kim",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bát Xát",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã Quang Kim"
+},
+"80317": {
+"ten": "Xã Phìn Ngan",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bát Xát",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã Phìn Ngan"
+},
+"80303": {
+"ten": "Xã A Mú Sung",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã A Mú Sung",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã A Mú Sung"
+},
+"80313": {
+"ten": "Xã Nậm Chạc",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã A Mú Sung",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã Nậm Chạc"
+},
+"80321": {
+"ten": "Xã Trịnh Tường",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Trịnh Tường",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã Trịnh Tường"
+},
+"80307": {
+"ten": "Xã Cốc Mỳ",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Trịnh Tường",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã Cốc Mỳ"
+},
+"80302": {
+"ten": "Xã A Lù",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Y Tý",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã A Lù"
+},
+"80323": {
+"ten": "Xã Y Tý",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Y Tý",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã Y Tý"
+},
+"80309": {
+"ten": "Xã Dền Sáng",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Dền Sáng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã Dền Sáng"
+},
+"80319": {
+"ten": "Xã Sàng Ma Sáo",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Dền Sáng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã Sàng Ma Sáo"
+},
+"80310": {
+"ten": "Xã Dền Thàng",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Dền Sáng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã Dền Thàng"
+},
+"80312": {
+"ten": "Xã Mường Vi",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bản Xèo",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã Mường Vi"
+},
+"80306": {
+"ten": "Xã Bản Xèo",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bản Xèo",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã Bản Xèo"
+},
+"80316": {
+"ten": "Xã Pa Cheo",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bản Xèo",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã Pa Cheo"
+},
+"80311": {
+"ten": "Xã Mường Hum",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Mường Hum",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã Mường Hum"
+},
+"80322": {
+"ten": "Xã Trung Lèng Hồ",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Mường Hum",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã Trung Lèng Hồ"
+},
+"80314": {
+"ten": "Xã Nậm Pung",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Mường Hum",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20939000",
+"bc": "(LCA) Bát Xát",
+"ten_dm": "Xã Nậm Pung"
+},
+"80114": {
+"ten": "Xã Đồng Tuyển",
+"huyen": "Thành phố Lào Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Cốc San",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21072000",
+"bc": "(LCA) Cam Đường 1",
+"ten_dm": "Xã Đồng Tuyển"
+},
+"800247": {
+"ten": "Xã Cốc San",
+"huyen": "Thành phố Lào Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Cốc San",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21072000",
+"bc": "(LCA) Cam Đường 1",
+"ten_dm": "Xã Cốc San"
+},
+"80320": {
+"ten": "Xã Tòng Sành",
+"huyen": "Huyện Bát Xát",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Cốc San",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21072000",
+"bc": "(LCA) Cam Đường 1",
+"ten_dm": "Xã Tòng Sành"
+},
+"80911": {
+"ten": "Xã Pha Long",
+"huyen": "Huyện Mường Khương",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Pha Long",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21306000",
+"bc": "(LCA) Mường Khương",
+"ten_dm": "Xã Pha Long"
+},
+"80913": {
+"ten": "Xã Tả Ngài Chồ",
+"huyen": "Huyện Mường Khương",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Pha Long",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21306000",
+"bc": "(LCA) Mường Khương",
+"ten_dm": "Xã Tả Ngải Chồ"
+},
+"80905": {
+"ten": "Xã Dìn Chin",
+"huyen": "Huyện Mường Khương",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Pha Long",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21306000",
+"bc": "(LCA) Mường Khương",
+"ten_dm": "Xã Dìn Chin"
+},
+"80912": {
+"ten": "Xã Tả Gia Khâu",
+"huyen": "Huyện Mường Khương",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Pha Long",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21306000",
+"bc": "(LCA) Mường Khương",
+"ten_dm": "Xã Tả Gia Khâu"
+},
+"80916": {
+"ten": "Xã Tung Chung Phố",
+"huyen": "Huyện Mường Khương",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Mường Khương",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21306000",
+"bc": "(LCA) Mường Khương",
+"ten_dm": "Xã Tung Chung Phố"
+},
+"80901": {
+"ten": "Thị trấn Mường Khương",
+"huyen": "Huyện Mường Khương",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Mường Khương",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21306000",
+"bc": "(LCA) Mường Khương",
+"ten_dm": "Thị trấn Mường Khương"
+},
+"80909": {
+"ten": "Xã Nậm Chảy",
+"huyen": "Huyện Mường Khương",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Mường Khương",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21306000",
+"bc": "(LCA) Mường Khương",
+"ten_dm": "Xã Nậm Chảy"
+},
+"80910": {
+"ten": "Xã Nấm Lư",
+"huyen": "Huyện Mường Khương",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Mường Khương",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21306000",
+"bc": "(LCA) Mường Khương",
+"ten_dm": "Xã Nấm Lư"
+},
+"80915": {
+"ten": "Xã Thanh Bình",
+"huyen": "Huyện Mường Khương",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Mường Khương",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21306000",
+"bc": "(LCA) Mường Khương",
+"ten_dm": "Xã Thanh Bình"
+},
+"80907": {
+"ten": "Xã Lùng Khấu Nhin",
+"huyen": "Huyện Mường Khương",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Cao Sơn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21306000",
+"bc": "(LCA) Mường Khương",
+"ten_dm": "Xã Lùng Khấu Nhin"
+},
+"80904": {
+"ten": "Xã Cao Sơn",
+"huyen": "Huyện Mường Khương",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Cao Sơn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21306000",
+"bc": "(LCA) Mường Khương",
+"ten_dm": "Xã Cao Sơn"
+},
+"80906": {
+"ten": "Xã La Pan Tẩn",
+"huyen": "Huyện Mường Khương",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Cao Sơn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21306000",
+"bc": "(LCA) Mường Khương",
+"ten_dm": "Xã La Pan Tẩn"
+},
+"80914": {
+"ten": "Xã Tả Thàng",
+"huyen": "Huyện Mường Khương",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Cao Sơn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21306000",
+"bc": "(LCA) Mường Khương",
+"ten_dm": "Xã Tả Thàng"
+},
+"80908": {
+"ten": "Xã Lùng Vai",
+"huyen": "Huyện Mường Khương",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bản Lầu",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21306000",
+"bc": "(LCA) Mường Khương",
+"ten_dm": "Xã Lùng Vai"
+},
+"80902": {
+"ten": "Xã Bản Lầu",
+"huyen": "Huyện Mường Khương",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bản Lầu",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21306000",
+"bc": "(LCA) Mường Khương",
+"ten_dm": "Xã Bản Lầu"
+},
+"80903": {
+"ten": "Xã Bản Sen",
+"huyen": "Huyện Mường Khương",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bản Lầu",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21306000",
+"bc": "(LCA) Mường Khương",
+"ten_dm": "Xã Bản Sen"
+},
+"80207": {
+"ten": "Xã Nàn Sán",
+"huyen": "Huyện Si Ma Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Si Ma Cai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22608000",
+"bc": "(LCA) Si Ma Cai",
+"ten_dm": "Xã Nàn Sán"
+},
+"90816": {
+"ten": "Thị trấn Si Ma Cai",
+"huyen": "Huyện Si Ma Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Si Ma Cai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22608000",
+"bc": "(LCA) Si Ma Cai",
+"ten_dm": "Thị trấn Si Ma Cai"
+},
+"80210": {
+"ten": "Xã Sán Chải",
+"huyen": "Huyện Si Ma Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Si Ma Cai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22608000",
+"bc": "(LCA) Si Ma Cai",
+"ten_dm": "Xã Sán Chải"
+},
+"80202": {
+"ten": "Xã Cán Cấu",
+"huyen": "Huyện Si Ma Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Si Ma Cai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22608000",
+"bc": "(LCA) Si Ma Cai",
+"ten_dm": "Xã Cán Cấu"
+},
+"800249": {
+"ten": "Xã Quan Hồ Thẩn",
+"huyen": "Huyện Si Ma Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Si Ma Cai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22608000",
+"bc": "(LCA) Si Ma Cai",
+"ten_dm": "Xã Quan Hồ Thẩn"
+},
+"80213": {
+"ten": "Xã Thào Chư Phìn",
+"huyen": "Huyện Si Ma Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Sín Chéng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22608000",
+"bc": "(LCA) Si Ma Cai",
+"ten_dm": "Xã Thào Chư Phìn"
+},
+"80201": {
+"ten": "Xã Bản Mế",
+"huyen": "Huyện Si Ma Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Sín Chéng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22608000",
+"bc": "(LCA) Si Ma Cai",
+"ten_dm": "Xã Bản Mế"
+},
+"80212": {
+"ten": "Xã Sín Chéng",
+"huyen": "Huyện Si Ma Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Sín Chéng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22608000",
+"bc": "(LCA) Si Ma Cai",
+"ten_dm": "Xã Sín Chéng"
+},
+"80208": {
+"ten": "Xã Nàn Sín",
+"huyen": "Huyện Si Ma Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Sín Chéng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22608000",
+"bc": "(LCA) Si Ma Cai",
+"ten_dm": "Xã Nàn Xín"
+},
+"80801": {
+"ten": "Thị trấn Bắc Hà",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bắc Hà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Thị trấn Bắc Hà"
+},
+"80821": {
+"ten": "Xã Thải Giàng Phố",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bắc Hà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Xã Thải Giàng Phố"
+},
+"80809": {
+"ten": "Xã Hoàng Thu Phố",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bắc Hà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Xã Hoàng Thu Phố"
+},
+"80805": {
+"ten": "Xã Bản Phố",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bắc Hà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Xã Bản Phố"
+},
+"80813": {
+"ten": "Xã Na Hối",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bắc Hà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Xã Na Hối"
+},
+"80817": {
+"ten": "Xã Nậm Mòn",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bắc Hà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Xã Nậm Mòn"
+},
+"80811": {
+"ten": "Xã Lùng Cải",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Tả Củ Tỷ",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Xã Lùng Cải"
+},
+"80819": {
+"ten": "Xã Tả Củ Tỷ",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Tả Củ Tỷ",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Xã Tả Củ Tỷ"
+},
+"800248": {
+"ten": "Xã Lùng Thẩn",
+"huyen": "Huyện Si Ma Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Lùng Phình",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22608000",
+"bc": "(LCA) Si Ma Cai",
+"ten_dm": "Xã Lùng Thẩn"
+},
+"80812": {
+"ten": "Xã Lùng Phình",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Lùng Phình",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Xã Lùng Phình"
+},
+"80820": {
+"ten": "Xã Tả Van Chư",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Lùng Phình",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Xã Tả Van Chư"
+},
+"80804": {
+"ten": "Xã Bản Liền",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bản Liền",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Xã Bản Liền"
+},
+"80815": {
+"ten": "Xã Nậm Khánh",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bản Liền",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Xã Nậm Khánh"
+},
+"80808": {
+"ten": "Xã Cốc Ly",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bảo Nhai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Xã Cốc Ly"
+},
+"80814": {
+"ten": "Xã Nậm Đét",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bảo Nhai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Xã Nậm Đét"
+},
+"80806": {
+"ten": "Xã Bảo Nhai",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bảo Nhai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Xã Bảo Nhai"
+},
+"80816": {
+"ten": "Xã Nậm Lúc",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Cốc Lầu",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Xã Nậm Lúc"
+},
+"80807": {
+"ten": "Xã Cốc Lầu",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Cốc Lầu",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Xã Cốc Lầu"
+},
+"80802": {
+"ten": "Xã Bản Cái",
+"huyen": "Huyện Bắc Hà",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Cốc Lầu",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20985000",
+"bc": "(LCA) Bắc Hà",
+"ten_dm": "Xã Bản Cái"
+},
+"80401": {
+"ten": "Thị trấn Nông trường Phong Hải",
+"huyen": "Huyện Bảo Thắng",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Phong Hải",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20982000",
+"bc": "(LCA) Bảo Thắng",
+"ten_dm": "Thị trấn N.T Phong Hải"
+},
+"80404": {
+"ten": "Xã Bản Cầm",
+"huyen": "Huyện Bảo Thắng",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Phong Hải",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21706000",
+"bc": "(LCA) Lào Cai",
+"ten_dm": "Xã Bản Cầm"
+},
+"80402": {
+"ten": "Thị trấn Phố Lu",
+"huyen": "Huyện Bảo Thắng",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bảo Thắng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20982000",
+"bc": "(LCA) Bảo Thắng",
+"ten_dm": "Thị trấn Phố Lu"
+},
+"80412": {
+"ten": "Xã Thái Niên",
+"huyen": "Huyện Bảo Thắng",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bảo Thắng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20982000",
+"bc": "(LCA) Bảo Thắng",
+"ten_dm": "Xã Thái Niên"
+},
+"80411": {
+"ten": "Xã Sơn Hải",
+"huyen": "Huyện Bảo Thắng",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bảo Thắng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20982000",
+"bc": "(LCA) Bảo Thắng",
+"ten_dm": "Xã Sơn Hải"
+},
+"80410": {
+"ten": "Xã Sơn Hà",
+"huyen": "Huyện Bảo Thắng",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bảo Thắng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20982000",
+"bc": "(LCA) Bảo Thắng",
+"ten_dm": "Xã Sơn Hà"
+},
+"80403": {
+"ten": "Thị trấn Tằng Loỏng",
+"huyen": "Huyện Bảo Thắng",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Tằng Loỏng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20982000",
+"bc": "(LCA) Bảo Thắng",
+"ten_dm": "Thị trấn Tằng Loỏng"
+},
+"80409": {
+"ten": "Xã Phú Nhuận",
+"huyen": "Huyện Bảo Thắng",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Tằng Loỏng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20982000",
+"bc": "(LCA) Bảo Thắng",
+"ten_dm": "Xã Phú Nhuận"
+},
+"80406": {
+"ten": "Xã Gia Phú",
+"huyen": "Huyện Bảo Thắng",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Gia Phú",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20982000",
+"bc": "(LCA) Bảo Thắng",
+"ten_dm": "Xã Gia Phú"
+},
+"80414": {
+"ten": "Xã Xuân Giao",
+"huyen": "Huyện Bảo Thắng",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Gia Phú",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20982000",
+"bc": "(LCA) Bảo Thắng",
+"ten_dm": "Xã Xuân Giao"
+},
+"80111": {
+"ten": "Xã Thống Nhất",
+"huyen": "Thành phố Lào Cai",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Gia Phú",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20982000",
+"bc": "(LCA) Bảo Thắng",
+"ten_dm": "Xã Thống Nhất"
+},
+"80408": {
+"ten": "Xã Phong Niên",
+"huyen": "Huyện Bảo Thắng",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Xuân Quang",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20982000",
+"bc": "(LCA) Bảo Thắng",
+"ten_dm": "Xã Phong Niên"
+},
+"80415": {
+"ten": "Xã Xuân Quang",
+"huyen": "Huyện Bảo Thắng",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Xuân Quang",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20982000",
+"bc": "(LCA) Bảo Thắng",
+"ten_dm": "Xã Xuân Quang"
+},
+"80413": {
+"ten": "Xã Trì Quang",
+"huyen": "Huyện Bảo Thắng",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Xuân Quang",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20982000",
+"bc": "(LCA) Bảo Thắng",
+"ten_dm": "Xã Trì Quang"
+},
+"80701": {
+"ten": "Thị trấn Phố Ràng",
+"huyen": "Huyện Bảo Yên",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bảo Yên",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20754000",
+"bc": "(LCA) Bảo Yên",
+"ten_dm": "Thị trấn Phố Ràng"
+},
+"80717": {
+"ten": "Xã Xuân Thượng",
+"huyen": "Huyện Bảo Yên",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bảo Yên",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20754000",
+"bc": "(LCA) Bảo Yên",
+"ten_dm": "Xã Xuân Thượng"
+},
+"80718": {
+"ten": "Xã Yên Sơn",
+"huyen": "Huyện Bảo Yên",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bảo Yên",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20754000",
+"bc": "(LCA) Bảo Yên",
+"ten_dm": "Xã Yên Sơn"
+},
+"80708": {
+"ten": "Xã Lương Sơn",
+"huyen": "Huyện Bảo Yên",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bảo Yên",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20754000",
+"bc": "(LCA) Bảo Yên",
+"ten_dm": "Xã Lương Sơn"
+},
+"80712": {
+"ten": "Xã Tân Tiến",
+"huyen": "Huyện Bảo Yên",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Nghĩa Đô",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20754000",
+"bc": "(LCA) Bảo Yên",
+"ten_dm": "Xã Tân Tiến"
+},
+"80710": {
+"ten": "Xã Nghĩa Đô",
+"huyen": "Huyện Bảo Yên",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Nghĩa Đô",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20754000",
+"bc": "(LCA) Bảo Yên",
+"ten_dm": "Xã Nghĩa Đô"
+},
+"80715": {
+"ten": "Xã Vĩnh Yên",
+"huyen": "Huyện Bảo Yên",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Nghĩa Đô",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20754000",
+"bc": "(LCA) Bảo Yên",
+"ten_dm": "Xã Vĩnh Yên"
+},
+"80716": {
+"ten": "Xã Xuân Hòa",
+"huyen": "Huyện Bảo Yên",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Xuân Hòa",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20754000",
+"bc": "(LCA) Bảo Yên",
+"ten_dm": "Xã Xuân Hoà"
+},
+"80711": {
+"ten": "Xã Tân Dương",
+"huyen": "Huyện Bảo Yên",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Xuân Hòa",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20754000",
+"bc": "(LCA) Bảo Yên",
+"ten_dm": "Xã Tân Dương"
+},
+"80704": {
+"ten": "Xã Điện Quan",
+"huyen": "Huyện Bảo Yên",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Thượng Hà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20754000",
+"bc": "(LCA) Bảo Yên",
+"ten_dm": "Xã Điện Quan"
+},
+"80713": {
+"ten": "Xã Thượng Hà",
+"huyen": "Huyện Bảo Yên",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Thượng Hà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20754000",
+"bc": "(LCA) Bảo Yên",
+"ten_dm": "Xã Thượng Hà"
+},
+"80709": {
+"ten": "Xã Minh Tân",
+"huyen": "Huyện Bảo Yên",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Thượng Hà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20754000",
+"bc": "(LCA) Bảo Yên",
+"ten_dm": "Xã Minh Tân"
+},
+"80705": {
+"ten": "Xã Kim Sơn",
+"huyen": "Huyện Bảo Yên",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bảo Hà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22751000",
+"bc": "(LCA) Bảo Hà",
+"ten_dm": "Xã Kim Sơn"
+},
+"80702": {
+"ten": "Xã Bảo Hà",
+"huyen": "Huyện Bảo Yên",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bảo Hà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22751000",
+"bc": "(LCA) Bảo Hà",
+"ten_dm": "Xã Bảo Hà"
+},
+"80619": {
+"ten": "Xã Tân An",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bảo Hà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22751000",
+"bc": "(LCA) Bảo Hà",
+"ten_dm": "Xã Tân An"
+},
+"80703": {
+"ten": "Xã Cam Cọn",
+"huyen": "Huyện Bảo Yên",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bảo Hà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20982000",
+"bc": "(LCA) Bảo Thắng",
+"ten_dm": "Xã Cam Cọn"
+},
+"80620": {
+"ten": "Xã Tân Thượng",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bảo Hà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22751000",
+"bc": "(LCA) Bảo Hà",
+"ten_dm": "Xã Tân Thượng"
+},
+"80714": {
+"ten": "Xã Việt Tiến",
+"huyen": "Huyện Bảo Yên",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Phúc Khánh",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20754000",
+"bc": "(LCA) Bảo Yên",
+"ten_dm": "Xã Việt Tiến"
+},
+"800250": {
+"ten": "Xã Phúc Khánh",
+"huyen": "Huyện Bảo Yên",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Phúc Khánh",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20754000",
+"bc": "(LCA) Bảo Yên",
+"ten_dm": "Xã Phúc Khánh"
+},
+"800165": {
+"ten": "Xã Ngũ Chỉ Sơn",
+"huyen": "Thị xã Sa Pa",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Ngũ Chỉ Sơn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20703000",
+"bc": "(LCA) Sa Pa",
+"ten_dm": "Xã Ngũ Chỉ Sơn"
+},
+"80518": {
+"ten": "Xã Trung Chải",
+"huyen": "Thị xã Sa Pa",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Tả Phìn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20703000",
+"bc": "(LCA) Sa Pa",
+"ten_dm": "Xã Trung Chải"
+},
+"80514": {
+"ten": "Xã Tả Phìn",
+"huyen": "Thị xã Sa Pa",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Tả Phìn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20703000",
+"bc": "(LCA) Sa Pa",
+"ten_dm": "Xã Tả Phìn"
+},
+"800160": {
+"ten": "Xã Hoàng Liên",
+"huyen": "Thị xã Sa Pa",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Tả Van",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20703000",
+"bc": "(LCA) Sa Pa",
+"ten_dm": "Xã Hoàng Liên"
+},
+"800164": {
+"ten": "Xã Mường Hoa",
+"huyen": "Thị xã Sa Pa",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Tả Van",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20703000",
+"bc": "(LCA) Sa Pa",
+"ten_dm": "Xã Mường Hoa"
+},
+"80515": {
+"ten": "Xã Tả Van",
+"huyen": "Thị xã Sa Pa",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Tả Van",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20703000",
+"bc": "(LCA) Sa Pa",
+"ten_dm": "Xã Tả Van"
+},
+"800163": {
+"ten": "Xã Mường Bo",
+"huyen": "Thị xã Sa Pa",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Mường Bo",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20703000",
+"bc": "(LCA) Sa Pa",
+"ten_dm": "Xã Mường Bo"
+},
+"800162": {
+"ten": "Xã Liên Minh",
+"huyen": "Thị xã Sa Pa",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Mường Bo",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20703000",
+"bc": "(LCA) Sa Pa",
+"ten_dm": "Xã Liên Minh"
+},
+"800167": {
+"ten": "Xã Thanh Bình",
+"huyen": "Thị xã Sa Pa",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bản Hồ",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20703000",
+"bc": "(LCA) Sa Pa",
+"ten_dm": "Xã Thanh Bình"
+},
+"80502": {
+"ten": "Xã Bản Hồ",
+"huyen": "Thị xã Sa Pa",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Bản Hồ",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20703000",
+"bc": "(LCA) Sa Pa",
+"ten_dm": "Xã Bản Hồ"
+},
+"80623": {
+"ten": "Xã Võ Lao",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Võ Lao",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Võ Lao"
+},
+"80613": {
+"ten": "Xã Nậm Mả",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Võ Lao",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Nậm Mả"
+},
+"80614": {
+"ten": "Xã Nậm Dạng",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Võ Lao",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Nậm Rạng"
+},
+"80612": {
+"ten": "Xã Nậm Chầy",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Nậm Chày",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Nậm Chầy"
+},
+"80603": {
+"ten": "Xã Dần Thàng",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Nậm Chày",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Dần Thàng"
+},
+"80601": {
+"ten": "Thị trấn Khánh Yên",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Văn Bàn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Thị trấn Khánh Yên"
+},
+"80618": {
+"ten": "Xã Sơn Thủy",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Văn Bàn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Sơn Thuỷ"
+},
+"80607": {
+"ten": "Xã Khánh Yên Thượng",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Văn Bàn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Khánh Yên Thượng"
+},
+"80609": {
+"ten": "Xã Làng Giàng",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Văn Bàn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Làng Giàng"
+},
+"80605": {
+"ten": "Xã Hòa Mạc",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Văn Bàn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Hoà Mạc"
+},
+"80617": {
+"ten": "Xã Nậm Xé",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Nậm Xé",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Nậm Xé"
+},
+"80602": {
+"ten": "Xã Chiềng Ken",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Chiềng Ken",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Chiềng Ken"
+},
+"80615": {
+"ten": "Xã Nậm Tha",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Chiềng Ken",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Nậm Tha"
+},
+"80606": {
+"ten": "Xã Khánh Yên Hạ",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Khánh Yên",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Khánh Yên Hạ"
+},
+"80608": {
+"ten": "Xã Khánh Yên Trung",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Khánh Yên",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Khánh Yên Trung"
+},
+"80610": {
+"ten": "Xã Liêm Phú",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Khánh Yên",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Liêm Phú"
+},
+"80604": {
+"ten": "Xã Dương Quỳ",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Dương Quỳ",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Dương Quỳ"
+},
+"80621": {
+"ten": "Xã Thẩm Dương",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Dương Quỳ",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Thẩm Dương"
+},
+"80611": {
+"ten": "Xã Minh Lương",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Minh Lương",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Minh Lương"
+},
+"80616": {
+"ten": "Xã Nậm Xây",
+"huyen": "Huyện Văn Bàn",
+"tinh_cu": "Tỉnh Lào Cai",
+"xa_moi": "Xã Minh Lương",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22094000",
+"bc": "(LCA) Văn Bàn",
+"ten_dm": "Xã Nậm Xây"
+},
+"130901": {
+"ten": "Thị trấn Yên Thế",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Lục Yên",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21383000",
+"bc": "(YBA) Lục Yên",
+"ten_dm": "Thị trấn Yên Thế"
+},
+"130913": {
+"ten": "Xã Minh Xuân",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Lục Yên",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21383000",
+"bc": "(YBA) Lục Yên",
+"ten_dm": "Xã Minh Xuân"
+},
+"130924": {
+"ten": "Xã Yên Thắng",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Lục Yên",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21383000",
+"bc": "(YBA) Lục Yên",
+"ten_dm": "Xã Yên Thắng"
+},
+"130909": {
+"ten": "Xã Liễu Đô",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Lục Yên",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21383000",
+"bc": "(YBA) Lục Yên",
+"ten_dm": "Xã Liễu Đô"
+},
+"130919": {
+"ten": "Xã Tân Phượng",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Lâm Thượng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21383000",
+"bc": "(YBA) Lục Yên",
+"ten_dm": "Xã Tân Phượng"
+},
+"130908": {
+"ten": "Xã Lâm Thượng",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Lâm Thượng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21383000",
+"bc": "(YBA) Lục Yên",
+"ten_dm": "Xã Lâm Thượng"
+},
+"130907": {
+"ten": "Xã Khánh Thiện",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Lâm Thượng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21383000",
+"bc": "(YBA) Lục Yên",
+"ten_dm": "Xã Khánh Thiện"
+},
+"130910": {
+"ten": "Xã Mai Sơn",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Lâm Thượng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21383000",
+"bc": "(YBA) Lục Yên",
+"ten_dm": "Xã Mai Sơn"
+},
+"130911": {
+"ten": "Xã Minh Chuẩn",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Tân Lĩnh",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21383000",
+"bc": "(YBA) Lục Yên",
+"ten_dm": "Xã Minh Chuẩn"
+},
+"130905": {
+"ten": "Xã Khai Trung",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Tân Lĩnh",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21383000",
+"bc": "(YBA) Lục Yên",
+"ten_dm": "Xã Khai Trung"
+},
+"130918": {
+"ten": "Xã Tân Lĩnh",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Tân Lĩnh",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21383000",
+"bc": "(YBA) Lục Yên",
+"ten_dm": "Xã Tân Lĩnh"
+},
+"130917": {
+"ten": "Xã Tân Lập",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Tân Lĩnh",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21383000",
+"bc": "(YBA) Lục Yên",
+"ten_dm": "Xã Tân Lập"
+},
+"130915": {
+"ten": "Xã Phan Thanh",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Tân Lĩnh",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21383000",
+"bc": "(YBA) Lục Yên",
+"ten_dm": "Xã Phan Thanh"
+},
+"130902": {
+"ten": "Xã An Lạc",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Khánh Hòa",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20915000",
+"bc": "(YBA) Bảo Ái",
+"ten_dm": "Xã An Lạc"
+},
+"130920": {
+"ten": "Xã Tô Mậu",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Khánh Hòa",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20915000",
+"bc": "(YBA) Bảo Ái",
+"ten_dm": "Xã Tô Mậu"
+},
+"130906": {
+"ten": "Xã Khánh Hòa",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Khánh Hòa",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20915000",
+"bc": "(YBA) Bảo Ái",
+"ten_dm": "Xã Khánh Hoà"
+},
+"130904": {
+"ten": "Xã Động Quan",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Khánh Hòa",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20915000",
+"bc": "(YBA) Bảo Ái",
+"ten_dm": "Xã Động Quan"
+},
+"130914": {
+"ten": "Xã Mường Lai",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Mường Lai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21383000",
+"bc": "(YBA) Lục Yên",
+"ten_dm": "Xã Mường Lai"
+},
+"130923": {
+"ten": "Xã Vĩnh Lạc",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Mường Lai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21383000",
+"bc": "(YBA) Lục Yên",
+"ten_dm": "Xã Vĩnh Lạc"
+},
+"130912": {
+"ten": "Xã Minh Tiến",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Mường Lai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21383000",
+"bc": "(YBA) Lục Yên",
+"ten_dm": "Xã Minh Tiến"
+},
+"130903": {
+"ten": "Xã An Phú",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Mường Lai",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21383000",
+"bc": "(YBA) Lục Yên",
+"ten_dm": "Xã An Phú"
+},
+"130921": {
+"ten": "Xã Trúc Lâu",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Phúc Lợi",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20915000",
+"bc": "(YBA) Bảo Ái",
+"ten_dm": "Xã Trúc Lâu"
+},
+"130916": {
+"ten": "Xã Phúc Lợi",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Phúc Lợi",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20915000",
+"bc": "(YBA) Bảo Ái",
+"ten_dm": "Xã Phúc Lợi"
+},
+"130922": {
+"ten": "Xã Trung Tâm",
+"huyen": "Huyện Lục Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Phúc Lợi",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20915000",
+"bc": "(YBA) Bảo Ái",
+"ten_dm": "Xã Trung Tâm"
+},
+"130301": {
+"ten": "Thị trấn Mậu A",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Mậu A",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21560000",
+"bc": "(YBA) Mậu A",
+"ten_dm": "Thị trấn Mậu A"
+},
+"130313": {
+"ten": "Xã Mậu Đông",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Mậu A",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21560000",
+"bc": "(YBA) Mậu A",
+"ten_dm": "Xã Mậu Đông"
+},
+"130316": {
+"ten": "Xã Ngòi A",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Mậu A",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21560000",
+"bc": "(YBA) Mậu A",
+"ten_dm": "Xã Ngòi A"
+},
+"130303": {
+"ten": "Xã An Thịnh",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Mậu A",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21560000",
+"bc": "(YBA) Mậu A",
+"ten_dm": "Xã An Thịnh"
+},
+"130327": {
+"ten": "Xã Yên Thái",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Mậu A",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21560000",
+"bc": "(YBA) Mậu A",
+"ten_dm": "Xã Yên Thái"
+},
+"130312": {
+"ten": "Xã Lang Thíp",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Lâm Giang",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23050000",
+"bc": "(YBA) Đông Cuông",
+"ten_dm": "Xã Lang Thíp"
+},
+"130311": {
+"ten": "Xã Lâm Giang",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Lâm Giang",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23050000",
+"bc": "(YBA) Đông Cuông",
+"ten_dm": "Xã Lâm Giang"
+},
+"130305": {
+"ten": "Xã Châu Quế Thượng",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Châu Quế",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23050000",
+"bc": "(YBA) Đông Cuông",
+"ten_dm": "Xã Châu Quế Thượng"
+},
+"130304": {
+"ten": "Xã Châu Quế Hạ",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Châu Quế",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23050000",
+"bc": "(YBA) Đông Cuông",
+"ten_dm": "Xã Châu Quế Hạ"
+},
+"130302": {
+"ten": "Xã An Bình",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Đông Cuông",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23050000",
+"bc": "(YBA) Đông Cuông",
+"ten_dm": "Xã An Bình"
+},
+"130319": {
+"ten": "Xã Quang Minh",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Đông Cuông",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23050000",
+"bc": "(YBA) Đông Cuông",
+"ten_dm": "Xã Quang Minh"
+},
+"130308": {
+"ten": "Xã Đông An",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Đông Cuông",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23050000",
+"bc": "(YBA) Đông Cuông",
+"ten_dm": "Xã Đông An"
+},
+"130309": {
+"ten": "Xã Đông Cuông",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Đông Cuông",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23050000",
+"bc": "(YBA) Đông Cuông",
+"ten_dm": "Xã Đông Cuông"
+},
+"130317": {
+"ten": "Xã Phong Dụ Hạ",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Phong Dụ Hạ",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23050000",
+"bc": "(YBA) Đông Cuông",
+"ten_dm": "Xã Phong Dụ Hạ"
+},
+"130323": {
+"ten": "Xã Xuân Tầm",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Phong Dụ Hạ",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23050000",
+"bc": "(YBA) Đông Cuông",
+"ten_dm": "Xã Xuân Tầm"
+},
+"130318": {
+"ten": "Xã Phong Dụ Thượng",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Phong Dụ Thượng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23050000",
+"bc": "(YBA) Đông Cuông",
+"ten_dm": "Xã Phong Dụ Thượng"
+},
+"130320": {
+"ten": "Xã Tân Hợp",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Tân Hợp",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21560000",
+"bc": "(YBA) Mậu A",
+"ten_dm": "Xã Tân Hợp"
+},
+"130307": {
+"ten": "Xã Đại Sơn",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Tân Hợp",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21560000",
+"bc": "(YBA) Mậu A",
+"ten_dm": "Xã Đại Sơn"
+},
+"130315": {
+"ten": "Xã Nà Hẩu",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Tân Hợp",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21560000",
+"bc": "(YBA) Mậu A",
+"ten_dm": "Xã Nà Hẩu"
+},
+"130324": {
+"ten": "Xã Yên Hợp",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Xuân Ái",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21560000",
+"bc": "(YBA) Mậu A",
+"ten_dm": "Xã Yên Hợp"
+},
+"130306": {
+"ten": "Xã Đại Phác",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Xuân Ái",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21560000",
+"bc": "(YBA) Mậu A",
+"ten_dm": "Xã Đại Phác"
+},
+"130326": {
+"ten": "Xã Yên Phú",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Xuân Ái",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21560000",
+"bc": "(YBA) Mậu A",
+"ten_dm": "Xã Yên Phú"
+},
+"130322": {
+"ten": "Xã Xuân Ái",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Xuân Ái",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21560000",
+"bc": "(YBA) Mậu A",
+"ten_dm": "Xã Xuân Ái"
+},
+"130321": {
+"ten": "Xã Viễn Sơn",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Xuân Ái",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21560000",
+"bc": "(YBA) Mậu A",
+"ten_dm": "Xã Viễn Sơn"
+},
+"130314": {
+"ten": "Xã Mỏ Vàng",
+"huyen": "Huyện Văn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Mỏ Vàng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21560000",
+"bc": "(YBA) Mậu A",
+"ten_dm": "Xã Mỏ Vàng"
+},
+"130604": {
+"ten": "Xã An Lương",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Mỏ Vàng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21560000",
+"bc": "(YBA) Mậu A",
+"ten_dm": "Xã An Lương"
+},
+"130501": {
+"ten": "Thị trấn Mù Cang Chải",
+"huyen": "Huyện Mù Cang Chải",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Mù Cang Chải",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23135000",
+"bc": "(YBA) Mù Cang Chải",
+"ten_dm": "Thị trấn Mù Căng Chải"
+},
+"130511": {
+"ten": "Xã Mồ Dề",
+"huyen": "Huyện Mù Cang Chải",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Mù Cang Chải",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23135000",
+"bc": "(YBA) Mù Cang Chải",
+"ten_dm": "Xã Mồ Dề"
+},
+"130503": {
+"ten": "Xã Chế Cu Nha",
+"huyen": "Huyện Mù Cang Chải",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Mù Cang Chải",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23135000",
+"bc": "(YBA) Mù Cang Chải",
+"ten_dm": "Xã Chế Cu Nha"
+},
+"130508": {
+"ten": "Xã Kim Nọi",
+"huyen": "Huyện Mù Cang Chải",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Mù Cang Chải",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23135000",
+"bc": "(YBA) Mù Cang Chải",
+"ten_dm": "Xã Kim Nọi"
+},
+"130512": {
+"ten": "Xã Nậm Có",
+"huyen": "Huyện Mù Cang Chải",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Nậm Có",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23135000",
+"bc": "(YBA) Mù Cang Chải",
+"ten_dm": "Xã Nậm Có"
+},
+"130506": {
+"ten": "Xã Hồ Bốn",
+"huyen": "Huyện Mù Cang Chải",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Khao Mang",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23135000",
+"bc": "(YBA) Mù Cang Chải",
+"ten_dm": "Xã Hồ Bốn"
+},
+"130507": {
+"ten": "Xã Khao Mang",
+"huyen": "Huyện Mù Cang Chải",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Khao Mang",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23135000",
+"bc": "(YBA) Mù Cang Chải",
+"ten_dm": "Xã Khao Mang"
+},
+"130510": {
+"ten": "Xã Lao Chải",
+"huyen": "Huyện Mù Cang Chải",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Lao Chải",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23135000",
+"bc": "(YBA) Mù Cang Chải",
+"ten_dm": "Xã Lao Chải"
+},
+"130504": {
+"ten": "Xã Chế Tạo",
+"huyen": "Huyện Mù Cang Chải",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Chế Tạo",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23135000",
+"bc": "(YBA) Mù Cang Chải",
+"ten_dm": "Xã Chế Tạo"
+},
+"130509": {
+"ten": "Xã La Pán Tẩn",
+"huyen": "Huyện Mù Cang Chải",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Púng Luông",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23135000",
+"bc": "(YBA) Mù Cang Chải",
+"ten_dm": "Xã La Pán Tẩn"
+},
+"130505": {
+"ten": "Xã Dế Xu Phình",
+"huyen": "Huyện Mù Cang Chải",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Púng Luông",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23135000",
+"bc": "(YBA) Mù Cang Chải",
+"ten_dm": "Xã Dế Su Phình"
+},
+"130514": {
+"ten": "Xã Púng Luông",
+"huyen": "Huyện Mù Cang Chải",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Púng Luông",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23135000",
+"bc": "(YBA) Mù Cang Chải",
+"ten_dm": "Xã Púng Luông"
+},
+"130513": {
+"ten": "Xã Nậm Khắt",
+"huyen": "Huyện Mù Cang Chải",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Púng Luông",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23135000",
+"bc": "(YBA) Mù Cang Chải",
+"ten_dm": "Xã Nậm Khắt"
+},
+"130701": {
+"ten": "Thị trấn Cổ Phúc",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Trấn Yên",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22519000",
+"bc": "(YBA) Trấn Yên",
+"ten_dm": "Thị trấn Cổ Phúc"
+},
+"130717": {
+"ten": "Xã Tân Đồng",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Trấn Yên",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22519000",
+"bc": "(YBA) Trấn Yên",
+"ten_dm": "Xã Tân Đồng"
+},
+"130702": {
+"ten": "Xã Báo Đáp",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Trấn Yên",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22519000",
+"bc": "(YBA) Trấn Yên",
+"ten_dm": "Xã Báo Đáp"
+},
+"91297": {
+"ten": "Xã Thành Thịnh",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Trấn Yên",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22519000",
+"bc": "(YBA) Trấn Yên",
+"ten_dm": "Xã Thành Thịnh"
+},
+"130706": {
+"ten": "Xã Hòa Cuông",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Trấn Yên",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22519000",
+"bc": "(YBA) Trấn Yên",
+"ten_dm": "Xã Hòa Cuông"
+},
+"130712": {
+"ten": "Xã Minh Quán",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Trấn Yên",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22519000",
+"bc": "(YBA) Trấn Yên",
+"ten_dm": "Xã Minh Quán"
+},
+"130716": {
+"ten": "Xã Quy Mông",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Quy Mông",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22519000",
+"bc": "(YBA) Trấn Yên",
+"ten_dm": "Xã Quy Mông"
+},
+"130710": {
+"ten": "Xã Kiên Thành",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Quy Mông",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22519000",
+"bc": "(YBA) Trấn Yên",
+"ten_dm": "Xã Kiên Thành"
+},
+"130722": {
+"ten": "Xã Y Can",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Quy Mông",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "22519000",
+"bc": "(YBA) Trấn Yên",
+"ten_dm": "Xã Y Can"
+},
+"130711": {
+"ten": "Xã Lương Thịnh",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Lương Thịnh",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20991000",
+"bc": "(YBA) Cát Thịnh",
+"ten_dm": "Xã Lương Thịnh"
+},
+"130709": {
+"ten": "Xã Hưng Thịnh",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Lương Thịnh",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20991000",
+"bc": "(YBA) Cát Thịnh",
+"ten_dm": "Xã Hưng Thịnh"
+},
+"130719": {
+"ten": "Xã Việt Cường",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Việt Hồng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20896000",
+"bc": "(YBA) Âu Lâu",
+"ten_dm": "Xã Việt Cường"
+},
+"130720": {
+"ten": "Xã Việt Hồng",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Việt Hồng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20896000",
+"bc": "(YBA) Âu Lâu",
+"ten_dm": "Xã Việt Hồng"
+},
+"130718": {
+"ten": "Xã Vân Hội",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Việt Hồng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20896000",
+"bc": "(YBA) Âu Lâu",
+"ten_dm": "Xã Vân Hội"
+},
+"130707": {
+"ten": "Xã Hồng Ca",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Hưng Khánh",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20991000",
+"bc": "(YBA) Cát Thịnh",
+"ten_dm": "Xã Hồng Ca"
+},
+"130708": {
+"ten": "Xã Hưng Khánh",
+"huyen": "Huyện Trấn Yên",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Hưng Khánh",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20991000",
+"bc": "(YBA) Cát Thịnh",
+"ten_dm": "Xã Hưng Khánh"
+},
+"130801": {
+"ten": "Thị trấn Trạm Tấu",
+"huyen": "Huyện Trạm Tấu",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Hạnh Phúc",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Thị trấn Trạm Tấu"
+},
+"130812": {
+"ten": "Xã Xà Hồ",
+"huyen": "Huyện Trạm Tấu",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Hạnh Phúc",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Xà Hồ"
+},
+"130802": {
+"ten": "Xã Bản Công",
+"huyen": "Huyện Trạm Tấu",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Hạnh Phúc",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Bản Công"
+},
+"130804": {
+"ten": "Xã Hát Lừu",
+"huyen": "Huyện Trạm Tấu",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Hạnh Phúc",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Hát Lìu"
+},
+"130809": {
+"ten": "Xã Tà Xi Láng",
+"huyen": "Huyện Trạm Tấu",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Tà Xi Láng",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Tà Si Láng"
+},
+"130811": {
+"ten": "Xã Túc Đán",
+"huyen": "Huyện Trạm Tấu",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Trạm Tấu",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Túc Đán"
+},
+"130807": {
+"ten": "Xã Pá Lau",
+"huyen": "Huyện Trạm Tấu",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Trạm Tấu",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Pá Lau"
+},
+"130810": {
+"ten": "Xã Trạm Tấu",
+"huyen": "Huyện Trạm Tấu",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Trạm Tấu",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Thị trấn Trạm Tấu"
+},
+"130806": {
+"ten": "Xã Pá Hu",
+"huyen": "Huyện Trạm Tấu",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Trạm Tấu",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Pá Hu"
+},
+"130808": {
+"ten": "Xã Phình Hồ",
+"huyen": "Huyện Trạm Tấu",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Phình Hồ",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Phình Hồ"
+},
+"130805": {
+"ten": "Xã Làng Nhì",
+"huyen": "Huyện Trạm Tấu",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Phình Hồ",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Làng Nhì"
+},
+"130803": {
+"ten": "Xã Bản Mù",
+"huyen": "Huyện Trạm Tấu",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Phình Hồ",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Bản Mù"
+},
+"130502": {
+"ten": "Xã Cao Phạ",
+"huyen": "Huyện Mù Cang Chải",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Tú Lệ",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23135000",
+"bc": "(YBA) Mù Cang Chải",
+"ten_dm": "Xã Cao Phạ"
+},
+"130631": {
+"ten": "Xã Tú Lệ",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Tú Lệ",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23135000",
+"bc": "(YBA) Mù Cang Chải",
+"ten_dm": "Xã Tú Lệ"
+},
+"130613": {
+"ten": "Xã Nậm Búng",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Gia Hội",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23135000",
+"bc": "(YBA) Mù Cang Chải",
+"ten_dm": "Xã Nậm Búng"
+},
+"130610": {
+"ten": "Xã Gia Hội",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Gia Hội",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Gia Hội"
+},
+"130614": {
+"ten": "Xã Nậm Lành",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Gia Hội",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Nậm Lành"
+},
+"130623": {
+"ten": "Xã Sùng Đô",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Sơn Lương",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Sùng Đô"
+},
+"130615": {
+"ten": "Xã Nậm Mười",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Sơn Lương",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Nậm Mười"
+},
+"130621": {
+"ten": "Xã Sơn Lương",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Sơn Lương",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Sơn Lương"
+},
+"130626": {
+"ten": "Xã Suối Quyền",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Sơn Lương",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Suối Quyền"
+},
+"130207": {
+"ten": "Xã Nghĩa Phúc",
+"huyen": "Thị xã Nghĩa Lộ",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Liên Sơn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Nghĩa Phúc"
+},
+"800254": {
+"ten": "Xã Sơn A",
+"huyen": "Thị xã Nghĩa Lộ",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Liên Sơn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Sơn A"
+},
+"130601": {
+"ten": "Thị trấn Nông trường Liên Sơn",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Liên Sơn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Thị trấn NT Liên Sơn"
+},
+"130625": {
+"ten": "Xã Suối Giàng",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Văn Chấn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Suối Giàng"
+},
+"130624": {
+"ten": "Xã Suối Bu",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Văn Chấn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Suối Bu"
+},
+"130622": {
+"ten": "Thị trấn Sơn Thịnh",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Văn Chấn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Thị trấn Sơn Thịnh"
+},
+"130609": {
+"ten": "Xã Đồng Khê",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Văn Chấn",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "21974000",
+"bc": "(YBA) Cầu Thia",
+"ten_dm": "Xã Đồng Khê"
+},
+"130606": {
+"ten": "Xã Cát Thịnh",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Cát Thịnh",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20991000",
+"bc": "(YBA) Cát Thịnh",
+"ten_dm": "Xã Cát Thịnh"
+},
+"130608": {
+"ten": "Xã Đại Lịch",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Chấn Thịnh",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20991000",
+"bc": "(YBA) Cát Thịnh",
+"ten_dm": "Xã Đại Lịch"
+},
+"130627": {
+"ten": "Xã Tân Thịnh",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Chấn Thịnh",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20991000",
+"bc": "(YBA) Cát Thịnh",
+"ten_dm": "Xã Tân Thịnh"
+},
+"130607": {
+"ten": "Xã Chấn Thịnh",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Chấn Thịnh",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20991000",
+"bc": "(YBA) Cát Thịnh",
+"ten_dm": "Xã Chấn Thịnh"
+},
+"130603": {
+"ten": "Thị trấn Nông trường Trần Phú",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Thượng Bằng La",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20991000",
+"bc": "(YBA) Cát Thịnh",
+"ten_dm": "Thị trấn NT Trần Phú"
+},
+"130630": {
+"ten": "Xã Thượng Bằng La",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Thượng Bằng La",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20991000",
+"bc": "(YBA) Cát Thịnh",
+"ten_dm": "Xã Thượng Bằng La"
+},
+"130605": {
+"ten": "Xã Bình Thuận",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Nghĩa Tâm",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20991000",
+"bc": "(YBA) Cát Thịnh",
+"ten_dm": "Xã Bình Thuận"
+},
+"130612": {
+"ten": "Xã Minh An",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Nghĩa Tâm",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20991000",
+"bc": "(YBA) Cát Thịnh",
+"ten_dm": "Xã Minh An"
+},
+"130617": {
+"ten": "Xã Nghĩa Tâm",
+"huyen": "Huyện Văn Chấn",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Nghĩa Tâm",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20991000",
+"bc": "(YBA) Cát Thịnh",
+"ten_dm": "Xã Nghĩa Tâm"
+},
+"130402": {
+"ten": "Thị trấn Yên Bình",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Yên Bình",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23049000",
+"bc": "(YBA) Văn Phú",
+"ten_dm": "Thị trấn Yên Bình"
+},
+"130416": {
+"ten": "Xã Tân Hương",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Yên Bình",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20915000",
+"bc": "(YBA) Bảo Ái",
+"ten_dm": "Xã Tân Hương"
+},
+"130407": {
+"ten": "Xã Đại Đồng",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Yên Bình",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23049000",
+"bc": "(YBA) Văn Phú",
+"ten_dm": "Xã Đại Đồng"
+},
+"130418": {
+"ten": "Xã Thịnh Hưng",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Yên Bình",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23049000",
+"bc": "(YBA) Văn Phú",
+"ten_dm": "Xã Thịnh Hưng"
+},
+"130401": {
+"ten": "Thị trấn Thác Bà",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Thác Bà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23033000",
+"bc": "(YBA) Thác Bà",
+"ten_dm": "Thị trấn Thác Bà"
+},
+"130403": {
+"ten": "Xã Bạch Hà",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Thác Bà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23033000",
+"bc": "(YBA) Thác Bà",
+"ten_dm": "Xã Bạch Hà"
+},
+"130422": {
+"ten": "Xã Vũ Linh",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Thác Bà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23033000",
+"bc": "(YBA) Thác Bà",
+"ten_dm": "Xã Vũ Linh"
+},
+"130421": {
+"ten": "Xã Vĩnh Kiên",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Thác Bà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23033000",
+"bc": "(YBA) Thác Bà",
+"ten_dm": "Xã Vĩnh Kiên"
+},
+"130409": {
+"ten": "Xã Hán Đà",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Thác Bà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23033000",
+"bc": "(YBA) Thác Bà",
+"ten_dm": "Xã Hán Đà"
+},
+"130408": {
+"ten": "Xã Đại Minh",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Thác Bà",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23033000",
+"bc": "(YBA) Thác Bà",
+"ten_dm": "Xã Đại Minh"
+},
+"130424": {
+"ten": "Xã Xuân Long",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Cảm Nhân",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23033000",
+"bc": "(YBA) Thác Bà",
+"ten_dm": "Xã Xuân Long"
+},
+"130406": {
+"ten": "Xã Cảm Nhân",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Cảm Nhân",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23033000",
+"bc": "(YBA) Thác Bà",
+"ten_dm": "Xã Cảm Nhân"
+},
+"130412": {
+"ten": "Xã Ngọc Chấn",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Cảm Nhân",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23033000",
+"bc": "(YBA) Thác Bà",
+"ten_dm": "Xã Ngọc Chấn"
+},
+"130415": {
+"ten": "Xã Phúc Ninh",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Yên Thành",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23033000",
+"bc": "(YBA) Thác Bà",
+"ten_dm": "Xã Phúc Ninh"
+},
+"130411": {
+"ten": "Xã Mỹ Gia",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Yên Thành",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23033000",
+"bc": "(YBA) Thác Bà",
+"ten_dm": "Xã Mỹ Gia"
+},
+"130423": {
+"ten": "Xã Xuân Lai",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Yên Thành",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23033000",
+"bc": "(YBA) Thác Bà",
+"ten_dm": "Xã Xuân Lai"
+},
+"130426": {
+"ten": "Xã Yên Thành",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Yên Thành",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23033000",
+"bc": "(YBA) Thác Bà",
+"ten_dm": "Xã Yên Thành"
+},
+"130414": {
+"ten": "Xã Phúc An",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Yên Thành",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "23033000",
+"bc": "(YBA) Thác Bà",
+"ten_dm": "Xã Phúc An"
+},
+"130417": {
+"ten": "Xã Tân Nguyên",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Bảo Ái",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20915000",
+"bc": "(YBA) Bảo Ái",
+"ten_dm": "Xã Tân Nguyên"
+},
+"130404": {
+"ten": "Xã Bảo Ái",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Bảo Ái",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20915000",
+"bc": "(YBA) Bảo Ái",
+"ten_dm": "Xã Bảo Ái"
+},
+"130410": {
+"ten": "Xã Mông Sơn",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Bảo Ái",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20915000",
+"bc": "(YBA) Bảo Ái",
+"ten_dm": "Xã Mông Sơn"
+},
+"130405": {
+"ten": "Xã Cảm Ân",
+"huyen": "Huyện Yên Bình",
+"tinh_cu": "Tỉnh Yên Bái",
+"xa_moi": "Xã Bảo Ái",
+"tinh_moi": "Tỉnh Lào Cai",
+"bc_id": "20915000",
+"bc": "(YBA) Bảo Ái",
+"ten_dm": "Xã Cảm Ân"
+}
+}

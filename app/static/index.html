@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GHN TBB · Địa giới & Vol tồn</title>
+<link rel="icon" href="data:,">
+<style>
+.maplibregl-map{position:relative;overflow:hidden;width:100%;height:100%;-webkit-tap-highlight-color:transparent}
+.maplibregl-canvas{position:absolute;left:0;top:0}
+.maplibregl-canvas-container.maplibregl-interactive{cursor:grab}
+.maplibregl-ctrl-top-right{position:absolute;top:0;right:0;z-index:2;pointer-events:none}
+.maplibregl-ctrl-bottom-right{position:absolute;bottom:0;right:0;z-index:2;pointer-events:none}
+.maplibregl-ctrl{pointer-events:auto;clear:both;float:right;margin:10px 10px 0 0}
+.maplibregl-ctrl-bottom-right .maplibregl-ctrl{margin:0 10px 10px 0}
+.maplibregl-ctrl-group{background:#fff;border-radius:6px;box-shadow:0 0 0 1px rgba(0,0,0,.12)}
+.maplibregl-ctrl-group button{display:block;width:30px;height:30px;border:0;background:transparent;cursor:pointer;font-size:18px;line-height:30px;padding:0}
+.maplibregl-ctrl-group button+button{border-top:1px solid #ddd}
+.maplibregl-ctrl-zoom-in:after{content:"+"}.maplibregl-ctrl-zoom-out:after{content:"\2212"}
+.maplibregl-ctrl-icon{background:none}
+.maplibregl-ctrl-attrib{background:rgba(255,255,255,.85);font-size:11px;padding:2px 8px;border-radius:10px;color:#555}
+.maplibregl-ctrl-attrib-button{display:none}
+.maplibregl-marker{position:absolute;top:0;left:0;will-change:transform}
+.maplibregl-popup{position:absolute;top:0;left:0;display:flex;will-change:transform;pointer-events:none;z-index:3}
+.maplibregl-popup-anchor-top,.maplibregl-popup-anchor-top-left,.maplibregl-popup-anchor-top-right{flex-direction:column}
+.maplibregl-popup-anchor-bottom,.maplibregl-popup-anchor-bottom-left,.maplibregl-popup-anchor-bottom-right{flex-direction:column-reverse}
+.maplibregl-popup-anchor-left{flex-direction:row}.maplibregl-popup-anchor-right{flex-direction:row-reverse}
+.maplibregl-popup-tip{width:0;height:0;border:8px solid transparent;z-index:1}
+.maplibregl-popup-anchor-bottom .maplibregl-popup-tip{align-self:center;border-top-color:#fff;border-bottom:none}
+.maplibregl-popup-anchor-top .maplibregl-popup-tip{align-self:center;border-bottom-color:#fff;border-top:none}
+.maplibregl-popup-anchor-left .maplibregl-popup-tip{align-self:center;border-right-color:#fff;border-left:none}
+.maplibregl-popup-anchor-right .maplibregl-popup-tip{align-self:center;border-left-color:#fff;border-right:none}
+.maplibregl-popup-close-button{position:absolute;right:4px;top:2px;border:0;background:transparent;font-size:18px;cursor:pointer;color:#666}
+.maplibregl-popup-content{position:relative;background:#fff;box-shadow:0 2px 10px rgba(0,0,0,.15);padding:12px 14px;pointer-events:auto}
+
+:root{--bg:#f6f7f9;--card:#fff;--ink:#1d2433;--mute:#6b7385;--line:#e3e6ec;--acc:#f26522;--red:#d62f2f;--blue:#1e6fd9}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+#app{display:grid;grid-template-columns:370px 1fr;grid-template-rows:56px 1fr;height:100vh}
+header{grid-column:1/3;display:flex;align-items:center;gap:18px;padding:0 18px;background:#1d2433;color:#fff}
+header b{font-size:15px}
+header .brand{color:var(--acc);font-weight:800}
+.kpis{display:flex;gap:16px;margin-left:auto;font-size:12px;color:#c9cfdb}
+.kpis span b{color:#fff;font-size:15px;margin-right:4px}
+aside{background:var(--card);border-right:1px solid var(--line);display:flex;flex-direction:column;min-height:0;overflow:auto}
+.sec{padding:11px 14px;border-bottom:1px solid var(--line)}
+.sec h3{margin:0 0 8px;font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--mute);display:flex;align-items:center;justify-content:space-between}
+label.tg{display:flex;align-items:center;gap:8px;font-size:13px;padding:2px 0;cursor:pointer}
+.sw{width:14px;height:10px;border-radius:2px;display:inline-block;flex:none}
+input[type=search],input[type=text],input[type=number],select,textarea{width:100%;padding:7px 9px;border:1px solid var(--line);border-radius:6px;font-size:13px;background:#fff;font-family:inherit}
+textarea{resize:vertical;min-height:44px}
+.row2{display:flex;gap:8px;margin-top:8px}
+.seg{display:grid;grid-template-columns:1fr 1fr;gap:4px}
+.seg.s2{grid-template-columns:1fr 1fr}
+.seg button{border:1px solid var(--line);background:#fff;border-radius:6px;padding:6px 4px;font-size:12px;cursor:pointer;color:var(--ink)}
+.seg button.on{background:#1d2433;color:#fff;border-color:#1d2433}
+.norm{display:flex;align-items:center;gap:10px;margin-top:10px;font-size:13px}
+.norm input[type=range]{flex:1}
+.norm b{min-width:34px;text-align:right}
+.sum{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;margin-top:10px}
+.sum div{background:#f6f7f9;border-radius:6px;padding:6px 8px;font-size:11px;color:var(--mute)}
+.sum div b{display:block;font-size:16px;color:var(--ink)}
+.btn{border:1px solid var(--line);background:#fff;border-radius:6px;padding:6px 10px;font-size:12.5px;cursor:pointer;color:var(--ink);font-family:inherit}
+.btn.pri{background:var(--red);border-color:var(--red);color:#fff;font-weight:600}
+.btn.dark{background:#1d2433;border-color:#1d2433;color:#fff}
+.btn:disabled{opacity:.5;cursor:not-allowed}
+.markbar{display:flex;gap:8px;align-items:center}
+.markbar .btn{flex:1}
+#markForm{display:none;margin-top:10px;background:#fff7f5;border:1px solid #f6c9c0;border-radius:8px;padding:10px}
+#markForm.on{display:block}
+#markForm .f{margin-top:7px}
+#markForm .f label{display:block;font-size:11.5px;color:var(--mute);margin-bottom:3px}
+.chips{display:flex;flex-wrap:wrap;gap:4px;max-height:96px;overflow:auto}
+.chip{font-size:11.5px;background:#e8f0fd;color:#174ea6;border-radius:10px;padding:2px 8px;cursor:pointer}
+.chip:hover{background:#d2e3fc}
+.tuyen{border:1px solid var(--line);border-radius:8px;padding:8px 10px;margin-top:6px;font-size:12.5px;cursor:pointer}
+.tuyen:hover{border-color:#f0a99c;background:#fffaf8}
+.tuyen .top{display:flex;justify-content:space-between;gap:8px;align-items:center}
+.tuyen .top b{font-size:13px}
+.tuyen small{color:var(--mute);display:block;margin-top:2px}
+.tuyen .act{display:flex;gap:6px;margin-top:6px}
+.tuyen .act .btn{padding:3px 8px;font-size:11.5px}
+#list{min-height:200px}
+.bc{display:grid;grid-template-columns:10px 1fr auto;gap:8px;align-items:center;padding:8px 14px;border-bottom:1px solid #f0f2f5;cursor:pointer;font-size:13px}
+.bc:hover,.bc.on{background:#fff4ec}
+.bc .d{width:10px;height:10px;border-radius:50%}
+.bc small{display:block;color:var(--mute);font-size:11px;margin-top:2px}
+.bc .n{text-align:right;font-size:12px;color:var(--mute);white-space:nowrap}
+.bc .n b{color:var(--ink);font-size:13px}
+.tag{display:inline-block;font-size:10.5px;padding:1px 6px;border-radius:9px;font-weight:700;margin-left:4px}
+.t-red{background:#fde3e3;color:var(--red)}.t-amb{background:#fff1d0;color:#9a6a00}.t-grn{background:#dff3e7;color:#1f7a45}.t-dark{background:#7a1010;color:#fff}
+.note{font-size:11.5px;color:var(--mute);line-height:1.45}
+.warn{font-size:12px;color:#8a4b00;background:#fff4dc;border-radius:6px;padding:6px 8px;margin-top:8px;display:none}
+#map{position:relative}
+#map.marking .maplibregl-canvas{cursor:crosshair!important}
+.maplibregl-popup-content{font-family:inherit;font-size:13px;line-height:1.45;max-width:340px;border-radius:8px}
+.pp h4{margin:0 0 4px;font-size:14px}
+.pp .g{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin:6px 0}
+.pp .g span{color:var(--mute)}
+.pp .xa{font-size:12px;color:#444;max-height:120px;overflow:auto;border-top:1px solid var(--line);padding-top:6px;margin-top:6px}
+.lbl{font-size:11px;font-weight:600;color:#1d2433;background:rgba(255,255,255,.88);padding:1px 5px;border-radius:4px;white-space:nowrap;pointer-events:none;border:1px solid rgba(0,0,0,.08)}
+.lbl.red{background:#d62f2f;color:#fff;border-color:#b71c1c}
+#loading{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:rgba(238,241,245,.92);font-size:14px;color:#1d2433;z-index:6;text-align:center;padding:20px}
+.tabs{display:flex;gap:4px;margin-left:18px}
+.tabs button{background:transparent;border:1px solid #3a4459;color:#c9cfdb;border-radius:6px;padding:6px 14px;font-size:13px;cursor:pointer;font-family:inherit}
+.tabs button.on{background:var(--acc);border-color:var(--acc);color:#fff;font-weight:600}
+#dmView{display:none;grid-column:1/3;overflow:auto;padding:18px 22px;background:var(--bg)}
+body.dm #dmView{display:block}body.dm aside,body.dm #map{display:none}
+#adView{display:none;grid-column:1/3;overflow:auto;padding:18px 22px;background:var(--bg)}body.ad #adView{display:block}body.ad aside,body.ad #map{display:none}
+.card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin-bottom:14px;max-width:1100px}.card h3{margin:0 0 10px;font-size:15px}
+.modal{position:fixed;inset:0;background:rgba(15,20,30,.55);display:none;align-items:center;justify-content:center;z-index:50}.modal.on{display:flex}.modal .box2{background:#fff;border-radius:12px;padding:20px 22px;width:340px;box-shadow:0 10px 30px rgba(0,0,0,.25)}.modal h3{margin:0 0 6px}.modal label{display:block;font-size:12px;color:var(--mute);margin:10px 0 4px}
+#newVol{position:fixed;left:50%;bottom:18px;transform:translateX(-50%);background:#1d2433;color:#fff;padding:9px 14px;border-radius:20px;font-size:13px;z-index:40;display:none;cursor:pointer;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+.dmtop{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end;margin-bottom:12px}
+.dmtop .box{background:#fff;border:1px solid var(--line);border-radius:8px;padding:10px 14px}
+.dmtop .box label{display:block;font-size:11px;color:var(--mute);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
+.dmtop .box b{font-size:18px}
+table.dm{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden;font-size:13px}
+table.dm th{background:#1d2433;color:#fff;font-weight:600;text-align:left;padding:8px 10px;font-size:12px;position:sticky;top:0;z-index:1;cursor:pointer;white-space:nowrap}
+table.dm td{padding:6px 10px;border-top:1px solid #eef0f4;white-space:nowrap}
+table.dm td.num,table.dm th.num{text-align:right}
+table.dm tr:hover td{background:#fffaf6}
+table.dm input{width:84px;text-align:right;padding:5px 7px}
+table.dm input.own{border-color:var(--acc);background:#fff7f1;font-weight:700}
+.saved{color:#1f7a45;font-size:11px;margin-left:6px}
+.subtabs{display:flex;gap:6px;margin-bottom:14px}.subtabs button{border:1px solid var(--line);background:#fff;border-radius:6px;padding:7px 14px;font-size:13px;cursor:pointer;font-family:inherit}.subtabs button.on{background:#1d2433;color:#fff;border-color:#1d2433}
+.dmnote{font-size:12px;color:var(--mute);margin:10px 0 14px;line-height:1.5;max-width:980px}
+#pasteBox{display:none;margin:0 0 12px;background:#fff;border:1px solid var(--line);border-radius:8px;padding:10px}
+#pasteBox.on{display:block}
+#tip{position:absolute;pointer-events:none;background:rgba(29,36,51,.94);color:#fff;font-size:12px;line-height:1.4;padding:6px 9px;border-radius:6px;z-index:5;display:none;max-width:300px;white-space:normal}
+#tip b{font-size:13px}
+#tip .m{color:#c9cfdb}
+#tip .r{color:#ff9a8f;font-weight:700}
+.legend{position:absolute;right:12px;bottom:28px;background:#fff;border:1px solid var(--line);border-radius:8px;padding:10px 12px;font-size:12px;box-shadow:0 2px 8px rgba(0,0,0,.06);max-width:260px}
+.legend .t{font-weight:700;margin-bottom:4px}
+.legend div.r{display:flex;align-items:center;gap:8px;margin:3px 0}
+.stamp{position:absolute;left:12px;top:12px;background:rgba(29,36,51,.9);color:#fff;font-size:12px;padding:5px 10px;border-radius:6px;z-index:2}
+.markhint{position:absolute;left:50%;top:12px;transform:translateX(-50%);background:var(--red);color:#fff;font-size:12.5px;padding:6px 12px;border-radius:16px;z-index:3;display:none;box-shadow:0 2px 8px rgba(0,0,0,.2)}
+#map.marking .markhint{display:block}
+@media (max-width:820px){#app{grid-template-columns:1fr;grid-template-rows:56px 45vh 1fr}aside{order:3}.kpis{display:none}}
+</style>
+</head>
+<body>
+<div id="app">
+<header><b><span class="brand">GHN</span> · Tây Bắc Bộ · Địa giới & Vol tồn</b><nav class="tabs"><button data-v="map" class="on">Bản đồ</button><button data-v="dm">Định mức</button><button data-v="ad">Cập nhật dữ liệu</button></nav>
+<div class="kpis"><span><b>54</b>BC</span><span><b>543</b>NV</span><span><b id="k_giao">–</b>đơn giao tồn</span><span><b id="k_24">–</b>tồn ≥24h</span><span><b id="k_thieu" style="color:#ff8a80">–</b>BC thiếu (định mức)</span><span><b id="k_mark" style="color:#ff8a80">0</b>tuyến thiếu đã đánh dấu</span></div></header>
+<aside>
+<div class="sec"><h3>Xem theo đơn vị</h3>
+<div class="seg s2" id="unit"><button data-u="moi" class="on">Phường/xã mới (257)</button><button data-u="cu">Phường/xã cũ (754)</button></div>
+</div>
+<div class="sec"><h3>Tô màu bản đồ theo</h3>
+<div class="seg" id="mode">
+<button data-m="load" class="on">Mức tải BC</button>
+<button data-m="giao">Đơn giao tồn / xã</button>
+<button data-m="p24">% tồn ≥24h / xã</button>
+<button data-m="terr">Lãnh thổ BC</button>
+<button data-m="can" style="grid-column:1/3">NV cần theo xã (theo định mức xã/BC)</button>
+</div>
+<div class="norm"><span>Định mức</span><input type="range" id="norm" min="40" max="200" step="5" value="100"><b id="normv">100</b><span style="color:var(--mute);font-size:12px">đơn/NV</span></div>
+<div class="sum"><div><b id="s_thieu">–</b>BC thiếu (≥100%)</div><div><b id="s_sat">–</b>BC sát ngưỡng</div><div><b id="s_nv">–</b>NV thiếu (ước tính)</div></div>
+</div>
+<div class="sec"><h3>Tuyến / xã thiếu người <span id="markSum" style="text-transform:none;letter-spacing:0;color:var(--red);font-weight:700"></span></h3>
+<div class="markbar"><button class="btn pri" id="btnMark">＋ Đánh dấu thiếu người</button><button class="btn" id="btnCsv" title="Sao chép danh sách dạng bảng để dán vào Excel/Sheets">Sao chép</button></div>
+<div class="warn" id="dbWarn"></div>
+<div id="markForm">
+<div style="font-size:12.5px"><b>Đã chọn <span id="selN">0</span> xã</b> <span style="color:var(--mute)">— bấm vào xã trên bản đồ để chọn/bỏ</span></div>
+<div class="chips" id="selChips" style="margin-top:6px"></div>
+<div class="f"><label>Tên tuyến</label><input type="text" id="fTuyen" placeholder="VD: Tuyến 3 – Chiềng Sinh"></div>
+<div class="row2"><div style="flex:1"><label style="font-size:11.5px;color:var(--mute)">Số NV thiếu</label><input type="number" id="fNv" min="0" step="1" value="1"></div>
+<div style="flex:1"><label style="font-size:11.5px;color:var(--mute)">Mức độ</label><select id="fMuc"><option value="thieu">Thiếu người</option><option value="nghiem_trong">Thiếu nghiêm trọng</option></select></div></div>
+<div class="f"><label>Ghi chú</label><textarea id="fNote" placeholder="Nguyên nhân, đề xuất (tuyển mới, điều chuyển, gộp tuyến…)"></textarea></div>
+<div class="row2"><button class="btn dark" id="btnSave" style="flex:1">Lưu tuyến</button><button class="btn" id="btnCancel">Huỷ</button></div>
+</div>
+<div id="tuyenList"></div>
+</div>
+<div class="sec"><h3>Lớp hiển thị</h3>
+<label class="tg"><input type="checkbox" id="L_mark" checked><span class="sw" style="background:repeating-linear-gradient(135deg,#e5393599 0 3px,#7a0000 3px 5px);border:1px solid #7a0000"></span>Tuyến/xã thiếu người đã đánh dấu</label>
+<label class="tg"><input type="checkbox" id="L_xa" checked><span class="sw" style="border:1px solid #7a8499"></span>Ranh giới phường/xã</label>
+<label class="tg"><input type="checkbox" id="L_tach" checked><span class="sw" style="border:2px dashed var(--red)"></span>Xã mới bị tách cho ≥2 BC</label>
+<label class="tg"><input type="checkbox" id="L_hub" checked><span class="sw" style="background:var(--acc);border-radius:50%;width:10px"></span>Vị trí BC (cỡ theo số NV)</label>
+<label class="tg"><input type="checkbox" id="L_lbl" checked><span class="sw" style="background:#fff;border:1px solid #ccc"></span>Tên bưu cục</label>
+</div>
+<div class="sec"><h3>Danh sách bưu cục</h3>
+<input type="search" id="q" placeholder="Tìm bưu cục hoặc xã…">
+<div class="row2"><select id="pv"><option value="">Tất cả tỉnh</option></select>
+<select id="sort"><option value="tai">Mức tải ↓</option><option value="thieu">NV thiếu ↓</option><option value="giao">Đơn giao tồn ↓</option><option value="p24">% tồn ≥24h ↓</option><option value="km2_nv">km²/NV ↓</option><option value="bc_name">Tên A→Z</option></select></div>
+</div>
+<div id="list"></div>
+<div class="sec note"><b>Cách tính:</b> Mức tải = đơn giao tồn ÷ (NV × định mức). Số liệu là <b>ảnh chụp tồn đọng 12:34 ngày 18/11/2026</b>; định mức là giá trị tạm. Ranh giới 30 xã cũ (Sa Pa, Mộc Châu, Nghĩa Lộ, Mai Sơn, Trấn Yên) là <b>xấp xỉ</b>, chia theo tâm xã.</div>
+</aside>
+<section id="dmView"></section><section id="adView"></section>
+<div id="map"><div class="stamp" id="stamp">Tồn đọng · –</div><div class="markhint">Chế độ đánh dấu: bấm vào phường/xã để chọn, rồi điền thông tin tuyến bên trái</div><div id="tip"></div><div id="loading">Đang tải dữ liệu bản đồ…</div><div class="legend" id="leg"></div></div>
+</div>
+<div class="modal" id="pinModal"><div class="box2"><h3>Nhập mã PIN để sửa</h3><div style="font-size:12.5px;color:var(--mute)">Mã PIN do Quản lý vùng cấp. Trình duyệt sẽ nhớ, không phải nhập lại.</div>
+<label>Mã PIN</label><input type="password" id="pinIn" autocomplete="off"><label>Tên người nhập (hiện trong nhật ký)</label><input type="text" id="nameIn" placeholder="VD: Thảnh – AM Sơn La">
+<div id="pinErr" style="color:var(--red);font-size:12px;margin-top:6px;min-height:16px"></div><div class="row2"><button class="btn dark" id="pinOk" style="flex:1">Xác nhận</button><button class="btn" id="pinX">Huỷ</button></div></div></div>
+<div id="newVol">Có số liệu vol mới · bấm để tải lại</div>
+<script src="https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+<script>
+const PAL=['#7fb3d5','#a9cce3','#f5b041','#fad7a0','#82e0aa','#abebc6','#c39bd3','#d7bde2'];
+const SEQ=['#fff5eb','#fdd0a2','#fd8d3c','#e6550d','#a63603'];
+const fmt=n=>(+n).toLocaleString('vi-VN'), pct=v=>(v*100).toFixed(0)+'%';
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let VOL=null,XNV={},XDM={},XCI={},XAI={},XKEY={},BCDM={},DMSORT='tai',DMDIR=-1,MODE='load',UNIT='moi',NORM=100,TERR,HUB,XA,XC,TINH,labels=[],sel=null,ready=false;
+let MARKING=false,SELECTED=new Map(),EDIT_ID=null,TUYEN=[],DB=null,USER=null,LOCAL=false;
+const map=new maplibregl.Map({container:'map',center:[103.8,21.8],zoom:7,attributionControl:false,
+ style:{version:8,sources:{},layers:[{id:'bg',type:'background',paint:{'background-color':'#eef1f5'}}]}});
+map.addControl(new maplibregl.NavigationControl({showCompass:false}),'top-right');
+map.addControl(new maplibregl.AttributionControl({compact:true,customAttribution:'Ranh giới: vietnamese-provinces-database (MIT), GADM 4.1 · Vol: Báo cáo tồn đọng 18/11/2026'}));
+const get=u=>fetch(u).then(r=>r.json());
+const VER='1';const ld=document.getElementById('loading');
+Promise.all(['lanh_tho_bc','xa_moi','xa_cu','buu_cuc','tinh'].map(n=>fetch('data/'+n+'.json?v='+VER).then(r=>{if(!r.ok)throw new Error(n+' '+r.status);return r.json()})).concat([fetch('/api/vol',{cache:'no-store'}).then(r=>r.json())])).then(([terr,xa,xc,hub,tinh,vol])=>{
+ VOL=vol;applyVol(terr,xa,xc,vol);
+ ld.style.display='none';
+ TERR=terr;HUB=hub;XA=xa;XC=xc;TINH=tinh;
+ terr.features.forEach((f,i)=>{f.id=i;const p=f.properties;p.color=PAL[p.ci*2+(i%2)];p.p24=p.giao?p.g24/p.giao:0});
+ [xa,xc].forEach(fc=>fc.features.forEach(f=>{const p=f.properties;p.p24=p.giao?p.g24/p.giao:0}));
+ xc.features.forEach(f=>{XCI[f.properties.id]=f.properties});xa.features.forEach(f=>{const p=f.properties;XAI[p.ma_xa_moi]=p;XKEY[p.ten_xa_moi+'|'+String(p.tinh_moi).replace('Tỉnh ','')]=p.ma_xa_moi});
+ const vals=xc.features.map(f=>f.properties.giao).sort((a,b)=>a-b);
+ const q=k=>vals[Math.floor(k*(vals.length-1))];window.GBR=[q(.2),q(.4),q(.6),q(.8)].map(Math.round);
+ const vm=xa.features.map(f=>f.properties.giao).sort((a,b)=>a-b);const qm=k=>vm[Math.floor(k*(vm.length-1))];window.GBRM=[qm(.2),qm(.4),qm(.6),qm(.8)].map(Math.round);
+ const T=(id,v)=>document.getElementById(id).textContent=v;
+ updKpi();
+ const go=()=>{if(map.getSource('terr'))return;init();};map.on('load',go);if(map.loaded())go();
+ const pvs=[...new Set(terr.features.map(f=>f.properties.tinh))].sort();document.getElementById('pv').innerHTML+=pvs.map(p=>`<option>${p}</option>`).join('');
+ ['q','pv','sort'].forEach(id=>document.getElementById(id).oninput=renderList);
+ recompute();connectDb();
+}).catch(e=>{ld.innerHTML='Không tải được dữ liệu bản đồ ('+esc(e.message)+').<br><button class="btn dark" onclick="location.reload()" style="margin-top:8px">Tải lại trang</button>'});
+function applyVol(terr,xa,xc,V){const Z={giao:0,tre:0,lay:0,tra:0,g24:0,g72:0};const B=V.bc||{},X=V.xa||{};
+ terr.features.forEach(f=>{const p=f.properties;Object.assign(p,Z,B[p.bc_id]||{});p.lech=(B[p.bc_id]||{}).lech||0;p.p24=p.giao?p.g24/p.giao:0});
+ const key={};xa.features.forEach(f=>{const p=f.properties;Object.assign(p,Z);p._d=[];key[p.ten_xa_moi+'|'+String(p.tinh_moi).replace('Tỉnh ','')]=p});
+ xc.features.forEach(f=>{const p=f.properties;Object.assign(p,Z,X[p.id]||{});p.p24=p.giao?p.g24/p.giao:0;const m=key[p.xa_moi+'|'+p.tinh];if(m){for(const k in Z)m[k]+=p[k];m._d.push(p.ten.replace(/^Xã /,'').replace(/^Phường /,'P.').replace(/^Thị trấn /,'TT ')+': '+p.giao)}});
+ xa.features.forEach(f=>{const p=f.properties;p.p24=p.giao?p.g24/p.giao:0;p.giao_xa_cu=p._d.join('; ');delete p._d;p.mat_do=Math.round(p.giao/Math.max(p.dien_tich_km2||1,1)*100)/100})}
+function updKpi(){const T=(id,v)=>document.getElementById(id).textContent=v;const m=VOL&&VOL.meta;const sg=TERR.features.reduce((s,f)=>s+f.properties.giao,0);
+ T('k_giao',fmt(m?m.giao:sg));T('k_24',pct(sg?TERR.features.reduce((s,f)=>s+f.properties.g24,0)/sg:0));
+ const st=m&&m.snapshot?new Date(m.snapshot):null;T('stamp','Tồn đọng · '+(st?st.toLocaleTimeString('vi-VN',{hour:'2-digit',minute:'2-digit'})+' '+st.toLocaleDateString('vi-VN'):'chưa có số liệu'))}
+function recompute(){
+ let th=0,sat=0,nvt=0;
+ const delta={},nx={};Object.values(XAI).forEach(p=>p.can=0);
+ Object.values(XAI).forEach(p=>{p.wcan=0;p.wnv=0;p.wany=0});
+ Object.values(XCI).forEach(q=>{const own=XDM[q.id];const b=BCDM[q.bc_id]>0?BCDM[q.bc_id]:NORM;q.dmSrc=own>0?'xã':(BCDM[q.bc_id]>0?'BC':'chung');q.dm=own>0?own:b;q.can=q.giao/q.dm;
+  q.wOwn=own>0||XNV[q.id]>0;q.nvx=XNV[q.id]>0?XNV[q.id]:1;q.wtai=q.can/q.nvx;q.wlvl=q.wOwn?(q.wtai>1.5?2:q.wtai>1?1:0):-1;q.wthieu=Math.max(0,Math.ceil(q.can-q.nvx-1e-9));
+  {const mm=XAI[XKEY[q.xa_moi+'|'+q.tinh]];if(mm){mm.wcan+=q.can;mm.wnv+=q.nvx;if(q.wOwn)mm.wany=1}}
+  if(ready)map.setFeatureState({source:'xc',id:q.id},{wlvl:q.wlvl});
+  if(own>0){delta[q.bc_id]=(delta[q.bc_id]||0)+q.giao*(1/own-1/b);nx[q.bc_id]=(nx[q.bc_id]||0)+1}
+  const m=XAI[XKEY[q.xa_moi+'|'+q.tinh]];if(m)m.can+=q.can;if(ready)map.setFeatureState({source:'xc',id:q.id},{can:q.can})});
+ Object.values(XAI).forEach(p=>{p.wtai=p.wnv?p.wcan/p.wnv:0;p.wlvl=p.wany?(p.wtai>1.5?2:p.wtai>1?1:0):-1});
+ if(ready)Object.values(XAI).forEach(p=>map.setFeatureState({source:'xa',id:p.ma_xa_moi},{can:p.can,wlvl:p.wlvl}));
+ TERR.features.forEach(f=>{const p=f.properties;const own=BCDM[p.bc_id];p.dmOwn=own>0;p.dm=own>0?own:NORM;p.nXdm=nx[p.bc_id]||0;p.can=Math.max(0,p.giao/p.dm+(delta[p.bc_id]||0));p.tai=p.nv?p.can/p.nv:0;p.dmEff=p.can>0?Math.round(p.giao/p.can):p.dm;p.thieu=Math.max(0,Math.ceil(p.can-p.nv));
+  p.lvl=p.tai>=1?2:p.tai>=.85?1:0; if(p.lvl==2){th++;nvt+=p.thieu} else if(p.lvl==1)sat++;
+  if(ready)map.setFeatureState({source:'terr',id:f.id},{lvl:p.lvl});});
+ const T=(id,v)=>document.getElementById(id).textContent=v;T('s_thieu',th);T('s_sat',sat);T('s_nv',nvt);T('k_thieu',th);
+ renderList();legend();updLabelsStyle();renderDm();
+}
+function init(){
+ map.addSource('terr',{type:'geojson',data:TERR});
+ map.addSource('xa',{type:'geojson',data:XA,promoteId:'ma_xa_moi'});
+ map.addSource('xc',{type:'geojson',data:XC,promoteId:'id'});
+ map.addSource('hub',{type:'geojson',data:HUB});map.addSource('tinh',{type:'geojson',data:TINH});
+ map.addSource('marks',{type:'geojson',data:{type:'FeatureCollection',features:[]}});
+ const step=(prop,b)=>['step',['get',prop],SEQ[0],b[0]+.5,SEQ[1],b[1]+.5,SEQ[2],b[2]+.5,SEQ[3],b[3]+.5,SEQ[4]];
+ const p24c=['step',['get','p24'],'#f1f8e9',.2,'#fff3c4',.35,'#fdae61',.5,'#f46d43',.65,'#c62828'];
+ map.addLayer({id:'terr-fill',type:'fill',source:'terr',paint:{'fill-color':['get','color'],'fill-opacity':.55}});
+ map.addLayer({id:'load-fill',type:'fill',source:'terr',paint:{'fill-color':['match',['feature-state','lvl'],2,'#e53935',1,'#f6b93b','#7dcea0'],'fill-opacity':['match',['feature-state','lvl'],2,.62,1,.5,.35]}});
+ // choropleth: xã mới view = new wards (non split) + old pieces of split wards; xã cũ view = all old wards
+ map.addLayer({id:'m-giao',type:'fill',source:'xa',filter:['!=',['get','bi_tach'],true],paint:{'fill-color':step('giao',GBRM),'fill-opacity':.85}});
+ map.addLayer({id:'mt-giao',type:'fill',source:'xc',filter:['==',['get','tach'],true],paint:{'fill-color':step('giao',GBR),'fill-opacity':.85}});
+ map.addLayer({id:'c-giao',type:'fill',source:'xc',paint:{'fill-color':step('giao',GBR),'fill-opacity':.85}});
+ map.addLayer({id:'m-p24',type:'fill',source:'xa',filter:['all',['!=',['get','bi_tach'],true],['>',['get','giao'],0]],paint:{'fill-color':p24c,'fill-opacity':.85}});
+ map.addLayer({id:'mt-p24',type:'fill',source:'xc',filter:['all',['==',['get','tach'],true],['>',['get','giao'],0]],paint:{'fill-color':p24c,'fill-opacity':.85}});
+ map.addLayer({id:'c-p24',type:'fill',source:'xc',filter:['>',['get','giao'],0],paint:{'fill-color':p24c,'fill-opacity':.85}});
+ const wl=['match',['coalesce',['feature-state','wlvl'],-1],2,'#d32f2f',1,'#f6b93b',0,'#c9e7d6','#000'];
+ const wo=['match',['coalesce',['feature-state','wlvl'],-1],-1,0,0,1,2,.82,.78];
+ map.addLayer({id:'m-wload',type:'fill',source:'xa',paint:{'fill-color':wl,'fill-opacity':wo}});
+ map.addLayer({id:'c-wload',type:'fill',source:'xc',paint:{'fill-color':wl,'fill-opacity':wo}});
+ map.addLayer({id:'c-wload-line',type:'line',source:'xc',paint:{'line-color':'#1d2433','line-width':['match',['coalesce',['feature-state','wlvl'],-1],1,1.4,2,1.4,0]}});
+ map.addLayer({id:'m-wload-line',type:'line',source:'xa',paint:{'line-color':'#1d2433','line-width':['match',['coalesce',['feature-state','wlvl'],-1],1,1.4,2,1.4,0]}});
+ const canc=['step',['coalesce',['feature-state','can'],0],'#f7fbff',.5,'#c6dbef',1,'#6baed6',2,'#2171b5',3,'#08306b'];
+ map.addLayer({id:'m-can',type:'fill',source:'xa',paint:{'fill-color':canc,'fill-opacity':.85}});
+ map.addLayer({id:'c-can',type:'fill',source:'xc',paint:{'fill-color':canc,'fill-opacity':.85}});
+ // hit areas (invisible) for hover/click per unit
+ map.addLayer({id:'hit-moi',type:'fill',source:'xa',paint:{'fill-color':'#000','fill-opacity':0}});
+ map.addLayer({id:'hit-cu',type:'fill',source:'xc',paint:{'fill-color':'#000','fill-opacity':0}});
+ // marked
+ map.addLayer({id:'mark-fill',type:'fill',source:'marks',paint:{'fill-color':['match',['get','muc'],'nghiem_trong','#8e0000','#e53935'],'fill-opacity':.55}});
+ map.addImage('hatch',hatchImg(14,'rgba(122,0,0,0.85)',2.2));map.addImage('hatch2',hatchImg(9,'rgba(60,0,0,0.95)',2.6,true));
+ map.addLayer({id:'mark-hatch',type:'fill',source:'marks',paint:{'fill-pattern':['match',['get','muc'],'nghiem_trong','hatch2','hatch']}});
+ map.addLayer({id:'mark-line',type:'line',source:'marks',paint:{'line-color':'#7a0000','line-width':2.2}});
+ // lines
+ map.addLayer({id:'xa-line',type:'line',source:'xa',paint:{'line-color':'#5f6b80','line-width':.7,'line-opacity':.75}});
+ map.addLayer({id:'xc-line',type:'line',source:'xc',filter:['!=',['get','xap_xi'],1],paint:{'line-color':'#5f6b80','line-width':.5,'line-opacity':.7}});
+ map.addLayer({id:'xc-line-ap',type:'line',source:'xc',filter:['==',['get','xap_xi'],1],paint:{'line-color':'#5f6b80','line-width':.7,'line-dasharray':[2,2],'line-opacity':.8}});
+ map.addLayer({id:'tach-piece',type:'line',source:'xc',filter:['==',['get','tach'],true],paint:{'line-color':'#d62f2f','line-width':.8,'line-opacity':.7}});
+ map.addLayer({id:'tach-outline',type:'line',source:'xa',filter:['==',['get','bi_tach'],true],paint:{'line-color':'#d62f2f','line-width':2.2,'line-dasharray':[2,1.5]}});
+ map.addLayer({id:'terr-line',type:'line',source:'terr',paint:{'line-color':'#2b3242','line-width':['case',['boolean',['feature-state','sel'],false],3.2,1.1]}});
+ map.addLayer({id:'tinh-line',type:'line',source:'tinh',paint:{'line-color':'#1d2433','line-width':2.4,'line-opacity':.8}});
+ // hover + selection highlight
+ ['xa','xc'].forEach(s=>{
+  map.addLayer({id:s+'-hover',type:'line',source:s,paint:{'line-color':'#1d2433','line-width':['case',['boolean',['feature-state','hover'],false],2.6,0]}});
+  map.addLayer({id:s+'-sel',type:'fill',source:s,paint:{'fill-color':'#1e6fd9','fill-opacity':['case',['boolean',['feature-state','sel'],false],.45,0]}});
+  map.addLayer({id:s+'-sel-line',type:'line',source:s,paint:{'line-color':'#0b4bb3','line-width':['case',['boolean',['feature-state','sel'],false],2.4,0]}});
+ });
+ map.addLayer({id:'hub',type:'circle',source:'hub',paint:{'circle-color':'#f26522','circle-stroke-color':'#fff','circle-stroke-width':1.5,'circle-radius':['interpolate',['linear'],['get','nv'],3,4,27,11]}});
+ labels=TERR.features.map(f=>{const h=HUB.features.find(x=>x.properties.bc_id===f.properties.bc_id);const el=document.createElement('div');el.className='lbl';el.dataset.id=f.properties.bc_id;return new maplibregl.Marker({element:el,anchor:'bottom',offset:[0,-10]}).setLngLat(h.geometry.coordinates)});
+ ready=true;recompute();applyView();updLabels();map.on('zoomend',updLabels);
+ map.fitBounds(bbox(TERR),{padding:30,duration:0});
+ // hover tooltip
+ let hov=null;const tip=document.getElementById('tip');
+ map.on('mousemove',e=>{
+  const lyr=UNIT==='cu'?'hit-cu':'hit-moi',src=UNIT==='cu'?'xc':'xa';
+  const f=map.queryRenderedFeatures(e.point,{layers:[lyr]})[0];
+  if(hov&&(!f||hov.id!==f.id||hov.src!==src)){map.setFeatureState({source:hov.src,id:hov.id},{hover:false});hov=null}
+  if(!f){tip.style.display='none';map.getCanvas().style.cursor=MARKING?'crosshair':'';return}
+  if(!hov){hov={src,id:f.id};map.setFeatureState({source:src,id:f.id},{hover:true})}
+  map.getCanvas().style.cursor=MARKING?'crosshair':'pointer';
+  tip.innerHTML=tipHtml(src,f.properties);tip.style.display='block';
+  const r=map.getContainer().getBoundingClientRect();let x=e.point.x+14,y=e.point.y+14;if(x+300>r.width)x=e.point.x-300;if(y+120>r.height)y=e.point.y-110;tip.style.left=x+'px';tip.style.top=y+'px';
+ });
+ map.getCanvas().addEventListener('mouseleave',()=>{tip.style.display='none';if(hov){map.setFeatureState({source:hov.src,id:hov.id},{hover:false});hov=null}});
+ map.on('click',e=>{
+  const lyr=UNIT==='cu'?'hit-cu':'hit-moi';const w=map.queryRenderedFeatures(e.point,{layers:[lyr]})[0];
+  if(MARKING){if(w)toggleSel(w.properties);return}
+  const fs=map.queryRenderedFeatures(e.point,{layers:['terr-fill','load-fill']});
+  const t=TERR.features.find(f=>fs[0]&&f.properties.bc_id===fs[0].properties.bc_id);
+  if(!t)return;pick(t.properties.bc_id,false);popup(e.lngLat,t.properties,w?{src:UNIT,p:w.properties}:null)});
+ ['xa','tach','hub','lbl','mark'].forEach(k=>document.getElementById('L_'+k).onchange=toggle);
+ drawMarks();
+}
+function hatchImg(n,color,w,cross){const c=document.createElement('canvas');c.width=c.height=n;const x=c.getContext('2d');x.strokeStyle=color;x.lineWidth=w;x.lineCap='square';
+ const diag=(dir)=>{x.beginPath();if(dir>0){x.moveTo(-1,n+1);x.lineTo(n+1,-1);x.moveTo(-1,1);x.lineTo(1,-1);x.moveTo(n-1,n+1);x.lineTo(n+1,n-1)}else{x.moveTo(-1,-1);x.lineTo(n+1,n+1);x.moveTo(n-1,-1);x.lineTo(n+1,1);x.moveTo(-1,n-1);x.lineTo(1,n+1)}x.stroke()};
+ diag(1);if(cross)diag(-1);const d=x.getImageData(0,0,n,n);return {width:n,height:n,data:new Uint8Array(d.data.buffer)}}
+function wardMarks(src,id){return TUYEN.filter(t=>t.unit===(src==='xc'?'cu':'moi')&&(t.wards||[]).some(w=>w.id===id))}
+function tipHtml(src,p){
+ if(src==='xc'){const mk=wardMarks('xc',p.id);
+  return `<b>${esc(p.ten)}</b> <span class="m">(xã cũ)</span><br><span class="m">${esc(p.huyen)} · ${esc(p.tinh)}</span><br>→ thuộc <b>${esc(p.xa_moi)}</b><br>BC: ${esc(p.bc)}<br>Giao tồn <b>${fmt(p.giao)}</b> · ≥24h ${fmt(p.g24)}${p.giao?` (${pct(p.p24)})`:''}${XCI[p.id]?`<br>Định mức <b>${XCI[p.id].dm}</b> <span class="m">(${XCI[p.id].dmSrc})</span> · NV cần <b>${XCI[p.id].can.toFixed(1)}</b>${XCI[p.id].wOwn?`<br>NV phụ trách <b>${XCI[p.id].nvx}</b>${XNV[p.id]?'':' <span class="m">(mặc định)</span>'} · tải xã <b class="${XCI[p.id].wlvl===2?'r':''}">${pct(XCI[p.id].wtai)}</b>${XCI[p.id].wthieu?` <span class="r">thiếu ${XCI[p.id].wthieu} NV</span>`:''}`:''}`:''}${p.xap_xi?'<br><span class="m">Ranh giới xấp xỉ</span>':''}${mk.length?`<br><span class="r">⚠ ${mk.map(t=>esc(t.ten_tuyen)+' – thiếu '+t.nv_thieu+' NV').join('; ')}</span>`:''}`}
+ const mk=wardMarks('xa',p.ma_xa_moi);
+ return `<b>${esc(p.ten_xa_moi)}</b> <span class="m">(xã mới)</span><br><span class="m">${esc(p.tinh_moi)} · gồm ${p.n_xa_cu} xã cũ</span><br><span class="m">${esc(p.xa_cu)}</span><br>BC: ${esc(p.bc_names)}${p.bi_tach?' <span class="r">(tách BC)</span>':''}<br>Giao tồn <b>${fmt(p.giao)}</b> · ≥24h ${fmt(p.g24)}${p.giao?` (${pct(p.p24)})`:''}${XAI[p.ma_xa_moi]?`<br>NV cần <b>${XAI[p.ma_xa_moi].can.toFixed(1)}</b> <span class="m">(cộng từ các xã cũ)</span>${XAI[p.ma_xa_moi].wany?`<br>NV phụ trách ${XAI[p.ma_xa_moi].wnv} · tải xã <b class="${XAI[p.ma_xa_moi].wlvl===2?'r':''}">${pct(XAI[p.ma_xa_moi].wtai)}</b>${XAI[p.ma_xa_moi].wlvl===0?' (đáp ứng)':''}`:''}`:''}${mk.length?`<br><span class="r">⚠ ${mk.map(t=>esc(t.ten_tuyen)+' – thiếu '+t.nv_thieu+' NV').join('; ')}</span>`:''}`}
+function applyView(){if(!ready)return;
+ const vis=(l,v)=>map.setLayoutProperty(l,'visibility',v?'visible':'none');const cu=UNIT==='cu';
+ vis('terr-fill',MODE==='terr');vis('load-fill',MODE==='load');
+ vis('m-giao',MODE==='giao'&&!cu);vis('mt-giao',MODE==='giao'&&!cu);vis('c-giao',MODE==='giao'&&cu);
+ vis('m-p24',MODE==='p24'&&!cu);vis('mt-p24',MODE==='p24'&&!cu);vis('c-p24',MODE==='p24'&&cu);vis('m-can',MODE==='can'&&!cu);vis('c-can',MODE==='can'&&cu);vis('m-wload',MODE==='load'&&!cu);vis('m-wload-line',MODE==='load'&&!cu);vis('c-wload',MODE==='load'&&cu);vis('c-wload-line',MODE==='load'&&cu);
+ const xl=document.getElementById('L_xa').checked,tl=document.getElementById('L_tach').checked;
+ vis('xa-line',xl&&!cu);vis('xc-line',xl&&cu);vis('xc-line-ap',xl&&cu);vis('tach-outline',tl);vis('tach-piece',tl&&!cu);
+ vis('hit-moi',!cu);vis('hit-cu',cu);
+ ['xa-hover','xa-sel','xa-sel-line'].forEach(l=>vis(l,!cu));['xc-hover','xc-sel','xc-sel-line'].forEach(l=>vis(l,cu));
+ vis('hub',document.getElementById('L_hub').checked);
+ vis('mark-fill',document.getElementById('L_mark').checked);vis('mark-hatch',document.getElementById('L_mark').checked);vis('mark-line',document.getElementById('L_mark').checked);
+ legend();renderList();updLabelsStyle()}
+function setMode(m){MODE=m;document.querySelectorAll('#mode button').forEach(b=>b.classList.toggle('on',b.dataset.m===m));applyView()}
+function setUnit(u){if(u===UNIT)return;if(SELECTED.size&&!confirmSwitch())return;clearSel();UNIT=u;document.querySelectorAll('#unit button').forEach(b=>b.classList.toggle('on',b.dataset.u===u));applyView()}
+function confirmSwitch(){return true}
+document.querySelectorAll('#mode button').forEach(b=>b.onclick=()=>setMode(b.dataset.m));
+document.querySelectorAll('#unit button').forEach(b=>b.onclick=()=>setUnit(b.dataset.u));
+document.getElementById('norm').oninput=e=>{NORM=+e.target.value;document.getElementById('normv').textContent=NORM;recompute()};
+document.getElementById('norm').onchange=()=>saveChung();
+function updLabels(){const on=document.getElementById('L_lbl').checked&&map.getZoom()>=7.6;labels.forEach(m=>on?m.addTo(map):m.remove())}
+function updLabelsStyle(){labels.forEach(m=>{const el=m.getElement();const p=TERR.features.find(f=>f.properties.bc_id===el.dataset.id).properties;const nm=p.bc_name.replace(/^\(\w+\)\s*/,'');
+ el.textContent=MODE==='load'&&p.lvl===2?`${nm} · thiếu ${p.thieu}`:(MODE==='load'||MODE==='can')&&p.nXdm?`${nm} · tải ${pct(p.tai)}`:nm;el.classList.toggle('red',MODE==='load'&&p.lvl===2)})}
+function toggle(){applyView();updLabels()}
+function bbox(fc){let a=[180,90,-180,-90];const w=c=>typeof c[0]==='number'?(a=[Math.min(a[0],c[0]),Math.min(a[1],c[1]),Math.max(a[2],c[0]),Math.max(a[3],c[1])]):c.forEach(w);fc.features.forEach(f=>w(f.geometry.coordinates));return [[a[0],a[1]],[a[2],a[3]]]}
+function lvlTag(p){return p.lvl===2?`<span class="tag t-red">Thiếu ${p.thieu} NV</span>`:p.lvl===1?'<span class="tag t-amb">Sát ngưỡng</span>':'<span class="tag t-grn">Đủ</span>'}
+function popup(ll,p,w){
+ let unit='';
+ if(w&&w.src==='cu'){const x=w.p;unit=`<div class="xa"><b>${esc(x.ten)}</b> (xã cũ, ${esc(x.huyen)}) → ${esc(x.xa_moi)}<br>Giao tồn <b>${fmt(x.giao)}</b> · ≥24h <b>${fmt(x.g24)}</b>${x.giao?` (${pct(x.p24)})`:''} · ≥72h ${fmt(x.g72)} · Lấy ${fmt(x.lay)} · Trả ${fmt(x.tra)}</div>`}
+ else if(w){const x=w.p;unit=`<div class="xa"><b>${esc(x.ten_xa_moi)}</b> — Giao tồn <b>${fmt(x.giao)}</b> · ≥24h <b>${fmt(x.g24)}</b>${x.giao?` (${pct(x.p24)})`:''} · Lấy ${fmt(x.lay)} · Trả ${fmt(x.tra)}<br><span style="color:#6b7385">Theo xã cũ: ${esc(x.giao_xa_cu)}</span></div>`}
+ const mk=TUYEN.filter(t=>t.bc_ids&&t.bc_ids.includes(p.bc_id));
+ const mkh=mk.length?`<div class="xa"><b style="color:#d62f2f">Tuyến thiếu người đã đánh dấu (${mk.reduce((s,t)=>s+(+t.nv_thieu||0),0)} NV):</b><br>${mk.map(t=>`• ${esc(t.ten_tuyen)} – thiếu ${t.nv_thieu}`).join('<br>')}</div>`:'';
+ new maplibregl.Popup({maxWidth:'340px'}).setLngLat(ll).setHTML(`<div class="pp"><h4>${esc(p.bc_name)} ${lvlTag(p)}</h4>
+ <div class="g"><span>Số NV</span><b>${p.nv} · cần ${p.can.toFixed(1)} (định mức ${p.dm}${p.dmOwn?' riêng':' chung'}${p.nXdm?` · ${p.nXdm} xã riêng → hiệu dụng ${p.dmEff}`:''})</b><span>Mức tải</span><b>${pct(p.tai)}</b><span>Giao tồn</span><b>${fmt(p.giao)} · đã trễ ${fmt(p.tre)}</b><span>Tồn ≥24h</span><b>${fmt(p.g24)} (${pct(p.p24)}) · ≥72h ${fmt(p.g72)}</b><span>Lấy / Trả</span><b>${fmt(p.lay)} / ${fmt(p.tra)}</b><span>Giữ ngoài địa giới</span><b>${fmt(p.lech)} đơn</b><span>Diện tích</span><b>${fmt(p.dien_tich_km2)} km² · ${p.km2_nv} km²/NV</b></div>${unit}${mkh}</div>`).addTo(map)}
+function pick(id,fly){
+ if(sel!==null)map.setFeatureState({source:'terr',id:sel},{sel:false});
+ const f=TERR.features.find(x=>x.properties.bc_id===id);sel=f.id;map.setFeatureState({source:'terr',id:sel},{sel:true});
+ document.querySelectorAll('.bc').forEach(e=>e.classList.toggle('on',e.dataset.id===id));
+ if(fly){map.fitBounds(bbox({features:[f]}),{padding:60,maxZoom:10.5});const h=HUB.features.find(x=>x.properties.bc_id===id);setTimeout(()=>popup({lng:h.geometry.coordinates[0],lat:h.geometry.coordinates[1]},f.properties,null),700)}}
+function renderList(){
+ if(!TERR)return;const q=document.getElementById('q').value.trim().toLowerCase(),pv=document.getElementById('pv').value,s=document.getElementById('sort').value;
+ let a=TERR.features.map(f=>f.properties).filter(p=>(!pv||p.tinh===pv)&&(!q||p.bc_name.toLowerCase().includes(q)||p.xa_cu.toLowerCase().includes(q)));
+ a.sort((x,y)=>s==='bc_name'?x.bc_name.localeCompare(y.bc_name,'vi'):(y[s]-x[s])||(y.tai-x.tai));
+ const dot=p=>MODE==='load'?(p.lvl===2?'#e53935':p.lvl===1?'#f6b93b':'#7dcea0'):p.color;
+ const mkn=id=>TUYEN.filter(t=>t.bc_ids&&t.bc_ids.includes(id)).reduce((s,t)=>s+(+t.nv_thieu||0),0);
+ document.getElementById('list').innerHTML=a.map(p=>{const m=mkn(p.bc_id);return `<div class="bc" data-id="${p.bc_id}"><span class="d" style="background:${dot(p)}"></span><div>${esc(p.bc_name)}${lvlTag(p)}${m?`<span class="tag t-dark">Đã ghi thiếu ${m}</span>`:''}<small>${esc(p.tinh)} · ${p.nv} NV · định mức ${p.nXdm?p.dmEff+' (theo xã)':p.dm} · tồn ≥24h ${pct(p.p24)}</small></div><div class="n"><b>${fmt(p.giao)}</b> giao<br>${pct(p.tai)} tải</div></div>`}).join('')||'<div class="sec note">Không tìm thấy.</div>';
+ document.querySelectorAll('.bc').forEach(e=>e.onclick=()=>pick(e.dataset.id,true))}
+function legend(){const L=document.getElementById('leg');const r=(c,t,b)=>`<div class="r"><span class="sw" style="background:${c};${b||''}"></span>${t}</div>`;let h='';
+ const cu=UNIT==='cu';
+ if(MODE==='load')h=`<div class="t">Mức tải (định mức chung ${NORM}${Object.keys(BCDM).length?` · ${Object.keys(BCDM).length} BC riêng`:''})</div>`+r('#e53935','≥100% — thiếu người')+r('#f6b93b','85–99% — sát ngưỡng')+r('#7dcea0','<85% — đủ')+`<div style="font-size:11px;color:#6b7385;margin:4px 0 2px;max-width:230px">Nền nhạt = tải cả BC. Xã có định mức/NV riêng tô theo tải xã = NV cần ÷ NV phụ trách (mặc định 1): ≤100% xanh nhạt (đáp ứng), 100–150% vàng, >150% đỏ (viền đen).</div>`;
+ else if(MODE==='giao'){const b=cu?GBR:GBRM;h=`<div class="t">Đơn giao tồn theo ${cu?'xã cũ':'xã mới'}</div>`+r(SEQ[0],`≤ ${b[0]}`,'border:1px solid #ddd')+r(SEQ[1],`${b[0]+1}–${b[1]}`)+r(SEQ[2],`${b[1]+1}–${b[2]}`)+r(SEQ[3],`${b[2]+1}–${b[3]}`)+r(SEQ[4],`> ${b[3]}`)}
+ else if(MODE==='p24')h=`<div class="t">% đơn giao tồn ≥24h theo ${cu?'xã cũ':'xã mới'}</div>`+r('#f1f8e9','<20%','border:1px solid #ddd')+r('#fff3c4','20–35%')+r('#fdae61','35–50%')+r('#f46d43','50–65%')+r('#c62828','≥65%')+r('#eef1f5','Không có đơn tồn','border:1px solid #ccc');
+ else if(MODE==='can')h=`<div class="t">NV cần theo ${cu?'xã cũ':'xã mới'} (= đơn giao tồn ÷ định mức)</div>`+r('#f7fbff','< 0,5 NV','border:1px solid #ddd')+r('#c6dbef','0,5–1')+r('#6baed6','1–2')+r('#2171b5','2–3')+r('#08306b','≥ 3 NV');
+ else h='<div class="t">Lãnh thổ bưu cục</div>'+r('#7fb3d5','Mỗi màu = 1 BC');
+ h+=r('#e53935','Tuyến/xã thiếu người','border:2px solid #7a0000;background:repeating-linear-gradient(135deg,#e5393599 0 3px,#7a0000 3px 5px);width:16px;height:12px')+r('#8e0000','Thiếu nghiêm trọng','border:2px solid #7a0000;background:repeating-linear-gradient(135deg,#8e0000aa 0 2px,#3c0000 2px 4px),repeating-linear-gradient(45deg,transparent 0 2px,#3c0000 2px 4px);width:16px;height:12px')+r('none','Xã mới bị tách BC','border:2px dashed #d62f2f')+r('#f26522','Vị trí BC (to = nhiều NV)','border-radius:50%;width:10px');L.innerHTML=h}
+
+/* ===== Đánh dấu tuyến thiếu người ===== */
+const $=id=>document.getElementById(id);
+function wardInfo(src,p){return src==='cu'?{id:p.id,ten:p.ten,sub:p.huyen,xa_moi:p.xa_moi,bc_ids:[p.bc_id],bc:p.bc,tinh:p.tinh}:{id:p.ma_xa_moi,ten:p.ten_xa_moi,sub:'gồm '+p.n_xa_cu+' xã cũ',xa_moi:p.ten_xa_moi,bc_ids:String(p.bc_ids).split(', '),bc:p.bc_names,tinh:String(p.tinh_moi).replace('Tỉnh ','')}}
+function toggleSel(p){const w=wardInfo(UNIT,p);const src=UNIT==='cu'?'xc':'xa';
+ if(SELECTED.has(w.id)){SELECTED.delete(w.id);map.setFeatureState({source:src,id:w.id},{sel:false})}else{SELECTED.set(w.id,w);map.setFeatureState({source:src,id:w.id},{sel:true})}
+ renderSel()}
+function clearSel(){const src=UNIT==='cu'?'xc':'xa';SELECTED.forEach((w,id)=>map.setFeatureState({source:src,id},{sel:false}));SELECTED.clear();renderSel()}
+function renderSel(){$('selN').textContent=SELECTED.size;$('selChips').innerHTML=[...SELECTED.values()].map(w=>`<span class="chip" data-id="${esc(w.id)}" title="Bỏ chọn">${esc(w.ten)} ✕</span>`).join('');
+ document.querySelectorAll('#selChips .chip').forEach(c=>c.onclick=()=>{const w=SELECTED.get(c.dataset.id);const src=UNIT==='cu'?'xc':'xa';SELECTED.delete(c.dataset.id);map.setFeatureState({source:src,id:c.dataset.id},{sel:false});renderSel()});
+ $('btnSave').disabled=!SELECTED.size||!canWrite()}
+function startMark(edit){MARKING=true;$('map').classList.add('marking');$('markForm').classList.add('on');$('btnMark').textContent='Đang đánh dấu…';$('btnMark').disabled=true;
+ if(!edit){EDIT_ID=null;$('fTuyen').value='';$('fNv').value=1;$('fMuc').value='thieu';$('fNote').value='';$('btnSave').textContent='Lưu tuyến'}
+ renderSel()}
+function stopMark(){MARKING=false;$('map').classList.remove('marking');$('markForm').classList.remove('on');$('btnMark').textContent='＋ Đánh dấu thiếu người';$('btnMark').disabled=false;EDIT_ID=null;clearSel()}
+$('btnMark').onclick=()=>startMark(false);
+$('btnCancel').onclick=stopMark;
+$('btnSave').onclick=async()=>{
+ if(!SELECTED.size)return;const wards=[...SELECTED.values()];const bc_ids=[...new Set(wards.flatMap(w=>w.bc_ids))];
+ const name=$('fTuyen').value.trim()||('Tuyến '+wards.map(w=>w.ten.replace(/^(Xã|Phường|Thị trấn)\s+/,'')).slice(0,3).join(', '));
+ const doc={ten_tuyen:name,unit:UNIT,wards:wards.map(w=>({id:w.id,ten:w.ten,sub:w.sub,xa_moi:w.xa_moi,tinh:w.tinh})),bc_ids,bc:[...new Set(wards.map(w=>w.bc))].join(', '),
+  nv_thieu:Math.max(0,parseInt($('fNv').value)||0),muc:$('fMuc').value,ghi_chu:$('fNote').value.trim().slice(0,1000),updated_at:new Date().toISOString()};
+ 
+ const id=EDIT_ID||('t'+Date.now().toString(36)+Math.random().toString(36).slice(2,6));
+ $('btnSave').disabled=true;$('btnSave').textContent='Đang lưu…';
+ try{
+  if(DB&&!LOCAL){await DB.collection('tuyen_thieu').doc(id).set(doc)}
+  else{const i=TUYEN.findIndex(t=>t._id===id);const row=Object.assign({_id:id},doc);if(i>=0)TUYEN[i]=row;else TUYEN.push(row);onTuyen()}
+  stopMark();
+ }catch(e){$('btnSave').disabled=false;$('btnSave').textContent='Lưu tuyến';showWarn(e&&e.code==='invalid_argument'?'Anh/chị chỉ có quyền xem, không lưu được. Nhờ chủ trang cấp quyền Contributor.':'Chưa lưu được ('+(e&&e.code||'lỗi')+'). Thử lại sau giây lát.')}
+};
+async function delTuyen(id){const t=TUYEN.find(x=>x._id===id);if(!t)return;
+ if(!(await askConfirm(`Xoá "${t.ten_tuyen}"?`)))return;
+ try{if(DB&&!LOCAL)await DB.collection('tuyen_thieu').doc(id).delete();else{TUYEN=TUYEN.filter(x=>x._id!==id);onTuyen()}}catch(e){showWarn('Chưa xoá được ('+(e&&e.code||'lỗi')+').')}}
+function askConfirm(msg){return new Promise(res=>{const b=document.createElement('div');b.className='warn';b.style.display='block';b.innerHTML=`${esc(msg)} <button class="btn pri" style="padding:2px 8px;margin-left:6px">Xoá</button> <button class="btn" style="padding:2px 8px">Không</button>`;$('tuyenList').prepend(b);const [y,n]=b.querySelectorAll('button');y.onclick=()=>{b.remove();res(true)};n.onclick=()=>{b.remove();res(false)}})}
+function editTuyen(id){const t=TUYEN.find(x=>x._id===id);if(!t)return;
+ if(t.unit!==UNIT){clearSel();UNIT=t.unit;document.querySelectorAll('#unit button').forEach(b=>b.classList.toggle('on',b.dataset.u===UNIT));applyView()}
+ startMark(true);EDIT_ID=id;$('fTuyen').value=t.ten_tuyen;$('fNv').value=t.nv_thieu;$('fMuc').value=t.muc||'thieu';$('fNote').value=t.ghi_chu||'';$('btnSave').textContent='Cập nhật tuyến';
+ const src=UNIT==='cu'?'xc':'xa';const fc=UNIT==='cu'?XC:XA;const key=UNIT==='cu'?'id':'ma_xa_moi';
+ t.wards.forEach(w=>{const f=fc.features.find(x=>x.properties[key]===w.id);if(f){SELECTED.set(w.id,wardInfo(UNIT,f.properties));map.setFeatureState({source:src,id:w.id},{sel:true})}});renderSel();zoomTuyen(id)}
+function zoomTuyen(id){const t=TUYEN.find(x=>x._id===id);if(!t)return;const fc=t.unit==='cu'?XC:XA,key=t.unit==='cu'?'id':'ma_xa_moi';const ids=new Set(t.wards.map(w=>w.id));
+ const fs=fc.features.filter(f=>ids.has(f.properties[key]));if(fs.length)map.fitBounds(bbox({features:fs}),{padding:80,maxZoom:11})}
+function drawMarks(){if(!ready)return;const feats=[];
+ TUYEN.forEach(t=>{const fc=t.unit==='cu'?XC:XA,key=t.unit==='cu'?'id':'ma_xa_moi';const ids=new Set((t.wards||[]).map(w=>w.id));
+  fc.features.forEach(f=>{if(ids.has(f.properties[key]))feats.push({type:'Feature',geometry:f.geometry,properties:{tuyen:t.ten_tuyen,muc:t.muc,nv:t.nv_thieu}})})});
+ map.getSource('marks').setData({type:'FeatureCollection',features:feats})}
+function onTuyen(){
+ TUYEN.sort((a,b)=>String(b.updated_at).localeCompare(String(a.updated_at)));
+ const tot=TUYEN.reduce((s,t)=>s+(+t.nv_thieu||0),0);$('k_mark').textContent=TUYEN.length;$('markSum').textContent=TUYEN.length?`${TUYEN.length} tuyến · thiếu ${tot} NV`:'';
+ $('tuyenList').innerHTML=TUYEN.length?TUYEN.map(t=>`<div class="tuyen" data-id="${esc(t._id)}"><div class="top"><b>${esc(t.ten_tuyen)}</b><span class="tag ${t.muc==='nghiem_trong'?'t-dark':'t-red'}">Thiếu ${+t.nv_thieu||0} NV</span></div>
+  <small>${esc(t.bc)} · ${t.unit==='cu'?'xã cũ':'xã mới'}: ${(t.wards||[]).map(w=>esc(w.ten)).join(', ')}</small>${t.ghi_chu?`<small>📝 ${esc(t.ghi_chu)}</small>`:''}
+  <small>Cập nhật ${t.updated_at?new Date(t.updated_at).toLocaleString('vi-VN'):''}${t.by?` · ${esc(t.by)}`:''}</small>
+  <div class="act">${canWrite()?`<button class="btn" data-a="edit">Sửa</button><button class="btn" data-a="del">Xoá</button>`:''}</div></div>`).join('')
+  :'<div class="note" style="margin-top:8px">Chưa có tuyến nào. Bấm <b>＋ Đánh dấu thiếu người</b>, chọn các phường/xã trên bản đồ (theo xã mới hoặc xã cũ), điền tên tuyến và số NV thiếu rồi Lưu.</div>';
+ document.querySelectorAll('.tuyen').forEach(el=>{el.onclick=e=>{const a=e.target.dataset&&e.target.dataset.a;const id=el.dataset.id;if(a==='edit'){e.stopPropagation();editTuyen(id)}else if(a==='del'){e.stopPropagation();delTuyen(id)}else zoomTuyen(id)}});
+ resolveNames();drawMarks();renderList()}
+async function resolveNames(){if(!USER||!USER.profiles)return;const els=[...document.querySelectorAll('.who')];if(!els.length)return;
+ try{const ps=await USER.profiles([...new Set(els.map(e=>e.dataset.u))]);els.forEach(e=>{const p=ps&&ps[e.dataset.u];e.textContent=(p&&p.name)||''})}catch(e){}}
+let WRITE=true;function canWrite(){return true}
+function showWarn(m){const w=$('dbWarn');w.textContent=m;w.style.display=m?'block':'none'}
+$('btnCsv').onclick=async()=>{const rows=[['Tuyến','BC','Đơn vị','Phường/xã','Số NV thiếu','Mức độ','Ghi chú','Cập nhật']];
+ TUYEN.forEach(t=>rows.push([t.ten_tuyen,t.bc,t.unit==='cu'?'Xã cũ':'Xã mới',(t.wards||[]).map(w=>w.ten).join(', '),t.nv_thieu,t.muc==='nghiem_trong'?'Nghiêm trọng':'Thiếu',(t.ghi_chu||'').replace(/\s+/g,' '),t.updated_at?new Date(t.updated_at).toLocaleString('vi-VN'):'']));
+ const tsv=rows.map(r=>r.map(c=>String(c??'')).join('\t')).join('\n');
+ try{await navigator.clipboard.writeText(tsv);$('btnCsv').textContent='Đã chép ✓';setTimeout(()=>$('btnCsv').textContent='Sao chép',1500)}catch(e){showWarn('Trình duyệt chặn sao chép. Hãy thử lại.')}};
+/* ===== Tab định mức ===== */
+document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.tabs button').forEach(x=>x.classList.toggle('on',x===b));document.body.classList.toggle('dm',b.dataset.v==='dm');document.body.classList.toggle('ad',b.dataset.v==='ad');if(b.dataset.v==='ad'){renderAdmin();return}if(b.dataset.v==='map')setTimeout(()=>{map.resize();updLabels();updLabelsStyle();legend()},50);else renderDm()});
+let dmQ='',dmPv='';
+let dmPending=false;function renderDm(){const V=$('dmView');if(V.dataset.built&&document.activeElement&&document.activeElement.closest&&document.activeElement.closest('#dmBody,#xBody')&&document.activeElement.dataset.dirty){dmPending=true;return}if(!TERR||!document.body.classList.contains('dm')&&V.dataset.built)return;
+ if(!V.dataset.built){V.dataset.built=1;V.innerHTML=`<div class="subtabs"><button data-s="bc" class="on">Định mức theo bưu cục</button><button data-s="xa">Định mức theo phường/xã cũ</button></div><div id="dmXA"></div><div id="dmBC"><div class="dmtop">
+  <div class="box"><label>Định mức chung</label><input type="number" id="dmChung" min="10" max="5000" step="5" style="width:90px"> <span style="color:var(--mute);font-size:12px">đơn/NV</span></div>
+  <div class="box"><label>BC có định mức riêng</label><b id="dmN">0</b></div>
+  <div class="box"><label>BC thiếu người</label><b id="dmTh" style="color:var(--red)">0</b></div>
+  <div class="box"><label>NV thiếu (ước tính)</label><b id="dmNv" style="color:var(--red)">0</b></div>
+  <div style="flex:1;min-width:200px"><input type="search" id="dmQ" placeholder="Tìm bưu cục…"></div>
+  <div><select id="dmPv"><option value="">Tất cả tỉnh</option></select></div>
+  <div><button class="btn" id="dmPaste">Dán từ Excel</button> <button class="btn" id="dmCopy">Sao chép bảng</button> ${canWrite()?'<button class="btn" id="dmClear">Xoá hết định mức riêng</button>':''}</div></div>
+  <div id="pasteBox"><div style="font-size:12.5px;margin-bottom:6px">Dán 2 cột từ Excel/Sheets: <b>Mã BC</b> (hoặc tên BC) và <b>Định mức</b>, mỗi BC một dòng. Ô định mức trống hoặc 0 = dùng định mức chung.</div><textarea id="pasteTxt" rows="6" placeholder="20714000	90
+(SLA) Thuận Châu	110"></textarea><div class="row2"><button class="btn dark" id="pasteGo">Áp dụng</button><button class="btn" id="pasteX">Đóng</button><span id="pasteMsg" style="font-size:12px;color:var(--mute);align-self:center"></span></div></div>
+  <div class="dmnote">Nhập định mức (đơn giao/NV) riêng cho từng BC ở cột <b>Định mức riêng</b>; để trống = dùng định mức chung. Lưu tự động khi rời ô, áp dụng ngay cho bản đồ (mức tải, NV thiếu, nhãn BC). BC có xã định mức riêng sẽ hiện thêm dòng xanh <b>“+ N xã riêng → hiệu dụng X”</b>: NV cần đã tính theo từng xã, X là định mức bình quân thực tế. Đơn giao tồn lấy từ ảnh chụp tồn đọng 12:34 ngày 18/11/2026.</div>
+  <table class="dm"><thead><tr>${[['bc_name','Bưu cục'],['tinh','Tỉnh'],['nv','Số NV','num'],['giao','Đơn giao tồn','num'],['p24','Tồn ≥24h','num'],['own','Định mức riêng','num'],['dm','Áp dụng','num'],['can','NV cần','num'],['tai','Mức tải','num'],['thieu','NV thiếu','num']].map(([k,t,c])=>`<th data-k="${k}" class="${c||''}">${t}</th>`).join('')}</tr></thead><tbody id="dmBody"></tbody></table></div>`;
+  V.querySelectorAll('.subtabs button').forEach(b=>b.onclick=()=>{dmSub=b.dataset.s;V.querySelectorAll('.subtabs button').forEach(x=>x.classList.toggle('on',x===b));$('dmBC').style.display=dmSub==='bc'?'':'none';$('dmXA').style.display=dmSub==='xa'?'':'none';renderXa()});$('dmXA').style.display='none';
+  $('dmPv').innerHTML+=[...new Set(TERR.features.map(f=>f.properties.tinh))].sort().map(p=>`<option>${p}</option>`).join('');
+  $('dmQ').oninput=e=>{dmQ=e.target.value.toLowerCase();renderDm()};$('dmPv').oninput=e=>{dmPv=e.target.value;renderDm()};
+  $('dmChung').onchange=e=>{const v=Math.round(+e.target.value);if(v>=1&&v<=5000){NORM=v;$('norm').value=Math.min(200,Math.max(40,v));$('normv').textContent=v;recompute();saveChung()}};
+  $('dmBC').querySelectorAll('th').forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(DMSORT===k)DMDIR=-DMDIR;else{DMSORT=k;DMDIR=(k==='bc_name'||k==='tinh')?1:-1}renderDm()});
+  $('dmPaste').onclick=()=>$('pasteBox').classList.toggle('on');$('pasteX').onclick=()=>$('pasteBox').classList.remove('on');
+  $('pasteGo').onclick=applyPaste;$('dmCopy').onclick=copyDm;if($('dmClear'))$('dmClear').onclick=clearDm;
+ }
+ $('dmChung').value=NORM;$('dmN').textContent=Object.keys(BCDM).length;
+ const all=TERR.features.map(f=>f.properties);$('dmTh').textContent=all.filter(p=>p.lvl===2).length;$('dmNv').textContent=all.reduce((s,p)=>s+(p.lvl===2?p.thieu:0),0);
+ let a=all.filter(p=>(!dmPv||p.tinh===dmPv)&&(!dmQ||p.bc_name.toLowerCase().includes(dmQ)));
+ const val=(p,k)=>k==='own'?(BCDM[p.bc_id]||0):p[k];
+ a.sort((x,y)=>{const u=val(x,DMSORT),v=val(y,DMSORT);return (typeof u==='string'?u.localeCompare(v,'vi'):u-v)*DMDIR});
+ const AE=document.activeElement;const ae=AE&&AE.dataset?AE.dataset.bc:null;const aeVal=ae?AE.value:null;
+ $('dmBody').innerHTML=a.map(p=>`<tr><td>${esc(p.bc_name)}</td><td>${esc(p.tinh)}</td><td class="num">${p.nv}</td><td class="num">${fmt(p.giao)}</td><td class="num">${pct(p.p24)}</td>
+  <td class="num"><input type="number" min="0" max="5000" step="5" data-bc="${p.bc_id}" class="${BCDM[p.bc_id]?'own':''}" value="${BCDM[p.bc_id]||''}" placeholder="${NORM}" ${canWrite()?'':'disabled'}><span class="saved" data-s="${p.bc_id}"></span></td>
+  <td class="num"><b>${p.dm}</b>${p.dmOwn?'':' <span style="color:var(--mute);font-size:11px">chung</span>'}${p.nXdm?`<div style="font-size:11px;color:#1e6fd9;font-weight:600" title="Có ${p.nXdm} xã dùng định mức riêng; NV cần đã tính theo từng xã">+ ${p.nXdm} xã riêng → hiệu dụng ${p.dmEff}</div>`:''}</td><td class="num">${p.can.toFixed(1)}</td><td class="num">${pct(p.tai)}</td><td class="num">${p.lvl===2?`<span class="tag t-red">${p.thieu}</span>`:p.lvl===1?'<span class="tag t-amb">sát</span>':'<span class="tag t-grn">0</span>'}</td></tr>`).join('');
+ $('dmBody').querySelectorAll('input').forEach(i=>{i.oninput=()=>{i.dataset.dirty='1'};i.onchange=()=>{delete i.dataset.dirty;saveDm(i.dataset.bc,i.value)};i.onblur=()=>{delete i.dataset.dirty;if(dmPending){dmPending=false;setTimeout(renderDm,0)}};i.onkeydown=e=>{if(e.key==='Enter')i.blur()}});
+ if(ae){const el=$('dmBody').querySelector(`input[data-bc="${ae}"]`);if(el){el.value=aeVal;el.focus();try{el.setSelectionRange(aeVal.length,aeVal.length)}catch(e){}}}
+ renderXa();
+}
+async function saveDm(bc,v){v=Math.round(+v)||0;if(v&&(v<1||v>5000)){showWarn('Định mức phải trong khoảng 1–5.000.');renderDm();return}
+ const old=BCDM[bc]||0;if(old===v)return;if(v)BCDM[bc]=v;else delete BCDM[bc];recompute();
+ if(DB&&!LOCAL){try{const r=DB.collection('dinh_muc').doc(bc);if(v){const d={dm:v,updated_at:new Date().toISOString()};try{const u=USER&&await USER.id();if(u)d.by=u}catch(e){}await r.set(d)}else await r.delete();const s=document.querySelector(`[data-s="${bc}"]`);if(s){s.textContent='✓';setTimeout(()=>s.textContent='',1200)}}
+  catch(e){if(old)BCDM[bc]=old;else delete BCDM[bc];recompute();alertDm('Chưa lưu được định mức ('+(e&&e.code||'lỗi')+').')}}}
+function alertDm(m){showWarn(m);const t=document.querySelector('.dmnote');if(t){t.innerHTML='<b style="color:#b00">'+esc(m)+'</b>'}}
+async function saveChung(){if(!DB||LOCAL||!canWrite())return;try{await DB.doc('cau_hinh/chung').set({dm:NORM,updated_at:new Date().toISOString()})}catch(e){}}
+async function applyPaste(){const lines=$('pasteTxt').value.split(/\r?\n/).map(l=>l.trim()).filter(Boolean);let ok=0,bad=[];
+ const byName={};TERR.features.forEach(f=>{const p=f.properties;byName[p.bc_id]=p.bc_id;byName[p.bc_name.toLowerCase()]=p.bc_id;byName[p.bc_name.replace(/^\(\w+\)\s*/,'').toLowerCase()]=p.bc_id});
+ for(const l of lines){const c=l.split(/\t|;|,(?=\s*\d+\s*$)/);if(c.length<2){bad.push(l);continue}const id=byName[c[0].trim().toLowerCase()];const v=Math.round(+String(c[c.length-1]).replace(/[^\d.]/g,''))||0;
+  if(!id||(v&&(v<1||v>5000))){bad.push(c[0]);continue}await saveDm(id,v);ok++}
+ $('pasteMsg').textContent=`Đã áp dụng ${ok} BC${bad.length?` · bỏ qua ${bad.length}: ${bad.slice(0,4).join(', ')}${bad.length>4?'…':''}`:''}`}
+async function clearDm(){const ids=Object.keys(BCDM);if(!ids.length)return;const b=$('dmClear');if(b.dataset.c!=='1'){b.dataset.c='1';b.textContent='Bấm lần nữa để xoá '+ids.length+' BC';setTimeout(()=>{b.dataset.c='';b.textContent='Xoá hết định mức riêng'},3000);return}
+ b.dataset.c='';b.textContent='Xoá hết định mức riêng';for(const id of ids)await saveDm(id,0)}
+async function copyDm(){const rows=[['Mã BC','Bưu cục','Tỉnh','Số NV','Đơn giao tồn','Định mức riêng','Định mức áp dụng','NV cần','Mức tải','NV thiếu']];
+ TERR.features.map(f=>f.properties).sort((a,b)=>b.tai-a.tai).forEach(p=>rows.push([p.bc_id,p.bc_name,p.tinh,p.nv,p.giao,BCDM[p.bc_id]||'',p.dm,p.can.toFixed(1),(p.tai*100).toFixed(0)+'%',p.lvl===2?p.thieu:0]));
+ try{await navigator.clipboard.writeText(rows.map(r=>r.join('\t')).join('\n'));$('dmCopy').textContent='Đã chép ✓';setTimeout(()=>$('dmCopy').textContent='Sao chép bảng',1500)}catch(e){alertDm('Trình duyệt chặn sao chép.')}}
+/* ===== Định mức theo xã cũ ===== */
+let dmSub='bc',xq='',xbc='',xpv='',XS='giao',XD=-1,xPend=false;
+function renderXa(){const W=$('dmXA');if(!W||dmSub!=='xa'||!TERR)return;
+ if(document.activeElement&&document.activeElement.closest&&document.activeElement.closest('#xBody')&&document.activeElement.dataset.dirty){xPend=true;return}
+ if(!W.dataset.built){W.dataset.built=1;const bcs=TERR.features.map(f=>f.properties).sort((a,b)=>a.bc_name.localeCompare(b.bc_name,'vi'));
+  W.innerHTML=`<div class="dmtop"><div class="box"><label>Xã có định mức riêng</label><b id="xN">0</b> <span style="color:var(--mute);font-size:12px">/ 754</span></div>
+  <div style="flex:1;min-width:180px"><input type="search" id="xQ" placeholder="Tìm xã cũ, xã mới, huyện…"></div>
+  <div><select id="xBC"><option value="">Tất cả BC</option>${bcs.map(p=>`<option value="${p.bc_id}">${esc(p.bc_name)}</option>`).join('')}</select></div>
+  <div><select id="xPv"><option value="">Tất cả tỉnh</option>${[...new Set(Object.values(XCI).map(q=>q.tinh))].sort().map(t=>`<option>${esc(t)}</option>`).join('')}</select></div>
+  ${canWrite()?`<div class="box" style="padding:6px 10px"><label>Áp cho các xã đang lọc</label><input type="number" id="xBulk" min="10" max="5000" step="5" style="width:80px" placeholder="vd 40"> <button class="btn dark" id="xBulkGo">Áp dụng</button> <button class="btn" id="xBulkClr" title="Xoá định mức riêng của các xã đang lọc">Xoá</button></div>`:''}
+  <div><button class="btn" id="xPaste">Dán từ Excel</button> <button class="btn" id="xCopy">Sao chép bảng</button></div></div>
+  <div id="xPasteBox" style="display:none;margin:0 0 12px;background:#fff;border:1px solid var(--line);border-radius:8px;padding:10px"><div style="font-size:12.5px;margin-bottom:6px">Dán 2–3 cột: <b>ID GHN xã cũ</b> (hoặc <b>Tên xã cũ – Huyện</b>, vd "Xã Mường É - Huyện Thuận Châu") và <b>Định mức</b>, cột 3 (tuỳ chọn) <b>NV phụ trách</b>. Định mức trống/0 = bỏ định mức riêng của xã.</div><textarea id="xPasteTxt" rows="6" placeholder="140401	40
+Xã Mường É - Huyện Thuận Châu	35"></textarea><div class="row2"><button class="btn dark" id="xPasteGo">Áp dụng</button><button class="btn" id="xPasteX">Đóng</button><span id="xPasteMsg" style="font-size:12px;color:var(--mute);align-self:center"></span></div></div>
+  <div class="dmnote">Định mức xã được ưu tiên trên định mức BC và định mức chung. NV cần của xã = đơn giao tồn của xã ÷ định mức áp dụng. NV cần của BC = tổng theo từng xã, nên chỉ cần điền cho những xã có điều kiện khác biệt (vùng cao, đường xa, giao rải rác…); xã để trống tự lấy định mức BC. <b>NV phụ trách</b> (mặc định 1) dùng để tính <b>tải xã</b> = NV cần ÷ NV phụ trách; xã có định mức hoặc NV riêng được tô theo tải xã trên bản đồ (chế độ Mức tải): ≤100% đáp ứng (xanh nhạt), 100–150% vàng, >150% đỏ.</div>
+  <table class="dm"><thead><tr>${[['ten','Xã cũ'],['huyen','Huyện cũ'],['xa_moi','Xã mới'],['bc','Bưu cục'],['giao','Đơn giao tồn','num'],['own','Định mức riêng xã','num'],['dm','Áp dụng','num'],['can','NV cần','num'],['nvx','NV phụ trách','num'],['wtai','Tải xã','num']].map(([k,t,c])=>`<th data-k="${k}" class="${c||''}">${t}</th>`).join('')}</tr></thead><tbody id="xBody"></tbody></table>`;
+  $('xQ').oninput=e=>{xq=e.target.value.toLowerCase();renderXa()};$('xBC').oninput=e=>{xbc=e.target.value;renderXa()};$('xPv').oninput=e=>{xpv=e.target.value;renderXa()};
+  W.querySelectorAll('th').forEach(th=>th.onclick=()=>{const k=th.dataset.k;if(XS===k)XD=-XD;else{XS=k;XD=['ten','huyen','xa_moi','bc'].includes(k)?1:-1}renderXa()});
+  $('xPaste').onclick=()=>{const b=$('xPasteBox');b.style.display=b.style.display==='none'?'block':'none'};$('xPasteX').onclick=()=>$('xPasteBox').style.display='none';
+  $('xPasteGo').onclick=xApplyPaste;$('xCopy').onclick=xCopy;
+  if($('xBulkGo')){$('xBulkGo').onclick=()=>xBulk(+$('xBulk').value);$('xBulkClr').onclick=()=>xBulk(0)}
+ }
+ $('xN').textContent=Object.keys(XDM).length;
+ const rows=xFiltered();const val=(q,k)=>k==='own'?(XDM[q.id]||0):k==='wtai'?(q.wOwn?q.wtai:-1):q[k];
+ rows.sort((a,b)=>{const u=val(a,XS),v=val(b,XS);return (typeof u==='string'?String(u).localeCompare(v,'vi'):u-v)*XD});
+ const AE=document.activeElement;const ae=AE&&AE.dataset?AE.dataset.xa:null;const aeVal=ae?AE.value:null;
+ $('xBody').innerHTML=rows.map(q=>`<tr><td>${esc(q.ten)}${q.xap_xi?' <span style="color:var(--mute);font-size:11px">~</span>':''}</td><td>${esc(q.huyen)}</td><td>${esc(q.xa_moi)}</td><td>${esc(q.bc)}</td><td class="num">${fmt(q.giao)}</td>
+  <td class="num"><input type="number" min="0" max="5000" step="5" data-xa="${q.id}" class="${XDM[q.id]?'own':''}" value="${XDM[q.id]||''}" placeholder="${q.dmSrc==='xã'?'':q.dm}" ${canWrite()?'':'disabled'}><span class="saved" data-xs="${q.id}"></span></td>
+  <td class="num"><b>${q.dm}</b> <span style="color:var(--mute);font-size:11px">${q.dmSrc}</span></td><td class="num">${q.can.toFixed(1)}</td>
+  <td class="num"><input type="number" min="0" max="50" step="1" data-xn="${q.id}" class="${XNV[q.id]?'own':''}" value="${XNV[q.id]||''}" placeholder="1" style="width:60px" ${canWrite()?'':'disabled'}></td>
+  <td class="num">${q.wOwn?(q.wlvl===2?`<span class="tag t-red">${pct(q.wtai)}</span>`:q.wlvl===1?`<span class="tag t-amb">${pct(q.wtai)}</span>`:`<span class="tag t-grn">${pct(q.wtai)} đáp ứng</span>`):'<span style="color:var(--mute);font-size:11px">theo BC</span>'}</td></tr>`).join('');
+ $('xBody').querySelectorAll('input[data-xn]').forEach(i=>{i.oninput=()=>{i.dataset.dirty='1'};i.onchange=()=>{delete i.dataset.dirty;saveXnv(i.dataset.xn,i.value)};i.onblur=()=>{delete i.dataset.dirty;if(xPend){xPend=false;setTimeout(renderXa,0)}};i.onkeydown=e=>{if(e.key==='Enter')i.blur()}});
+ $('xBody').querySelectorAll('input[data-xa]').forEach(i=>{i.oninput=()=>{i.dataset.dirty='1'};i.onchange=()=>{delete i.dataset.dirty;saveXdm(i.dataset.xa,i.value)};i.onblur=()=>{delete i.dataset.dirty;if(xPend){xPend=false;setTimeout(renderXa,0)}};i.onkeydown=e=>{if(e.key==='Enter')i.blur()}});
+ if(ae){const el=$('xBody').querySelector(`input[data-xa="${ae}"]`);if(el){el.value=aeVal;el.focus()}}
+}
+function xFiltered(){return Object.values(XCI).filter(q=>(!xbc||q.bc_id===xbc)&&(!xpv||q.tinh===xpv)&&(!xq||(q.ten+' '+q.huyen+' '+q.xa_moi+' '+q.bc).toLowerCase().includes(xq)))}
+async function writeXa(id){const dm=XDM[id]||0,nv=XNV[id]||0;const r=DB.collection('dinh_muc_xa').doc(id);
+ if(!dm&&!nv)return r.delete();const d={dm,nv,updated_at:new Date().toISOString()};try{const u=USER&&await USER.id();if(u)d.by=u}catch(e){}return r.set(d)}
+async function saveXnv(id,v){v=Math.round(+v)||0;if(v<0||v>50){showWarn('Số NV phụ trách 0–50.');renderXa();return}const old=XNV[id]||0;if(old===v)return;if(v)XNV[id]=v;else delete XNV[id];recompute();
+ if(DB&&!LOCAL){try{await writeXa(id);const s=document.querySelector(`[data-xs="${id}"]`);if(s){s.textContent='✓';setTimeout(()=>s.textContent='',1200)}}catch(e){if(old)XNV[id]=old;else delete XNV[id];recompute();showWarn('Chưa lưu được ('+(e&&e.code||'lỗi')+').')}}}
+async function saveXdm(id,v,quiet){v=Math.round(+v)||0;if(v&&(v<1||v>5000)){if(!quiet){showWarn('Định mức phải trong khoảng 1–5.000.');renderXa()}return false}
+ const old=XDM[id]||0;if(old===v)return true;if(v)XDM[id]=v;else delete XDM[id];if(!quiet)recompute();
+ if(DB&&!LOCAL){try{await writeXa(id);
+  const s=document.querySelector(`[data-xs="${id}"]`);if(s){s.textContent='✓';setTimeout(()=>s.textContent='',1200)}}
+  catch(e){if(old)XDM[id]=old;else delete XDM[id];recompute();showWarn('Chưa lưu được định mức xã ('+(e&&e.code||'lỗi')+').');return false}}return true}
+async function xBulk(v){const rows=xFiltered();if(!rows.length)return;v=Math.round(v)||0;if(v&&(v<1||v>5000)){showWarn('Định mức phải trong khoảng 1–5.000.');return}
+ const b=v?$('xBulkGo'):$('xBulkClr');const lab=v?'Áp dụng':'Xoá';if(rows.length>20&&b.dataset.c!=='1'){b.dataset.c='1';b.textContent=`Bấm lần nữa (${rows.length} xã)`;setTimeout(()=>{b.dataset.c='';b.textContent=lab},3000);return}
+ b.dataset.c='';b.textContent='Đang lưu…';let n=0;BATCHQ=[];for(const q of rows){if(await saveXdm(q.id,v,true))n++}try{await flushBatch()}catch(e){showWarn('Chưa lưu được ('+(e.code||'lỗi')+').');refreshState()}b.textContent=lab;recompute();showWarn(`Đã ${v?'áp định mức '+v:'xoá định mức riêng'} cho ${n} xã.`);setTimeout(()=>showWarn(''),3000)}
+async function xApplyPaste(){const lines=$('xPasteTxt').value.split(/\r?\n/).map(l=>l.trim()).filter(Boolean);let ok=0,bad=[];BATCHQ=[];
+ const norm=t=>t.toLowerCase().normalize('NFC').replace(/\s+/g,' ').trim();const byName={},dup=new Set();
+ Object.values(XCI).forEach(q=>{const k=norm(q.ten);if(byName[k])dup.add(k);byName[k]=q.id;byName[norm(q.ten+' - '+q.huyen)]=q.id;byName[norm(q.ten+', '+q.huyen)]=q.id});dup.forEach(k=>delete byName[k]);
+ for(const l of lines){const c=l.split('\t');let key,val,nvv=null;if(c.length>=3){key=c[0];val=c[1];nvv=c[2]}else if(c.length===2){key=c[0];val=c[1]}else{const m=l.match(/^(.*?)[\s;,]+(\d+)\s*$/);if(!m){bad.push(l);continue}key=m[1];val=m[2]}
+  key=key.trim();const id=XCI[key]?key:byName[norm(key)];const v=Math.round(+String(val).replace(/[^\d.]/g,''))||0;
+  if(!id||(v&&(v<1||v>5000))){bad.push(key);continue}if(nvv!==null&&String(nvv).trim()!==''){const n=Math.round(+nvv)||0;if(n)XNV[id]=n;else delete XNV[id]}if(await saveXdm(id,v,true)){if(nvv!==null&&DB&&!LOCAL)try{await writeXa(id)}catch(e){}ok++}}
+ try{await flushBatch()}catch(e){showWarn('Chưa lưu được ('+(e.code||'lỗi')+').');refreshState()}recompute();$('xPasteMsg').textContent=`Đã áp dụng ${ok} xã${bad.length?` · bỏ qua ${bad.length}: ${bad.slice(0,4).join(', ')}${bad.length>4?'…':''} (tên trùng thì ghi kèm huyện hoặc dùng ID)`:''}`}
+async function xCopy(){const rows=[['ID GHN xã cũ','Xã cũ','Huyện cũ','Xã mới','Tỉnh','Bưu cục','Đơn giao tồn','Định mức riêng xã','Định mức áp dụng','Nguồn','NV cần','NV phụ trách','Tải xã']];
+ Object.values(XCI).forEach(q=>rows.push([q.id,q.ten,q.huyen,q.xa_moi,q.tinh,q.bc,q.giao,XDM[q.id]||'',q.dm,q.dmSrc,q.can.toFixed(2),XNV[q.id]||'',q.wOwn?(q.wtai*100).toFixed(0)+'%':'']));
+ try{await navigator.clipboard.writeText(rows.map(r=>r.join('\t')).join('\n'));$('xCopy').textContent='Đã chép ✓';setTimeout(()=>$('xCopy').textContent='Sao chép bảng',1500)}catch(e){showWarn('Trình duyệt chặn sao chép.')}}
+/* ===== Tab cập nhật dữ liệu ===== */
+function renderAdmin(){const A=$('adView');const m=VOL&&VOL.meta;
+ A.innerHTML=`<div class="card"><h3>Số liệu vol đang dùng</h3>${m?`<div class="g" style="display:grid;grid-template-columns:200px 1fr;gap:4px 12px;font-size:13px">
+  <span style="color:var(--mute)">Thời điểm chụp tồn đọng</span><b>${new Date(m.snapshot).toLocaleString('vi-VN')}</b>
+  <span style="color:var(--mute)">File</span><span>${esc(m.file)}</span><span style="color:var(--mute)">Cập nhật lên web</span><span>${new Date(m.uploaded_at).toLocaleString('vi-VN')}</span>
+  <span style="color:var(--mute)">Số đơn · ghép được xã</span><span>${fmt(m.so_don)} · ${fmt(m.ghep_duoc)} (${(m.ghep_duoc/m.so_don*100).toFixed(2).replace('.',',')}%)</span>
+  <span style="color:var(--mute)">Đơn giao tồn</span><span>${fmt(m.giao)}</span><span style="color:var(--mute)">Đơn nằm ngoài địa giới BC</span><span>${fmt(m.lech)}</span></div>
+  ${m.chua_ghep&&m.chua_ghep.length?`<details style="margin-top:8px"><summary style="cursor:pointer;font-size:13px">${m.chua_ghep.length} địa chỉ chưa ghép được xã</summary><table class="dm" style="margin-top:6px"><tr><th>Phường/xã (hệ thống)</th><th>Mã BC</th><th class="num">Số đơn</th></tr>${m.chua_ghep.map(r=>`<tr><td>${esc(r['Phường/xã'])}</td><td>${esc(r['Mã bưu cục'])}</td><td class="num">${r.so_don}</td></tr>`).join('')}</table></details>`:''}`:'Chưa có số liệu.'}</div>
+ <div class="card"><h3>Tải báo cáo tồn đọng mới</h3><div class="note" style="margin-bottom:8px">Chọn file Excel <b>Báo cáo tồn đọng lấy/giao/trả</b> xuất từ hệ thống (giữ nguyên định dạng). Hệ thống tự ghép xã, tính vol theo BC/xã và cập nhật bản đồ cho mọi người. Cần <b>mã PIN quản trị</b>.</div>
+  <input type="file" id="volFile" accept=".xlsx,.xls"> <input type="password" id="adPin" placeholder="PIN quản trị" style="width:160px"> <button class="btn dark" id="volGo">Tải lên & cập nhật</button><div id="volMsg" class="note" style="margin-top:8px"></div></div>
+ <div class="card"><h3>Sao lưu dữ liệu</h3><div class="note" style="margin-bottom:8px">Tải toàn bộ định mức BC, định mức xã, tuyến thiếu người và nhật ký ra Excel. Cần mã PIN quản trị.</div><button class="btn" id="bkGo">Tải file sao lưu</button></div>
+ <div class="card"><h3>Nhật ký thay đổi (100 gần nhất)</h3><div id="logBox" class="note">Đang tải…</div></div>`;
+ $('adPin').value=LS.get('tbb_admin');
+ $('volGo').onclick=async()=>{const f=$('volFile').files[0];const p=$('adPin').value.trim();if(!f){$('volMsg').textContent='Chưa chọn file.';return}
+  $('volMsg').textContent='Đang xử lý… (khoảng 10–30 giây)';const fd=new FormData();fd.append('file',f);
+  try{const r=await fetch('/api/admin/vol',{method:'POST',headers:{'X-Pin':p,'X-User':encodeURIComponent(UNAME)},body:fd});const j=await r.json();if(!r.ok)throw new Error(j.detail||r.status);LS.set('tbb_admin',p);
+   $('volMsg').innerHTML=`<b style="color:#1f7a45">Đã cập nhật.</b> ${fmt(j.so_don)} đơn, ghép được ${fmt(j.ghep_duoc)}. Đang tải lại trang…`;setTimeout(()=>location.reload(),1500)}catch(e){$('volMsg').innerHTML='<b style="color:#b00">Lỗi:</b> '+esc(e.message)}};
+ $('bkGo').onclick=()=>{const p=$('adPin').value.trim()||LS.get('tbb_admin');if(!p){$('volMsg').textContent='Nhập PIN quản trị ở ô trên trước.';return}LS.set('tbb_admin',p);location.href='/api/admin/backup.xlsx?pin='+encodeURIComponent(p)};
+ fetch('/api/log?limit=100').then(r=>r.json()).then(L=>{const A={dinh_muc_chung:'Định mức chung',dinh_muc_bc:'Định mức BC',dinh_muc_xa:'Định mức xã',dinh_muc_xa_hang_loat:'Định mức xã (hàng loạt)',tuyen_luu:'Lưu tuyến',tuyen_xoa:'Xoá tuyến',cap_nhat_vol:'Cập nhật vol'};
+  $('logBox').innerHTML=L.length?`<table class="dm"><tr><th>Thời gian</th><th>Người</th><th>Thao tác</th><th>Đối tượng</th><th>Chi tiết</th></tr>${L.map(x=>`<tr><td>${new Date(x.at).toLocaleString('vi-VN')}</td><td>${esc(x.who||'')}</td><td>${A[x.action]||esc(x.action)}</td><td>${esc(x.target)}</td><td style="white-space:normal">${esc(x.detail)}</td></tr>`).join('')}</table>`:'Chưa có thay đổi.'})}
+/* ===== Kết nối máy chủ riêng ===== */
+const LS={get:k=>{try{return localStorage.getItem(k)||''}catch(e){return ''}},set:(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}}};
+let PIN=LS.get('tbb_pin'),UNAME=LS.get('tbb_name'),REV=0,VOLT=0,BATCHQ=null,pinWait=null;
+function askPin(msg){if(pinWait)return pinWait;$('pinIn').value=PIN;$('nameIn').value=UNAME;$('pinErr').textContent=msg||'';$('pinModal').classList.add('on');setTimeout(()=>$('pinIn').focus(),50);
+ pinWait=new Promise(res=>{const done=v=>{$('pinModal').classList.remove('on');pinWait=null;res(v)};
+  $('pinOk').onclick=async()=>{const p=$('pinIn').value.trim();const r=await fetch('/api/check-pin',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({pin:p})}).then(r=>r.json()).catch(()=>({}));
+   if(!r.edit){$('pinErr').textContent='Mã PIN không đúng.';return}PIN=p;UNAME=$('nameIn').value.trim().slice(0,60);LS.set('tbb_pin',PIN);LS.set('tbb_name',UNAME);done(true)};
+  $('pinX').onclick=()=>done(false);$('pinIn').onkeydown=e=>{if(e.key==='Enter')$('pinOk').click()}});return pinWait}
+async function api(method,url,body,tries=0){const r=await fetch(url,{method,headers:{'Content-Type':'application/json','X-Pin':PIN,'X-User':encodeURIComponent(UNAME)},body:body?JSON.stringify(body):undefined});
+ if(r.status===401&&tries<2){if(await askPin(tries?'Mã PIN không đúng.':''))return api(method,url,body,tries+1);throw {code:'Chưa nhập PIN'}}
+ if(!r.ok){let d='';try{d=(await r.json()).detail}catch(e){}throw {code:d||('HTTP '+r.status)}}const j=await r.json();if(j.rev)REV=j.rev;return j}
+async function shimSet(c,id,d){
+ if(c==='tuyen_thieu'){const b=Object.assign({},d);delete b.updated_at;b.by=UNAME;await api('PUT','/api/tuyen/'+encodeURIComponent(id),b);refreshState();return}
+ if(c==='dinh_muc')return api('PUT','/api/bcdm/'+id,{dm:d.dm||0});
+ if(c==='dinh_muc_xa'){if(BATCHQ){BATCHQ.push({id,dm:d.dm||0,nv:d.nv||0});return}return api('PUT','/api/xdm/'+id,{dm:d.dm||0,nv:d.nv||0})}}
+async function shimDel(c,id){
+ if(c==='tuyen_thieu'){await api('DELETE','/api/tuyen/'+encodeURIComponent(id));refreshState();return}
+ if(c==='dinh_muc')return api('PUT','/api/bcdm/'+id,{dm:0});
+ if(c==='dinh_muc_xa'){if(BATCHQ){BATCHQ.push({id,dm:0,nv:0});return}return api('PUT','/api/xdm/'+id,{dm:0,nv:0})}}
+DB={collection:c=>({doc:id=>({set:d=>shimSet(c,id,d),delete:()=>shimDel(c,id)})}),doc:p=>({set:d=>api('PUT','/api/chung',{dm:d.dm})})};
+async function flushBatch(){const q=BATCHQ||[];BATCHQ=null;if(!q.length)return;const m=new Map();q.forEach(x=>m.set(x.id,x));const items=[...m.values()];
+ for(let i=0;i<items.length;i+=900)await api('POST','/api/xdm/batch',items.slice(i,i+900))}
+function applyState(st){
+ TUYEN=st.tuyen||[];BCDM={};Object.entries(st.bcdm||{}).forEach(([k,v])=>{if(+v>0)BCDM[k]=+v});
+ XDM={};XNV={};Object.entries(st.xdm||{}).forEach(([k,v])=>{if(+v.dm>0)XDM[k]=+v.dm;if(+v.nv>0)XNV[k]=+v.nv});
+ if(st.chung>0&&document.activeElement!==$('norm')){NORM=+st.chung;$('norm').value=Math.min(200,Math.max(40,NORM));$('normv').textContent=NORM}
+ REV=st.rev;onTuyen();recompute()}
+async function refreshState(){try{applyState(await fetch('/api/state',{cache:'no-store'}).then(r=>r.json()))}catch(e){showWarn('Không tải được dữ liệu định mức/tuyến. Đang thử lại…')}}
+async function poll(){try{const r=await fetch('/api/rev',{cache:'no-store'}).then(r=>r.json());
+  if(r.rev!==REV){const busy=document.activeElement&&document.activeElement.dataset&&document.activeElement.dataset.dirty;if(!busy&&!MARKING)await refreshState()}
+  if(VOLT&&r.vol!==VOLT)$('newVol').style.display='block';VOLT=r.vol;showWarn('')}catch(e){showWarn('Mất kết nối máy chủ, đang thử lại…')}}
+$('newVol').onclick=()=>location.reload();
+async function connectDb(){onTuyen();await refreshState();try{VOLT=(await fetch('/api/rev').then(r=>r.json())).vol}catch(e){}setInterval(poll,15000)}
+</script>
+</body>
+</html>
