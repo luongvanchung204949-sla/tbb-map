@@ -205,7 +205,7 @@ let MARKING=false,SELECTED=new Map(),EDIT_ID=null,TUYEN=[],DB=null,USER=null,LOC
 const map=new maplibregl.Map({container:'map',center:[103.8,21.8],zoom:7,attributionControl:false,
  style:{version:8,sources:{},layers:[{id:'bg',type:'background',paint:{'background-color':'#eef1f5'}}]}});
 map.addControl(new maplibregl.NavigationControl({showCompass:false}),'top-right');
-map.addControl(new maplibregl.AttributionControl({compact:true,customAttribution:'Ranh giới: vietnamese-provinces-database (MIT), GADM 4.1 · Vol: Báo cáo tồn đọng 18/11/2026'}));
+map.addControl(new maplibregl.AttributionControl({compact:true,customAttribution:'Ranh giới: vietnamese-provinces-database (MIT), GADM 4.1 · Vol: Google Sheet DATA GÁN'}));
 const get=u=>fetch(u).then(r=>r.json());
 const VER='1';const ld=document.getElementById('loading');
 Promise.all(['lanh_tho_bc','xa_moi','xa_cu','buu_cuc','tinh'].map(n=>fetch('data/'+n+'.json?v='+VER).then(r=>{if(!r.ok)throw new Error(n+' '+r.status);return r.json()})).concat([fetch('/api/vol',{cache:'no-store'}).then(r=>r.json())])).then(([terr,xa,xc,hub,tinh,vol])=>{
