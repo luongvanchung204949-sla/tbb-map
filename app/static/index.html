@@ -37,6 +37,19 @@
 *{box-sizing:border-box}
 html,body{margin:0;height:100%;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg)}
 #app{display:grid;grid-template-columns:370px 1fr;grid-template-rows:56px 1fr;height:100vh}
+aside{grid-column:1;grid-row:2}#map{grid-column:2;grid-row:2}
+body.side-off #app{grid-template-columns:0 1fr}body.side-off aside{display:none}
+header button,.kpis span{white-space:nowrap}header>b{white-space:nowrap}
+@media (max-width:1560px){.kpis .k-opt{display:none}}@media (max-width:1250px){.kpis{display:none}}
+#sideBtn{position:absolute;left:0;top:50%;transform:translateY(-50%);z-index:4;background:#1d2433;color:#fff;border:0;border-radius:0 8px 8px 0;width:22px;height:58px;cursor:pointer;font-size:13px;box-shadow:2px 0 8px rgba(0,0,0,.2);padding:0}
+#sideBtn:hover{background:var(--acc)}
+.hbtn{background:transparent;border:1px solid #3a4459;color:#c9cfdb;border-radius:6px;padding:6px 10px;font-size:13px;cursor:pointer;font-family:inherit;margin-left:10px}
+.hbtn:hover{border-color:var(--acc);color:#fff}
+.colh{cursor:pointer;user-select:none}.colh .car{display:inline-block;width:14px;transition:transform .15s}.colh.open .car{transform:rotate(90deg)}
+#tuyenBody{display:none;margin-top:8px}#tuyenBody.open{display:block}
+#tuyenList{max-height:52vh;overflow:auto;padding-right:2px}
+.tfilter{display:flex;gap:6px;margin-bottom:6px}.tfilter select{flex:1.3}.tfilter input{flex:1}
+.tcount{font-size:11.5px;color:var(--mute);margin:2px 0 4px}
 header{grid-column:1/3;display:flex;align-items:center;gap:18px;padding:0 18px;background:#1d2433;color:#fff}
 header b{font-size:15px}
 header .brand{color:var(--acc);font-weight:800}
@@ -141,8 +154,8 @@ table.dm input.own{border-color:var(--acc);background:#fff7f1;font-weight:700}
 </head>
 <body>
 <div id="app">
-<header><b><span class="brand">GHN</span> · Tây Bắc Bộ · Địa giới & Vol tồn</b><nav class="tabs"><button data-v="map" class="on">Bản đồ</button><button data-v="dm">Định mức</button><button data-v="ad">Cập nhật dữ liệu</button></nav>
-<div class="kpis"><span><b>54</b>BC</span><span><b>543</b>NV</span><span><b id="k_giao">–</b>đơn giao tồn</span><span><b id="k_24">–</b>tồn ≥24h</span><span><b id="k_thieu" style="color:#ff8a80">–</b>BC thiếu (định mức)</span><span><b id="k_mark" style="color:#ff8a80">0</b>tuyến thiếu đã đánh dấu</span></div></header>
+<header><b><span class="brand">GHN</span> · Tây Bắc Bộ · Địa giới & Vol tồn</b><button class="hbtn" id="sideHdr" title="Ẩn/hiện thanh bên trái">☰</button><nav class="tabs"><button data-v="map" class="on">Bản đồ</button><button data-v="dm">Định mức</button><button data-v="ad">Cập nhật dữ liệu</button></nav>
+<div class="kpis"><span class="k-opt"><b>54</b>BC</span><span class="k-opt"><b>543</b>NV</span><span><b id="k_giao">–</b>đơn giao tồn</span><span class="k-opt"><b id="k_24">–</b>tồn ≥24h</span><span><b id="k_thieu" style="color:#ff8a80">–</b>BC thiếu (định mức)</span><span><b id="k_mark" style="color:#ff8a80">0</b>tuyến thiếu đã đánh dấu</span></div></header>
 <aside>
 <div class="sec"><h3>Xem theo đơn vị</h3>
 <div class="seg s2" id="unit"><button data-u="moi" class="on">Phường/xã mới (257)</button><button data-u="cu">Phường/xã cũ (754)</button></div>
@@ -158,7 +171,7 @@ table.dm input.own{border-color:var(--acc);background:#fff7f1;font-weight:700}
 <div class="norm"><span>Định mức</span><input type="range" id="norm" min="40" max="200" step="5" value="100"><b id="normv">100</b><span style="color:var(--mute);font-size:12px">đơn/NV</span></div>
 <div class="sum"><div><b id="s_thieu">–</b>BC thiếu (≥100%)</div><div><b id="s_sat">–</b>BC sát ngưỡng</div><div><b id="s_nv">–</b>NV thiếu (ước tính)</div></div>
 </div>
-<div class="sec"><h3>Tuyến / xã thiếu người <span id="markSum" style="text-transform:none;letter-spacing:0;color:var(--red);font-weight:700"></span></h3>
+<div class="sec"><h3 class="colh" id="tuyenHead" title="Bấm để xổ/thu danh sách"><span><span class="car">▸</span> Tuyến / xã thiếu người</span><span id="markSum" style="text-transform:none;letter-spacing:0;color:var(--red);font-weight:700"></span></h3>
 <div class="markbar"><button class="btn pri" id="btnMark">＋ Đánh dấu thiếu người</button><button class="btn" id="btnCsv" title="Sao chép danh sách dạng bảng để dán vào Excel/Sheets">Sao chép</button></div>
 <div class="warn" id="dbWarn"></div>
 <div id="markForm">
@@ -170,7 +183,7 @@ table.dm input.own{border-color:var(--acc);background:#fff7f1;font-weight:700}
 <div class="f"><label>Ghi chú</label><textarea id="fNote" placeholder="Nguyên nhân, đề xuất (tuyển mới, điều chuyển, gộp tuyến…)"></textarea></div>
 <div class="row2"><button class="btn dark" id="btnSave" style="flex:1">Lưu tuyến</button><button class="btn" id="btnCancel">Huỷ</button></div>
 </div>
-<div id="tuyenList"></div>
+<div id="tuyenBody"><div class="tfilter"><select id="tBC"><option value="">Tất cả bưu cục</option></select><input type="search" id="tQ" placeholder="Tìm tuyến, xã…"></div><div class="tcount" id="tCount"></div><div id="tuyenList"></div></div>
 </div>
 <div class="sec"><h3>Lớp hiển thị</h3>
 <label class="tg"><input type="checkbox" id="L_mark" checked><span class="sw" style="background:repeating-linear-gradient(135deg,#e5393599 0 3px,#7a0000 3px 5px);border:1px solid #7a0000"></span>Tuyến/xã thiếu người đã đánh dấu</label>
@@ -188,7 +201,7 @@ table.dm input.own{border-color:var(--acc);background:#fff7f1;font-weight:700}
 <div class="sec note"><b>Cách tính:</b> Mức tải = đơn giao tồn ÷ (NV × định mức). Số liệu là <b>ảnh chụp tồn đọng 12:34 ngày 18/11/2026</b>; định mức là giá trị tạm. Ranh giới 30 xã cũ (Sa Pa, Mộc Châu, Nghĩa Lộ, Mai Sơn, Trấn Yên) là <b>xấp xỉ</b>, chia theo tâm xã.</div>
 </aside>
 <section id="dmView"></section><section id="adView"></section>
-<div id="map"><div class="stamp" id="stamp">Tồn đọng · –</div><div class="markhint">Chế độ đánh dấu: bấm vào phường/xã để chọn, rồi điền thông tin tuyến bên trái</div><div id="tip"></div><div id="loading">Đang tải dữ liệu bản đồ…</div><div class="legend" id="leg"></div></div>
+<div id="map"><button id="sideBtn" title="Ẩn/hiện thanh bên trái">◀</button><div class="stamp" id="stamp">Tồn đọng · –</div><div class="markhint">Chế độ đánh dấu: bấm vào phường/xã để chọn, rồi điền thông tin tuyến bên trái</div><div id="tip"></div><div id="loading">Đang tải dữ liệu bản đồ…</div><div class="legend" id="leg"></div></div>
 </div>
 <div class="modal" id="pinModal"><div class="box2"><h3>Nhập mã PIN để sửa</h3><div style="font-size:12.5px;color:var(--mute)">Mã PIN do Quản lý vùng cấp. Trình duyệt sẽ nhớ, không phải nhập lại.</div>
 <label>Mã PIN</label><input type="password" id="pinIn" autocomplete="off"><label>Tên người nhập (hiện trong nhật ký)</label><input type="text" id="nameIn" placeholder="VD: Thảnh – AM Sơn La">
@@ -399,7 +412,7 @@ function clearSel(){const src=UNIT==='cu'?'xc':'xa';SELECTED.forEach((w,id)=>map
 function renderSel(){$('selN').textContent=SELECTED.size;$('selChips').innerHTML=[...SELECTED.values()].map(w=>`<span class="chip" data-id="${esc(w.id)}" title="Bỏ chọn">${esc(w.ten)} ✕</span>`).join('');
  document.querySelectorAll('#selChips .chip').forEach(c=>c.onclick=()=>{const w=SELECTED.get(c.dataset.id);const src=UNIT==='cu'?'xc':'xa';SELECTED.delete(c.dataset.id);map.setFeatureState({source:src,id:c.dataset.id},{sel:false});renderSel()});
  $('btnSave').disabled=!SELECTED.size||!canWrite()}
-function startMark(edit){MARKING=true;$('map').classList.add('marking');$('markForm').classList.add('on');$('btnMark').textContent='Đang đánh dấu…';$('btnMark').disabled=true;
+function startMark(edit){if(document.body.classList.contains('side-off'))setSide(false);MARKING=true;$('map').classList.add('marking');$('markForm').classList.add('on');$('btnMark').textContent='Đang đánh dấu…';$('btnMark').disabled=true;
  if(!edit){EDIT_ID=null;$('fTuyen').value='';$('fNv').value=1;$('fMuc').value='thieu';$('fNote').value='';$('btnSave').textContent='Lưu tuyến'}
  renderSel()}
 function stopMark(){MARKING=false;$('map').classList.remove('marking');$('markForm').classList.remove('on');$('btnMark').textContent='＋ Đánh dấu thiếu người';$('btnMark').disabled=false;EDIT_ID=null;clearSel()}
@@ -437,7 +450,11 @@ function drawMarks(){if(!ready)return;const feats=[];
 function onTuyen(){
  TUYEN.sort((a,b)=>String(b.updated_at).localeCompare(String(a.updated_at)));
  const tot=TUYEN.reduce((s,t)=>s+(+t.nv_thieu||0),0);$('k_mark').textContent=TUYEN.length;$('markSum').textContent=TUYEN.length?`${TUYEN.length} tuyến · thiếu ${tot} NV`:'';
- $('tuyenList').innerHTML=TUYEN.length?TUYEN.map(t=>`<div class="tuyen" data-id="${esc(t._id)}"><div class="top"><b>${esc(t.ten_tuyen)}</b><span class="tag ${t.muc==='nghiem_trong'?'t-dark':'t-red'}">Thiếu ${+t.nv_thieu||0} NV</span></div>
+ const sb=$('tBC'),cur=sb.value,cnt={};TUYEN.forEach(t=>(t.bc_ids||[]).forEach((b,i)=>{const n=(t.bc||'').split(', ')[i]||t.bc||b;cnt[b]=cnt[b]||{n,c:0,nv:0};cnt[b].c++;cnt[b].nv+=+t.nv_thieu||0}));
+ sb.innerHTML='<option value="">Tất cả bưu cục ('+TUYEN.length+' tuyến)</option>'+Object.entries(cnt).sort((a,b)=>a[1].n.localeCompare(b[1].n,'vi')).map(([b,o])=>`<option value="${esc(b)}">${esc(o.n)} — ${o.c} tuyến · thiếu ${o.nv}</option>`).join('');sb.value=cnt[cur]?cur:'';
+ const tq=$('tQ').value.trim().toLowerCase();const VIS=TUYEN.filter(t=>(!sb.value||(t.bc_ids||[]).includes(sb.value))&&(!tq||(t.ten_tuyen+' '+t.bc+' '+(t.wards||[]).map(w=>w.ten).join(' ')+' '+(t.ghi_chu||'')).toLowerCase().includes(tq)));
+ $('tCount').textContent=TUYEN.length?(VIS.length===TUYEN.length?`${VIS.length} tuyến`:`Đang lọc: ${VIS.length}/${TUYEN.length} tuyến · thiếu ${VIS.reduce((s,t)=>s+(+t.nv_thieu||0),0)} NV`):'';
+ $('tuyenList').innerHTML=TUYEN.length?(VIS.length?'':'<div class="note">Không có tuyến khớp bộ lọc.</div>')+VIS.map(t=>`<div class="tuyen" data-id="${esc(t._id)}"><div class="top"><b>${esc(t.ten_tuyen)}</b><span class="tag ${t.muc==='nghiem_trong'?'t-dark':'t-red'}">Thiếu ${+t.nv_thieu||0} NV</span></div>
   <small>${esc(t.bc)} · ${t.unit==='cu'?'xã cũ':'xã mới'}: ${(t.wards||[]).map(w=>esc(w.ten)).join(', ')}</small>${t.ghi_chu?`<small>📝 ${esc(t.ghi_chu)}</small>`:''}
   <small>Cập nhật ${t.updated_at?new Date(t.updated_at).toLocaleString('vi-VN'):''}${t.by?` · ${esc(t.by)}`:''}</small>
   <div class="act">${canWrite()?`<button class="btn" data-a="edit">Sửa</button><button class="btn" data-a="del">Xoá</button>`:''}</div></div>`).join('')
@@ -562,6 +579,12 @@ async function xApplyPaste(){const lines=$('xPasteTxt').value.split(/\r?\n/).map
 async function xCopy(){const rows=[['ID GHN xã cũ','Xã cũ','Huyện cũ','Xã mới','Tỉnh','Bưu cục','Đơn giao tồn','Định mức riêng xã','Định mức áp dụng','Nguồn','NV cần','NV phụ trách','Tải xã']];
  Object.values(XCI).forEach(q=>rows.push([q.id,q.ten,q.huyen,q.xa_moi,q.tinh,q.bc,q.giao,XDM[q.id]||'',q.dm,q.dmSrc,q.can.toFixed(2),XNV[q.id]||'',q.wOwn?(q.wtai*100).toFixed(0)+'%':'']));
  try{await navigator.clipboard.writeText(rows.map(r=>r.join('\t')).join('\n'));$('xCopy').textContent='Đã chép ✓';setTimeout(()=>$('xCopy').textContent='Sao chép bảng',1500)}catch(e){showWarn('Trình duyệt chặn sao chép.')}}
+/* ===== Ẩn/hiện thanh bên, xổ danh sách tuyến ===== */
+function setSide(off){document.body.classList.toggle('side-off',off);$('sideBtn').textContent=off?'▶':'◀';$('sideHdr').title=off?'Hiện thanh bên trái':'Ẩn thanh bên trái';LS.set('tbb_side',off?'off':'on');setTimeout(()=>{try{map.resize()}catch(e){}},60)}
+$('sideBtn').onclick=$('sideHdr').onclick=()=>setSide(!document.body.classList.contains('side-off'));
+function setTuyenOpen(o){$('tuyenBody').classList.toggle('open',o);$('tuyenHead').classList.toggle('open',o);LS.set('tbb_tuyen',o?'1':'0')}
+$('tuyenHead').onclick=()=>setTuyenOpen(!$('tuyenBody').classList.contains('open'));
+$('tBC').onchange=()=>{onTuyen();const b=$('tBC').value;if(b){const f=TERR.features.find(x=>x.properties.bc_id===b);if(f)map.fitBounds(bbox({features:[f]}),{padding:60,maxZoom:10.5})}};$('tQ').oninput=()=>onTuyen();
 /* ===== Tab cập nhật dữ liệu ===== */
 function renderAdmin(){const A=$('adView');const m=VOL&&VOL.meta;
  A.innerHTML=`<div class="card"><h3>Số liệu vol đang dùng</h3>${m?`<div class="g" style="display:grid;grid-template-columns:200px 1fr;gap:4px 12px;font-size:13px">
@@ -620,7 +643,7 @@ async function poll(){try{const r=await fetch('/api/rev',{cache:'no-store'}).the
   if(r.rev!==REV){const busy=document.activeElement&&document.activeElement.dataset&&document.activeElement.dataset.dirty;if(!busy&&!MARKING)await refreshState()}
   if(VOLT&&r.vol!==VOLT)$('newVol').style.display='block';VOLT=r.vol;showWarn('')}catch(e){showWarn('Mất kết nối máy chủ, đang thử lại…')}}
 $('newVol').onclick=()=>location.reload();
-async function connectDb(){onTuyen();await refreshState();try{VOLT=(await fetch('/api/rev').then(r=>r.json())).vol}catch(e){}setInterval(poll,15000)}
+async function connectDb(){try{if(localStorage.getItem('tbb_side')==='off')setSide(true);setTuyenOpen(localStorage.getItem('tbb_tuyen')==='1')}catch(e){setTuyenOpen(false)}onTuyen();await refreshState();try{VOLT=(await fetch('/api/rev').then(r=>r.json())).vol}catch(e){}setInterval(poll,15000)}
 </script>
 </body>
 </html>
