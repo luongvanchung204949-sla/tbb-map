@@ -81,7 +81,7 @@ def match(xa, hu, learned):
 
 def _read(content: bytes, is_csv: bool = False) -> pd.DataFrame:
     if is_csv:
-        raw = pd.read_csv(io.BytesIO(content), header=None, dtype=str, keep_default_na=False, na_values=[""])
+        raw = pd.read_csv(io.BytesIO(content), header=None, dtype=str, keep_default_na=False, na_values=[""], usecols=range(9))
     else:
         raw = pd.read_excel(io.BytesIO(content), header=None, dtype=str)
     hdr = None
@@ -94,6 +94,7 @@ def _read(content: bytes, is_csv: bool = False) -> pd.DataFrame:
         raise ValueError("Không tìm thấy dòng tiêu đề có 'Mã bưu cục' và 'Phường/xã'.")
     df = raw.iloc[hdr + 1:].copy()
     df.columns = ["Mã bưu cục" if str(c).strip().endswith("Mã bưu cục") else str(c).strip() for c in raw.iloc[hdr].tolist()]
+    df = df.loc[:, ~pd.Index(df.columns).duplicated()]
     need = ["Mã bưu cục", "Mã đơn hàng", "Loại đơn", "Phường/xã", "Thời gian tồn đọng"]
     miss = [c for c in need if c not in df.columns]
     if miss:
