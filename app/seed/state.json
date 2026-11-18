@@ -1,1 +1,927 @@
-{"chung": 50, "bcdm": {}, "xdm": {}, "tuyen": []}
+{
+ "chung": 50,
+ "bcdm": {
+  "20121005": 50,
+  "20206000": 75,
+  "20222000": 80,
+  "20603000": 125,
+  "20650000": 110,
+  "20703000": 50,
+  "20714000": 50,
+  "20749000": 50,
+  "20754000": 50,
+  "20896000": 110,
+  "20915000": 50,
+  "20939000": 60,
+  "20968000": 50,
+  "20973000": 70,
+  "20982000": 80,
+  "20985000": 50,
+  "20991000": 50,
+  "20993000": 50,
+  "21072000": 60,
+  "21306000": 50,
+  "21360000": 80,
+  "21382000": 50,
+  "21383000": 50,
+  "21438000": 50,
+  "21448000": 60,
+  "21560000": 50,
+  "21564000": 50,
+  "21567000": 50,
+  "21600000": 70,
+  "21706000": 110,
+  "21974000": 80,
+  "22032000": 110,
+  "22094000": 50,
+  "22390000": 50,
+  "22429000": 70,
+  "22504000": 70,
+  "22505000": 70,
+  "22519000": 50,
+  "22608000": 70,
+  "22650000": 60,
+  "22660000": 45,
+  "22661000": 50,
+  "22679000": 50,
+  "22680000": 70,
+  "22731000": 80,
+  "22751000": 50,
+  "22853000": 45,
+  "22945000": 115,
+  "22947000": 70,
+  "23033000": 50,
+  "23049000": 110,
+  "23050000": 60,
+  "23066000": 90,
+  "23135000": 55
+ },
+ "xdm": {
+  "140104": {
+   "dm": 400,
+   "nv": 0
+  },
+  "140110": {
+   "dm": 100,
+   "nv": 0
+  },
+  "140701": {
+   "dm": 200,
+   "nv": 0
+  },
+  "140702": {
+   "dm": 100,
+   "nv": 0
+  },
+  "140703": {
+   "dm": 50,
+   "nv": 0
+  },
+  "140704": {
+   "dm": 60,
+   "nv": 0
+  },
+  "140705": {
+   "dm": 60,
+   "nv": 0
+  },
+  "140706": {
+   "dm": 60,
+   "nv": 0
+  },
+  "140707": {
+   "dm": 50,
+   "nv": 0
+  },
+  "140708": {
+   "dm": 60,
+   "nv": 0
+  },
+  "140709": {
+   "dm": 150,
+   "nv": 0
+  },
+  "140710": {
+   "dm": 50,
+   "nv": 0
+  },
+  "140711": {
+   "dm": 50,
+   "nv": 0
+  },
+  "140712": {
+   "dm": 60,
+   "nv": 0
+  },
+  "140713": {
+   "dm": 150,
+   "nv": 0
+  },
+  "140714": {
+   "dm": 100,
+   "nv": 0
+  },
+  "140715": {
+   "dm": 50,
+   "nv": 0
+  },
+  "140716": {
+   "dm": 50,
+   "nv": 0
+  },
+  "140717": {
+   "dm": 60,
+   "nv": 0
+  },
+  "140718": {
+   "dm": 50,
+   "nv": 0
+  },
+  "140719": {
+   "dm": 50,
+   "nv": 0
+  },
+  "140720": {
+   "dm": 60,
+   "nv": 0
+  },
+  "140721": {
+   "dm": 50,
+   "nv": 0
+  },
+  "140722": {
+   "dm": 50,
+   "nv": 0
+  }
+ },
+ "tuyen": [
+  {
+   "_id": "tmwltdr5knbns",
+   "ten_tuyen": "Tuyến Mường É, Phổng Lập",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "140419",
+     "ten": "Xã Mường É",
+     "sub": "Huyện Thuận Châu",
+     "xa_moi": "Xã Mường É",
+     "tinh": "Sơn La"
+    },
+    {
+     "id": "140425",
+     "ten": "Xã Phổng Lập",
+     "sub": "Huyện Thuận Châu",
+     "xa_moi": "Xã Mường É",
+     "tinh": "Sơn La"
+    }
+   ],
+   "bc_ids": [
+    "20973000"
+   ],
+   "bc": "(SLA) Thuận Châu",
+   "nv_thieu": 1,
+   "muc": "nghiem_trong",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:50:23"
+  },
+  {
+   "_id": "tmwlu1lo2g799",
+   "ten_tuyen": "Tuyến Nậm Lầu",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "140421",
+     "ten": "Xã Nậm Lầu",
+     "sub": "Huyện Thuận Châu",
+     "xa_moi": "Xã Nậm Lầu",
+     "tinh": "Sơn La"
+    }
+   ],
+   "bc_ids": [
+    "20973000"
+   ],
+   "bc": "(SLA) Thuận Châu",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:07:29"
+  },
+  {
+   "_id": "tmwlu1w4igd04",
+   "ten_tuyen": "Tuyến Mường Khiêng, Liệp Tè",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "140420",
+     "ten": "Xã Mường Khiêng",
+     "sub": "Huyện Thuận Châu",
+     "xa_moi": "Xã Mường Khiêng",
+     "tinh": "Sơn La"
+    },
+    {
+     "id": "140415",
+     "ten": "Xã Liệp Tè",
+     "sub": "Huyện Thuận Châu",
+     "xa_moi": "Xã Mường Khiêng",
+     "tinh": "Sơn La"
+    }
+   ],
+   "bc_ids": [
+    "20973000"
+   ],
+   "bc": "(SLA) Thuận Châu",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:01:51"
+  },
+  {
+   "_id": "tmwlu26mivhji",
+   "ten_tuyen": "Tuyến Hua La, Chiềng Cọ",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "140112",
+     "ten": "Xã Hua La",
+     "sub": "Thành phố Sơn La",
+     "xa_moi": "Phường Chiềng Cơi",
+     "tinh": "Sơn La"
+    },
+    {
+     "id": "140108",
+     "ten": "Xã Chiềng Cọ",
+     "sub": "Thành phố Sơn La",
+     "xa_moi": "Phường Chiềng Cơi",
+     "tinh": "Sơn La"
+    }
+   ],
+   "bc_ids": [
+    "20603000"
+   ],
+   "bc": "(SLA) Tô Hiệu",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:02:04"
+  },
+  {
+   "_id": "tmwlu38xmy6sy",
+   "ten_tuyen": "Tuyến Đông Cuông, Quang Minh",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "130309",
+     "ten": "Xã Đông Cuông",
+     "sub": "Huyện Văn Yên",
+     "xa_moi": "Xã Đông Cuông",
+     "tinh": "Lào Cai"
+    },
+    {
+     "id": "130319",
+     "ten": "Xã Quang Minh",
+     "sub": "Huyện Văn Yên",
+     "xa_moi": "Xã Đông Cuông",
+     "tinh": "Lào Cai"
+    }
+   ],
+   "bc_ids": [
+    "23050000"
+   ],
+   "bc": "(YBA) Đông Cuông",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:02:54"
+  },
+  {
+   "_id": "tmwlu40dun17v",
+   "ten_tuyen": "Tuyến Bản Bo, Nà Tăm",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "70202",
+     "ten": "Xã Bản Bo",
+     "sub": "Huyện Tam Đường",
+     "xa_moi": "Xã Bản Bo",
+     "tinh": "Lai Châu"
+    },
+    {
+     "id": "70209",
+     "ten": "Xã Nà Tăm",
+     "sub": "Huyện Tam Đường",
+     "xa_moi": "Xã Bản Bo",
+     "tinh": "Lai Châu"
+    }
+   ],
+   "bc_ids": [
+    "21382000"
+   ],
+   "bc": "(LCH) Bình Lư",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:03:30"
+  },
+  {
+   "_id": "tmwlu44k2hkcr",
+   "ten_tuyen": "Tuyến Giang Ma, Hồ Thầu",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "70206",
+     "ten": "Xã Giang Ma",
+     "sub": "Huyện Tam Đường",
+     "xa_moi": "Xã Tả Lèng",
+     "tinh": "Lai Châu"
+    },
+    {
+     "id": "70207",
+     "ten": "Xã Hồ Thầu",
+     "sub": "Huyện Tam Đường",
+     "xa_moi": "Xã Tả Lèng",
+     "tinh": "Lai Châu"
+    }
+   ],
+   "bc_ids": [
+    "21382000"
+   ],
+   "bc": "(LCH) Bình Lư",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:03:35"
+  },
+  {
+   "_id": "tmwlv1t0th46g",
+   "ten_tuyen": "Tuyến Chiềng Nơi, Phiêng Cằm",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "140710",
+     "ten": "Xã Chiềng Nơi",
+     "sub": "Huyện Mai Sơn",
+     "xa_moi": "Xã Phiêng Cằm",
+     "tinh": "Sơn La"
+    },
+    {
+     "id": "140720",
+     "ten": "Xã Phiêng Cằm",
+     "sub": "Huyện Mai Sơn",
+     "xa_moi": "Xã Phiêng Cằm",
+     "tinh": "Sơn La"
+    }
+   ],
+   "bc_ids": [
+    "21600000"
+   ],
+   "bc": "(SLA) Mai Sơn",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:29:46"
+  },
+  {
+   "_id": "tmwlvqbn32fl9",
+   "ten_tuyen": "Tuyến Nậm Hàng, Nậm Manh",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "70807",
+     "ten": "Xã Nậm Hàng",
+     "sub": "Huyện Nậm Nhùn",
+     "xa_moi": "Xã Nậm Hàng",
+     "tinh": "Lai Châu"
+    },
+    {
+     "id": "70808",
+     "ten": "Xã Nậm Manh",
+     "sub": "Huyện Nậm Nhùn",
+     "xa_moi": "Xã Nậm Hàng",
+     "tinh": "Lai Châu"
+    }
+   ],
+   "bc_ids": [
+    "22660000"
+   ],
+   "bc": "(LCH) Nậm Hàng",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:48:50"
+  },
+  {
+   "_id": "tmwlvqrriyp5c",
+   "ten_tuyen": "Tuyến Làng Mô, Tủa Sín Chải",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "70405",
+     "ten": "Xã Làng Mô",
+     "sub": "Huyện Sìn Hồ",
+     "xa_moi": "Xã Tủa Sín Chải",
+     "tinh": "Lai Châu"
+    },
+    {
+     "id": "70422",
+     "ten": "Xã Tủa Sín Chải",
+     "sub": "Huyện Sìn Hồ",
+     "xa_moi": "Xã Tủa Sín Chải",
+     "tinh": "Lai Châu"
+    }
+   ],
+   "bc_ids": [
+    "22853000"
+   ],
+   "bc": "(LCH) Sìn Hồ",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:49:11"
+  },
+  {
+   "_id": "tmwlvro5iw0r0",
+   "ten_tuyen": "Tuyến Noong Bua, Mường Thanh",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "620104",
+     "ten": "Phường Noong Bua",
+     "sub": "Thành phố Điện Biên Phủ",
+     "xa_moi": "Phường Mường Thanh",
+     "tinh": "Điện Biên"
+    },
+    {
+     "id": "620102",
+     "ten": "Phường Mường Thanh",
+     "sub": "Thành phố Điện Biên Phủ",
+     "xa_moi": "Phường Điện Biên Phủ",
+     "tinh": "Điện Biên"
+    }
+   ],
+   "bc_ids": [
+    "22032000"
+   ],
+   "bc": "(DBI) Điện Biên Phủ",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:49:53"
+  },
+  {
+   "_id": "tmwlvry3yi8f2",
+   "ten_tuyen": "Tuyến Him Lam, Tân Thanh",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "620101",
+     "ten": "Phường Him Lam",
+     "sub": "Thành phố Điện Biên Phủ",
+     "xa_moi": "Phường Điện Biên Phủ",
+     "tinh": "Điện Biên"
+    },
+    {
+     "id": "620105",
+     "ten": "Phường Tân Thanh",
+     "sub": "Thành phố Điện Biên Phủ",
+     "xa_moi": "Phường Điện Biên Phủ",
+     "tinh": "Điện Biên"
+    }
+   ],
+   "bc_ids": [
+    "22032000"
+   ],
+   "bc": "(DBI) Điện Biên Phủ",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:50:06"
+  },
+  {
+   "_id": "tmwlvt887lf9v",
+   "ten_tuyen": "Tuyến Thanh Trường",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "620107",
+     "ten": "Phường Thanh Trường",
+     "sub": "Thành phố Điện Biên Phủ",
+     "xa_moi": "Phường Điện Biên Phủ",
+     "tinh": "Điện Biên"
+    }
+   ],
+   "bc_ids": [
+    "22032000"
+   ],
+   "bc": "(DBI) Điện Biên Phủ",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:51:06"
+  },
+  {
+   "_id": "tmwlvu57rzcai",
+   "ten_tuyen": "Tuyến Háng Lìa, Tìa Dình",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "620703",
+     "ten": "Xã Háng Lìa",
+     "sub": "Huyện Điện Biên Đông",
+     "xa_moi": "Xã Tìa Dình",
+     "tinh": "Điện Biên"
+    },
+    {
+     "id": "620713",
+     "ten": "Xã Tìa Dình",
+     "sub": "Huyện Điện Biên Đông",
+     "xa_moi": "Xã Tìa Dình",
+     "tinh": "Điện Biên"
+    }
+   ],
+   "bc_ids": [
+    "22390000"
+   ],
+   "bc": "(DBI) Na Son",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:51:49"
+  },
+  {
+   "_id": "tmwlvuevr62d8",
+   "ten_tuyen": "Tuyến Xa Dung, Chiềng Sơ",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "620714",
+     "ten": "Xã Xa Dung",
+     "sub": "Huyện Điện Biên Đông",
+     "xa_moi": "Xã Xa Dung",
+     "tinh": "Điện Biên"
+    },
+    {
+     "id": "620702",
+     "ten": "Xã Chiềng Sơ",
+     "sub": "Huyện Điện Biên Đông",
+     "xa_moi": "Xã Mường Luân",
+     "tinh": "Điện Biên"
+    }
+   ],
+   "bc_ids": [
+    "22390000"
+   ],
+   "bc": "(DBI) Na Son",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:52:01"
+  },
+  {
+   "_id": "tmwlvvatj9dxo",
+   "ten_tuyen": "Tuyến Si Pa Phìn, Ma Thì Hồ",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "621014",
+     "ten": "Xã Si Pa Phìn",
+     "sub": "Huyện Nậm Pồ",
+     "xa_moi": "Xã Si Pa Phìn",
+     "tinh": "Điện Biên"
+    },
+    {
+     "id": "620505",
+     "ten": "Xã Ma Thì Hồ",
+     "sub": "Huyện Mường Chà",
+     "xa_moi": "Xã Na Sang",
+     "tinh": "Điện Biên"
+    }
+   ],
+   "bc_ids": [
+    "20714000"
+   ],
+   "bc": "(DBI) Na Sang",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:52:43"
+  },
+  {
+   "_id": "tmwlvwjrj9e43",
+   "ten_tuyen": "Tuyến Trung Thu, Lao Xả Phình, Sính Phình",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "620610",
+     "ten": "Xã Trung Thu",
+     "sub": "Huyện Tủa Chùa",
+     "xa_moi": "Xã Sính Phình",
+     "tinh": "Điện Biên"
+    },
+    {
+     "id": "620603",
+     "ten": "Xã Lao Xả Phình",
+     "sub": "Huyện Tủa Chùa",
+     "xa_moi": "Xã Sín Chải",
+     "tinh": "Điện Biên"
+    },
+    {
+     "id": "620607",
+     "ten": "Xã Sính Phình",
+     "sub": "Huyện Tủa Chùa",
+     "xa_moi": "Xã Sính Phình",
+     "tinh": "Điện Biên"
+    }
+   ],
+   "bc_ids": [
+    "20993000"
+   ],
+   "bc": "(DBI) Tủa Chùa",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:53:41"
+  },
+  {
+   "_id": "tmwlvwutrnur9",
+   "ten_tuyen": "Tuyến Pú Xi, Mường Mùn",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "620412",
+     "ten": "Xã Pú Xi",
+     "sub": "Huyện Tuần Giáo",
+     "xa_moi": "Xã Mường Mùn",
+     "tinh": "Điện Biên"
+    },
+    {
+     "id": "620406",
+     "ten": "Xã Mường Mùn",
+     "sub": "Huyện Tuần Giáo",
+     "xa_moi": "Xã Mường Mùn",
+     "tinh": "Điện Biên"
+    }
+   ],
+   "bc_ids": [
+    "20993000"
+   ],
+   "bc": "(DBI) Tủa Chùa",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:53:55"
+  },
+  {
+   "_id": "tmwlvx1ivsavv",
+   "ten_tuyen": "Tuyến Mường Báng, Nà Tòng",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "620604",
+     "ten": "Xã Mường Báng",
+     "sub": "Huyện Tủa Chùa",
+     "xa_moi": "Xã Tủa Chùa",
+     "tinh": "Điện Biên"
+    },
+    {
+     "id": "620409",
+     "ten": "Xã Nà Tòng",
+     "sub": "Huyện Tuần Giáo",
+     "xa_moi": "Xã Tủa Chùa",
+     "tinh": "Điện Biên"
+    }
+   ],
+   "bc_ids": [
+    "20993000"
+   ],
+   "bc": "(DBI) Tủa Chùa",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:54:04"
+  },
+  {
+   "_id": "tmwlvxjvzn484",
+   "ten_tuyen": "Tuyến Chiềng Ân, Chiềng Hoa",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "140302",
+     "ten": "Xã Chiềng Ân",
+     "sub": "Huyện Mường La",
+     "xa_moi": "Xã Chiềng Hoa",
+     "tinh": "Sơn La"
+    },
+    {
+     "id": "140304",
+     "ten": "Xã Chiềng Hoa",
+     "sub": "Huyện Mường La",
+     "xa_moi": "Xã Chiềng Hoa",
+     "tinh": "Sơn La"
+    }
+   ],
+   "bc_ids": [
+    "22505000"
+   ],
+   "bc": "(SLA) Mường La",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:54:28"
+  },
+  {
+   "_id": "tmwlvxo2fju4a",
+   "ten_tuyen": "Tuyến Ít Ong",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "140301",
+     "ten": "Thị trấn Ít Ong",
+     "sub": "Huyện Mường La",
+     "xa_moi": "Xã Mường La",
+     "tinh": "Sơn La"
+    }
+   ],
+   "bc_ids": [
+    "22505000"
+   ],
+   "bc": "(SLA) Mường La",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:54:33"
+  },
+  {
+   "_id": "tmwlvxy27efwg",
+   "ten_tuyen": "Tuyến Dồm Cang, Mường Lèo",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "141101",
+     "ten": "Xã Dồm Cang",
+     "sub": "Huyện Sốp Cộp",
+     "xa_moi": "Xã Púng Bánh",
+     "tinh": "Sơn La"
+    },
+    {
+     "id": "141103",
+     "ten": "Xã Mường Lèo",
+     "sub": "Huyện Sốp Cộp",
+     "xa_moi": "Xã Mường Lèo",
+     "tinh": "Sơn La"
+    }
+   ],
+   "bc_ids": [
+    "22504000"
+   ],
+   "bc": "(SLA) Sốp Cộp",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:54:46"
+  },
+  {
+   "_id": "tmwlvywufz2eo",
+   "ten_tuyen": "Tuyến Lóng Sập",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "141008",
+     "ten": "Xã Lóng Sập",
+     "sub": "Thị xã Mộc Châu",
+     "xa_moi": "Xã Lóng Sập",
+     "tinh": "Sơn La"
+    }
+   ],
+   "bc_ids": [
+    "23066000"
+   ],
+   "bc": "(SLA) Mộc Sơn",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:55:31"
+  },
+  {
+   "_id": "tmwlvzesnmbia",
+   "ten_tuyen": "Tuyến Mộc Sơn",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "91287",
+     "ten": "Phường Mộc Sơn",
+     "sub": "Thị xã Mộc Châu",
+     "xa_moi": "Phường Mộc Sơn",
+     "tinh": "Sơn La"
+    }
+   ],
+   "bc_ids": [
+    "23066000"
+   ],
+   "bc": "(SLA) Mộc Sơn",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:55:54"
+  },
+  {
+   "_id": "tmwlw18yxnnn6",
+   "ten_tuyen": "Tuyến Bắc Hà",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "80801",
+     "ten": "Thị trấn Bắc Hà",
+     "sub": "Huyện Bắc Hà",
+     "xa_moi": "Xã Bắc Hà",
+     "tinh": "Lào Cai"
+    }
+   ],
+   "bc_ids": [
+    "20985000"
+   ],
+   "bc": "(LCA) Bắc Hà",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:57:20"
+  },
+  {
+   "_id": "tmwlw1is7c0r5",
+   "ten_tuyen": "Tuyến Cốc Ly, Nậm Mòn",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "80808",
+     "ten": "Xã Cốc Ly",
+     "sub": "Huyện Bắc Hà",
+     "xa_moi": "Xã Bảo Nhai",
+     "tinh": "Lào Cai"
+    },
+    {
+     "id": "80817",
+     "ten": "Xã Nậm Mòn",
+     "sub": "Huyện Bắc Hà",
+     "xa_moi": "Xã Bắc Hà",
+     "tinh": "Lào Cai"
+    }
+   ],
+   "bc_ids": [
+    "20985000"
+   ],
+   "bc": "(LCA) Bắc Hà",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:57:33"
+  },
+  {
+   "_id": "tmwlw2y9zp57i",
+   "ten_tuyen": "Tuyến Duyên Hải",
+   "unit": "cu",
+   "wards": [
+    {
+     "id": "80105",
+     "ten": "Phường Duyên Hải",
+     "sub": "Thành phố Lào Cai",
+     "xa_moi": "Phường Lào Cai",
+     "tinh": "Lào Cai"
+    }
+   ],
+   "bc_ids": [
+    "21706000"
+   ],
+   "bc": "(LCA) Lào Cai",
+   "nv_thieu": 1,
+   "muc": "thieu",
+   "ghi_chu": "",
+   "by": "Chun",
+   "updated_at": "2026-11-18T15:58:40"
+  }
+ ]
+}
