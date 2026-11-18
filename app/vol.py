@@ -8,6 +8,9 @@ import json
 import re
 import unicodedata
 from datetime import datetime
+from zoneinfo import ZoneInfo
+
+VN = ZoneInfo("Asia/Ho_Chi_Minh")
 from pathlib import Path
 
 import pandas as pd
@@ -76,18 +79,21 @@ def match(xa, hu, learned):
     return None, "Không thuộc danh sách xã TBB"
 
 
-def _read(content: bytes) -> pd.DataFrame:
-    raw = pd.read_excel(io.BytesIO(content), header=None, dtype=str)
+def _read(content: bytes, is_csv: bool = False) -> pd.DataFrame:
+    if is_csv:
+        raw = pd.read_csv(io.BytesIO(content), header=None, dtype=str, keep_default_na=False, na_values=[""])
+    else:
+        raw = pd.read_excel(io.BytesIO(content), header=None, dtype=str)
     hdr = None
     for i in range(min(15, len(raw))):
         vals = [str(v).strip() for v in raw.iloc[i].tolist()]
-        if "Mã bưu cục" in vals and "Phường/xã" in vals:
+        if any(v.endswith("Mã bưu cục") for v in vals) and "Phường/xã" in vals:
             hdr = i
             break
     if hdr is None:
         raise ValueError("Không tìm thấy dòng tiêu đề có 'Mã bưu cục' và 'Phường/xã'.")
     df = raw.iloc[hdr + 1:].copy()
-    df.columns = [str(c).strip() for c in raw.iloc[hdr].tolist()]
+    df.columns = ["Mã bưu cục" if str(c).strip().endswith("Mã bưu cục") else str(c).strip() for c in raw.iloc[hdr].tolist()]
     need = ["Mã bưu cục", "Mã đơn hàng", "Loại đơn", "Phường/xã", "Thời gian tồn đọng"]
     miss = [c for c in need if c not in df.columns]
     if miss:
@@ -100,11 +106,11 @@ def snapshot_time(filename: str):
     m = re.search(r"(\d{4}-\d{2}-\d{2})_at_(\d{2})_(\d{2})", filename or "")
     if m:
         return f"{m.group(1)}T{m.group(2)}:{m.group(3)}:00"
-    return datetime.now().strftime("%Y-%m-%dT%H:%M:00")
+    return datetime.now(VN).strftime("%Y-%m-%dT%H:%M:00")
 
 
-def process(content: bytes, filename: str, learned: dict):
-    df = _read(content)
+def process(content: bytes, filename: str, learned: dict, is_csv: bool = False, snapshot: str = None):
+    df = _read(content, is_csv)
     sp = df["Phường/xã"].astype(str).str.rsplit(",", n=1, expand=True)
     df["xa"] = sp[0].str.strip()
     df["huyen"] = sp[1].str.strip() if sp.shape[1] > 1 else None
@@ -137,8 +143,8 @@ def process(content: bytes, filename: str, learned: dict):
     un = (df[df["xid"].isna()].groupby(["Phường/xã", "Mã bưu cục"]).size()
           .sort_values(ascending=False).reset_index(name="so_don"))
     meta = {
-        "snapshot": snapshot_time(filename), "file": filename,
-        "uploaded_at": datetime.now().strftime("%Y-%m-%dT%H:%M:%S"),
+        "snapshot": snapshot or snapshot_time(filename), "file": filename,
+        "uploaded_at": datetime.now(VN).strftime("%Y-%m-%dT%H:%M:%S"),
         "so_don": int(len(df)), "ghep_duoc": int(df["xid"].notna().sum()),
         "giao": int((df["grp"] == "Giao").sum()),
         "chua_ghep": un.head(200).to_dict("records"),

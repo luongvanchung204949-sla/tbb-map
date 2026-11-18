@@ -6,7 +6,9 @@ Web bản đồ 54 BC / 754 xã cũ / 257 xã mới vùng TBB: tô màu mức t�
 - Railway: `uvicorn app.main:app` (xem `railway.json`). Gắn **volume** vào `/data` và đặt biến `DATA_DIR=/data`.
 - Biến môi trường:
   - `EDIT_PIN` — mã PIN để sửa định mức/tuyến (để trống = ai cũng sửa được).
-  - `ADMIN_PIN` — mã PIN quản trị: tải báo cáo tồn đọng mới, tải file sao lưu.
+  - `ADMIN_PIN` — mã PIN quản trị: tải báo cáo tồn đọng mới, đồng bộ ngay, tải file sao lưu.
+  - `SHEET_ID`, `SHEET_GID` — Google Sheet nguồn vol (mặc định: file "AI - Nạp data tồn đọng", sheet DATA GÁN). Sheet phải mở quyền xem cho người có link.
+  - `SYNC_MINUTES` — chu kỳ tự kiểm tra sheet (mặc định 10 phút).
 - Local: `pip install -r requirements.txt && DATA_DIR=./data uvicorn app.main:app --reload`
 
 ## Cấu trúc
@@ -17,7 +19,7 @@ Web bản đồ 54 BC / 754 xã cũ / 257 xã mới vùng TBB: tô màu mức t�
 - `app/static/index.html` — giao diện (MapLibre).
 
 ## Cập nhật thường gặp
-- **Vol hằng ngày:** tab *Cập nhật dữ liệu* → chọn file tồn đọng → PIN quản trị.
+- **Vol:** cập nhật sheet DATA GÁN — web tự đồng bộ (≤10 phút), hoặc tab *Cập nhật dữ liệu* → Đồng bộ ngay / tải file.
 - **Định mức / tuyến:** sửa trực tiếp trên web (PIN sửa).
 - **Gán xã ↔ BC thay đổi:** cập nhật `app/ref/master.json` và lớp `lanh_tho_bc.json` (cần chạy lại script dựng ranh giới).
 - **Sao lưu:** tab *Cập nhật dữ liệu* → Tải file sao lưu (Excel).

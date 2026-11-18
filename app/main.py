@@ -25,6 +25,9 @@ VOL_PATH = DATA / "vol.json"
 EDIT_PIN = os.environ.get("EDIT_PIN", "").strip()
 ADMIN_PIN = os.environ.get("ADMIN_PIN", "").strip()
 LOCK = threading.Lock()
+SHEET_ID = os.environ.get("SHEET_ID", "1r7eNeu7JF5ZDAOpK7Ub15JdhPCOZMYth2p1BrnfROlI").strip()
+SHEET_GID = os.environ.get("SHEET_GID", "1495169091").strip()
+SYNC_MINUTES = float(os.environ.get("SYNC_MINUTES", "10"))
 
 app = FastAPI(title="TBB Map", docs_url=None, redoc_url=None)
 
@@ -42,7 +45,7 @@ def db():
 
 
 def now():
-    return datetime.now().strftime("%Y-%m-%dT%H:%M:%S")
+    return datetime.now(volmod.VN).strftime("%Y-%m-%dT%H:%M:%S")
 
 
 def init_db():
@@ -246,24 +249,95 @@ async def upload_vol(req: Request, file: UploadFile = File(...), x_pin: str = He
     content = await file.read()
     if len(content) > 40 * 1024 * 1024:
         raise HTTPException(400, "File quá lớn (tối đa 40MB)")
+    try:
+        meta = ingest(content, file.filename or "", req=req)
+    except ValueError as e:
+        raise HTTPException(400, str(e))
+    return meta
+
+
+def ingest(content: bytes, filename: str, req: Request = None, is_csv=False, snapshot=None, who=""):
     with db() as c:
         r = c.execute("SELECT value FROM kv WHERE key='learned'").fetchone()
     learned = json.loads(r["value"]) if r else json.loads((BASE / "ref" / "map_ten_xa.json").read_text(encoding="utf-8"))
-    try:
-        out, new_learned = volmod.process(content, file.filename or "", learned)
-    except ValueError as e:
-        raise HTTPException(400, str(e))
+    out, new_learned = volmod.process(content, filename, learned, is_csv=is_csv, snapshot=snapshot)
     learned.update(new_learned)
     tmp = VOL_PATH.with_suffix(".tmp")
     tmp.write_text(json.dumps(out, ensure_ascii=False), encoding="utf-8")
     if VOL_PATH.exists():
-        shutil.copy(VOL_PATH, DATA / f"vol_{datetime.now():%Y%m%d_%H%M%S}.json")
+        shutil.copy(VOL_PATH, DATA / f"vol_{datetime.now(volmod.VN):%Y%m%d_%H%M%S}.json")
+        olds = sorted(DATA.glob("vol_*.json"))
+        for f in olds[:-60]:
+            f.unlink(missing_ok=True)
     tmp.replace(VOL_PATH)
     with LOCK, db() as c:
         c.execute("INSERT OR REPLACE INTO kv VALUES('learned',?)", (json.dumps(learned, ensure_ascii=False),))
-        log(c, req, "cap_nhat_vol", file.filename or "", f"{out['meta']['so_don']} đơn, ghép {out['meta']['ghep_duoc']}")
+        detail = f"{out['meta']['so_don']} đơn, ghép {out['meta']['ghep_duoc']}"
+        if req is not None:
+            log(c, req, "cap_nhat_vol", filename, detail)
+        else:
+            c.execute("INSERT INTO log(at,action,target,detail,ip,who) VALUES(?,?,?,?,?,?)", (now(), "cap_nhat_vol", filename, detail, "", who))
         bump(c)
     return out["meta"]
+
+
+# ---------------------------------------------------------------- Google Sheet sync
+SYNC = {"last_check": None, "last_change": None, "error": None}
+
+
+def sheet_url():
+    return f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/export?format=csv&gid={SHEET_GID}"
+
+
+def sync_sheet(force=False):
+    import hashlib
+    import urllib.request
+    SYNC["last_check"] = now()
+    try:
+        req = urllib.request.Request(sheet_url(), headers={"User-Agent": "tbb-map"})
+        with urllib.request.urlopen(req, timeout=120) as r:
+            content = r.read()
+        if content[:15].lower().startswith(b"<!doctype html") or b"<html" in content[:200].lower():
+            raise ValueError("Sheet chưa mở quyền 'Bất kỳ ai có đường liên kết đều xem được'.")
+        h = hashlib.sha1(content).hexdigest()
+        with db() as c:
+            r = c.execute("SELECT value FROM kv WHERE key='sheet_hash'").fetchone()
+        if r and r["value"] == h and not force:
+            SYNC["error"] = None
+            return {"changed": False}
+        meta = ingest(content, "Google Sheet · DATA GÁN", is_csv=True, snapshot=now(), who="Tự động (Google Sheet)")
+        with LOCK, db() as c:
+            c.execute("INSERT OR REPLACE INTO kv VALUES('sheet_hash',?)", (h,))
+        SYNC["last_change"] = now()
+        SYNC["error"] = None
+        return {"changed": True, "meta": meta}
+    except Exception as e:  # noqa: BLE001
+        SYNC["error"] = str(e)[:300]
+        return {"changed": False, "error": SYNC["error"]}
+
+
+def _sync_loop():
+    import time
+    time.sleep(20)
+    while True:
+        if SHEET_ID and SYNC_MINUTES > 0:
+            sync_sheet()
+        time.sleep(max(60, SYNC_MINUTES * 60))
+
+
+if os.environ.get("DISABLE_SYNC") != "1":
+    threading.Thread(target=_sync_loop, daemon=True).start()
+
+
+@app.get("/api/sync-status")
+def sync_status():
+    return dict(SYNC, sheet=bool(SHEET_ID), minutes=SYNC_MINUTES)
+
+
+@app.post("/api/admin/sync")
+def admin_sync(x_pin: str = Header(None)):
+    need_admin(x_pin)
+    return sync_sheet(force=True)
 
 
 @app.get("/api/admin/backup.xlsx")
