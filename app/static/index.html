@@ -93,7 +93,7 @@ textarea{resize:vertical;min-height:44px}
 .tuyen small{color:var(--mute);display:block;margin-top:2px}
 .tuyen .act{display:flex;gap:6px;margin-top:6px}
 .tuyen .act .btn{padding:3px 8px;font-size:11.5px}
-#list{min-height:200px}
+#list{min-height:200px}aside>*{flex-shrink:0}
 .bc{display:grid;grid-template-columns:10px 1fr auto;gap:8px;align-items:center;padding:8px 14px;border-bottom:1px solid #f0f2f5;cursor:pointer;font-size:13px}
 .bc:hover,.bc.on{background:#fff4ec}
 .bc .d{width:10px;height:10px;border-radius:50%}
@@ -199,7 +199,7 @@ body.ro .ed{display:none!important}
 <select id="sort"><option value="thieu">NV thiếu ↓</option><option value="giao">Đơn giao tồn ↓</option><option value="p24">% tồn ≥24h ↓</option><option value="km2_nv">km²/NV ↓</option><option value="bc_name">Tên A→Z</option></select></div>
 </div>
 <div id="list"></div>
-<div class="sec note"><b>Cách tính:</b> Số NV thiếu của BC = tổng NV thiếu của các tuyến đã đánh dấu. Màu xã = tải xã = đơn giao tồn của xã ÷ (định mức xã × NV phụ trách). Số liệu là <b>ảnh chụp tồn đọng 12:34 ngày 18/11/2026</b>; định mức là giá trị tạm. Ranh giới 30 xã cũ (Sa Pa, Mộc Châu, Nghĩa Lộ, Mai Sơn, Trấn Yên) là <b>xấp xỉ</b>, chia theo tâm xã.</div>
+<div class="sec note"><b>Cách tính:</b> Số NV thiếu của BC = tổng NV thiếu của các tuyến đã đánh dấu. Màu xã = tải xã = đơn giao tồn của xã ÷ (định mức xã × NV phụ trách). Đơn tồn lấy theo mốc cập nhật ghi ở góc trên bản đồ. Ranh giới 30 xã cũ (Sa Pa, Mộc Châu, Nghĩa Lộ, Mai Sơn, Trấn Yên) là <b>xấp xỉ</b>, chia theo tâm xã.</div>
 </aside>
 <section id="dmView"></section><section id="adView"></section>
 <div id="map"><button id="sideBtn" title="Ẩn/hiện thanh bên trái">◀</button><div class="stamp" id="stamp">Tồn đọng · –</div><div class="markhint">Chế độ đánh dấu: bấm vào phường/xã để chọn, rồi điền thông tin tuyến bên trái</div><div id="tip"></div><div id="loading">Đang tải dữ liệu bản đồ…</div><div class="legend" id="leg"></div></div>
