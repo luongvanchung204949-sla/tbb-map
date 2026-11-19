@@ -379,7 +379,7 @@ function popup(ll,p,w){
  const mk=TUYEN.filter(t=>t.bc_ids&&t.bc_ids.includes(p.bc_id));
  const mkh=mk.length?`<div class="xa"><b style="color:#d62f2f">Tuyến thiếu người đã đánh dấu (${mk.reduce((s,t)=>s+(+t.nv_thieu||0),0)} NV):</b><br>${mk.map(t=>`• ${esc(t.ten_tuyen)} – thiếu ${t.nv_thieu}`).join('<br>')}</div>`:'';
  new maplibregl.Popup({maxWidth:'340px'}).setLngLat(ll).setHTML(`<div class="pp"><h4>${esc(p.bc_name)} ${lvlTag(p)}</h4>
- <div class="g"><span>Số NV</span><b>${p.nv} · cần ${p.can.toFixed(1)} (định mức ${p.dm}${p.dmOwn?' riêng':' chung'}${p.nXdm?` · ${p.nXdm} xã riêng → hiệu dụng ${p.dmEff}`:''})</b><span>Mức tải</span><b>${pct(p.tai)}</b><span>Giao tồn</span><b>${fmt(p.giao)} · đã trễ ${fmt(p.tre)}</b><span>Tồn ≥24h</span><b>${fmt(p.g24)} (${pct(p.p24)}) · ≥72h ${fmt(p.g72)}</b><span>Lấy / Trả</span><b>${fmt(p.lay)} / ${fmt(p.tra)}</b><span>Giữ ngoài địa giới</span><b>${fmt(p.lech)} đơn</b><span>Diện tích</span><b>${fmt(p.dien_tich_km2)} km² · ${p.km2_nv} km²/NV</b></div>${unit}${mkh}</div>`).addTo(map)}
+ <div class="g"><span>Số NV</span><b>${fmt(p.nv)}${p.nvAt?` <span style="color:#6b7385;font-weight:400;font-size:11px">(cập nhật ${new Date(p.nvAt).toLocaleString('vi-VN',{hour:'2-digit',minute:'2-digit',day:'2-digit',month:'2-digit'})})</span>`:''} · cần ${p.can.toFixed(1)} (định mức ${p.dm}${p.dmOwn?' riêng':' chung'}${p.nXdm?` · ${p.nXdm} xã riêng → hiệu dụng ${p.dmEff}`:''})</b><span>Mức tải</span><b>${pct(p.tai)}</b><span>Giao tồn</span><b>${fmt(p.giao)} · đã trễ ${fmt(p.tre)}</b><span>Tồn ≥24h</span><b>${fmt(p.g24)} (${pct(p.p24)}) · ≥72h ${fmt(p.g72)}</b><span>Lấy / Trả</span><b>${fmt(p.lay)} / ${fmt(p.tra)}</b><span>Giữ ngoài địa giới</span><b>${fmt(p.lech)} đơn</b><span>Diện tích</span><b>${fmt(p.dien_tich_km2)} km² · ${p.km2_nv} km²/NV</b></div>${unit}${mkh}</div>`).addTo(map)}
 function pick(id,fly){
  if(sel!==null)map.setFeatureState({source:'terr',id:sel},{sel:false});
  const f=TERR.features.find(x=>x.properties.bc_id===id);sel=f.id;map.setFeatureState({source:'terr',id:sel},{sel:true});
@@ -597,6 +597,7 @@ function renderAdmin(){const A=$('adView');const m=VOL&&VOL.meta;
   <div id="syncBox" class="note">Đang kiểm tra…</div><div style="margin-top:8px"><button class="btn dark" id="syncGo">Đồng bộ ngay</button> <span class="note">(cần PIN quản trị ở ô bên dưới)</span></div></div>
  <div class="card"><h3>Hoặc tải file báo cáo tồn đọng</h3><div class="note" style="margin-bottom:8px">Chọn file Excel <b>Báo cáo tồn đọng lấy/giao/trả</b> xuất từ hệ thống (giữ nguyên định dạng). Hệ thống tự ghép xã, tính vol theo BC/xã và cập nhật bản đồ cho mọi người. Cần <b>mã PIN quản trị</b>.</div>
   <input type="file" id="volFile" accept=".xlsx,.xls"> <input type="password" id="adPin" placeholder="PIN quản trị" style="width:160px"> <button class="btn dark" id="volGo">Tải lên & cập nhật</button><div id="volMsg" class="note" style="margin-top:8px"></div></div>
+ <div class="card"><h3>Số nhân viên theo BC</h3><div class="note">${(()=>{const v=Object.values(NVSTATE);if(!v.length)return 'Chưa nhận được số NV từ file nhân sự — đang dùng số ban đầu (trang Quy hoạch Bưu Cục, 18/11/2026).';const at=v.map(x=>x.at).sort().pop();return `Nhận tự động từ file nhân sự (Apps Script): <b>${v.length}</b> BC · tổng <b>${fmt(v.reduce((s,x)=>s+(+x.nv||0),0))}</b> NV · lần cập nhật gần nhất <b>${new Date(at).toLocaleString('vi-VN')}</b>. BC không có trong file giữ số ban đầu.`})()}</div></div>
  <div class="card"><h3>Sao lưu dữ liệu</h3><div class="note" style="margin-bottom:8px">Tải toàn bộ định mức BC, định mức xã, tuyến thiếu người và nhật ký ra Excel. Cần mã PIN quản trị.</div><button class="btn" id="bkGo">Tải file sao lưu</button></div>
  <div class="card"><h3>Nhật ký thay đổi (100 gần nhất)</h3><div id="logBox" class="note">Đang tải…</div></div>`;
  $('adPin').value=LS.get('tbb_admin');
@@ -609,7 +610,7 @@ function renderAdmin(){const A=$('adView');const m=VOL&&VOL.meta;
   try{const r=await fetch('/api/admin/vol',{method:'POST',headers:{'X-Pin':p,'X-User':encodeURIComponent(UNAME)},body:fd});const j=await r.json();if(!r.ok)throw new Error(j.detail||r.status);LS.set('tbb_admin',p);
    $('volMsg').innerHTML=`<b style="color:#1f7a45">Đã cập nhật.</b> ${fmt(j.so_don)} đơn, ghép được ${fmt(j.ghep_duoc)}. Đang tải lại trang…`;setTimeout(()=>location.reload(),1500)}catch(e){$('volMsg').innerHTML='<b style="color:#b00">Lỗi:</b> '+esc(e.message)}};
  $('bkGo').onclick=()=>{const p=$('adPin').value.trim()||LS.get('tbb_admin');if(!p){$('volMsg').textContent='Nhập PIN quản trị ở ô trên trước.';return}LS.set('tbb_admin',p);location.href='/api/admin/backup.xlsx?pin='+encodeURIComponent(p)};
- fetch('/api/log?limit=100').then(r=>r.json()).then(L=>{const A={dinh_muc_chung:'Định mức chung',dinh_muc_bc:'Định mức BC',dinh_muc_xa:'Định mức xã',dinh_muc_xa_hang_loat:'Định mức xã (hàng loạt)',tuyen_luu:'Lưu tuyến',tuyen_xoa:'Xoá tuyến',cap_nhat_vol:'Cập nhật vol'};
+ fetch('/api/log?limit=100').then(r=>r.json()).then(L=>{const A={dinh_muc_chung:'Định mức chung',dinh_muc_bc:'Định mức BC',dinh_muc_xa:'Định mức xã',dinh_muc_xa_hang_loat:'Định mức xã (hàng loạt)',tuyen_luu:'Lưu tuyến',tuyen_xoa:'Xoá tuyến',cap_nhat_vol:'Cập nhật vol',cap_nhat_nv:'Cập nhật số NV'};
   $('logBox').innerHTML=L.length?`<table class="dm"><tr><th>Thời gian</th><th>Người</th><th>Thao tác</th><th>Đối tượng</th><th>Chi tiết</th></tr>${L.map(x=>`<tr><td>${new Date(x.at).toLocaleString('vi-VN')}</td><td>${esc(x.who||'')}</td><td>${A[x.action]||esc(x.action)}</td><td>${esc(x.target)}</td><td style="white-space:normal">${esc(x.detail)}</td></tr>`).join('')}</table>`:'Chưa có thay đổi.'})}
 /* ===== Kết nối máy chủ riêng ===== */
 const LS={get:k=>{try{return localStorage.getItem(k)||''}catch(e){return ''}},set:(k,v)=>{try{localStorage.setItem(k,v)}catch(e){}}};
@@ -633,7 +634,14 @@ async function shimDel(c,id){
 DB={collection:c=>({doc:id=>({set:d=>shimSet(c,id,d),delete:()=>shimDel(c,id)})}),doc:p=>({set:d=>api('PUT','/api/chung',{dm:d.dm})})};
 async function flushBatch(){const q=BATCHQ||[];BATCHQ=null;if(!q.length)return;const m=new Map();q.forEach(x=>m.set(x.id,x));const items=[...m.values()];
  for(let i=0;i<items.length;i+=900)await api('POST','/api/xdm/batch',items.slice(i,i+900))}
+let NVSTATE={};
+function applyNv(nv){NVSTATE=nv||{};let ch=false;
+ TERR.features.forEach(f=>{const p=f.properties;if(p.nv0===undefined)p.nv0=p.nv;const r=NVSTATE[p.bc_id];const v=r?+r.nv:p.nv0;p.nvAt=r?r.at:null;if(p.nv!==v){p.nv=v;ch=true}p.km2_nv=p.nv?Math.round(p.dien_tich_km2/p.nv*10)/10:0});
+ HUB.features.forEach(f=>{const p=f.properties;if(p.nv0===undefined)p.nv0=p.nv;const r=NVSTATE[p.bc_id];p.nv=r?+r.nv:p.nv0});
+ if(ch&&ready&&map.getSource('hub'))map.getSource('hub').setData(HUB);
+ const tot=TERR.features.reduce((s,f)=>s+f.properties.nv,0);const el=document.querySelector('.kpis .k-opt:nth-child(2) b');if(el)el.textContent=fmt(tot)}
 function applyState(st){
+ applyNv(st.nv);
  TUYEN=st.tuyen||[];BCDM={};Object.entries(st.bcdm||{}).forEach(([k,v])=>{if(+v>0)BCDM[k]=+v});
  XDM={};XNV={};Object.entries(st.xdm||{}).forEach(([k,v])=>{if(+v.dm>0)XDM[k]=+v.dm;if(+v.nv>0)XNV[k]=+v.nv});
  if(st.chung>0&&document.activeElement!==$('norm')){NORM=+st.chung;$('norm').value=Math.min(200,Math.max(40,NORM));$('normv').textContent=NORM}

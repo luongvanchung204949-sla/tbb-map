@@ -28,6 +28,7 @@ LOCK = threading.Lock()
 SHEET_ID = os.environ.get("SHEET_ID", "1r7eNeu7JF5ZDAOpK7Ub15JdhPCOZMYth2p1BrnfROlI").strip()
 SHEET_GID = os.environ.get("SHEET_GID", "1495169091").strip()
 SYNC_MINUTES = float(os.environ.get("SYNC_MINUTES", "10"))
+NV_KEY = os.environ.get("NV_KEY", "").strip()
 
 app = FastAPI(title="TBB Map", docs_url=None, redoc_url=None)
 
@@ -55,6 +56,7 @@ def init_db():
         CREATE TABLE IF NOT EXISTS bcdm(bc_id TEXT PRIMARY KEY, dm INTEGER, updated_at TEXT);
         CREATE TABLE IF NOT EXISTS xdm(xa_id TEXT PRIMARY KEY, dm INTEGER, nv REAL, updated_at TEXT);
         CREATE TABLE IF NOT EXISTS tuyen(id TEXT PRIMARY KEY, data TEXT, updated_at TEXT);
+        CREATE TABLE IF NOT EXISTS bc_nv(bc_id TEXT PRIMARY KEY, nv REAL, updated_at TEXT, src TEXT);
         CREATE TABLE IF NOT EXISTS log(id INTEGER PRIMARY KEY AUTOINCREMENT, at TEXT, action TEXT, target TEXT, detail TEXT, ip TEXT, who TEXT);
         """)
         seeded = c.execute("SELECT value FROM kv WHERE key='seeded'").fetchone()
@@ -117,8 +119,9 @@ def state():
         bc = {x["bc_id"]: x["dm"] for x in c.execute("SELECT * FROM bcdm")}
         xa = {x["xa_id"]: {"dm": x["dm"], "nv": x["nv"]} for x in c.execute("SELECT * FROM xdm")}
         tu = [dict(json.loads(x["data"]), _id=x["id"]) for x in c.execute("SELECT * FROM tuyen ORDER BY updated_at DESC")]
+        nv = {x["bc_id"]: {"nv": x["nv"], "at": x["updated_at"], "src": x["src"]} for x in c.execute("SELECT * FROM bc_nv")}
     return {"chung": int(ch["value"]) if ch else 50, "bcdm": bc, "xdm": xa, "tuyen": tu,
-            "rev": int(r["value"]) if r else 0, "edit_pin": bool(EDIT_PIN)}
+            "rev": int(r["value"]) if r else 0, "edit_pin": bool(EDIT_PIN), "nv": nv}
 
 
 @app.get("/api/vol")
@@ -240,6 +243,59 @@ def del_tuyen(tid: str, req: Request, x_pin: str = Header(None)):
         c.execute("DELETE FROM tuyen WHERE id=?", (tid,))
         log(c, req, "tuyen_xoa", tid, json.loads(r["data"]).get("ten_tuyen", "") if r else "")
         return {"rev": bump(c)}
+
+
+# ---------------------------------------------------------------- nhân sự (đẩy từ Apps Script)
+def _bc_lookup():
+    import re as _re
+    import unicodedata as _ud
+    def norm(t):
+        t = _ud.normalize("NFD", str(t).lower())
+        t = "".join(ch for ch in t if _ud.category(ch) != "Mn").replace("đ", "d")
+        t = _re.sub(r"^\s*\(\w+\)\s*", "", t)
+        t = _re.sub(r"^(buu cuc|bc)\s+", "", t.strip())
+        return _re.sub(r"[^a-z0-9]", "", t)
+    ids, by = set(), {}
+    for v in volmod.MASTER.values():
+        ids.add(v["bc_id"])
+        by.setdefault(norm(v["bc"]), set()).add(v["bc_id"])
+    return ids, by, norm
+
+
+class NvRow(BaseModel):
+    bc: str = Field(..., max_length=200)
+    nv: float = Field(..., ge=0, le=500)
+
+
+class NvPush(BaseModel):
+    rows: list[NvRow] = Field(..., max_length=300)
+    source: str = Field("Apps Script", max_length=200)
+
+
+@app.post("/api/nv")
+def push_nv(body: NvPush, req: Request, x_nv_key: str = Header(None)):
+    if not NV_KEY or (x_nv_key or "").strip() != NV_KEY:
+        raise HTTPException(401, "Sai khoá NV_KEY")
+    ids, by, norm = _bc_lookup()
+    ok, bad = {}, []
+    for r in body.rows:
+        k = r.bc.strip()
+        bid = k if k in ids else None
+        if not bid:
+            s = by.get(norm(k))
+            bid = next(iter(s)) if s and len(s) == 1 else None
+        if bid:
+            ok[bid] = ok.get(bid, 0) + r.nv
+        else:
+            bad.append(k)
+    t = now()
+    with LOCK, db() as c:
+        for bid, n in ok.items():
+            c.execute("INSERT OR REPLACE INTO bc_nv VALUES(?,?,?,?)", (bid, n, t, body.source[:200]))
+        c.execute("INSERT INTO log(at,action,target,detail,ip,who) VALUES(?,?,?,?,?,?)",
+                  (t, "cap_nhat_nv", f"{len(ok)} BC", f"tổng {sum(ok.values()):g} NV" + (f"; không khớp: {', '.join(bad[:10])}" if bad else ""), "", "Tự động (file nhân sự)"))
+        bump(c)
+    return {"ok": len(ok), "total_nv": sum(ok.values()), "unmatched": bad, "at": t}
 
 
 # ---------------------------------------------------------------- admin
