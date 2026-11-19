@@ -168,7 +168,7 @@ table.dm input.own{border-color:var(--acc);background:#fff7f1;font-weight:700}
 <button data-m="terr">Lãnh thổ BC</button>
 <button data-m="can" style="grid-column:1/3">NV cần theo xã (theo định mức xã/BC)</button>
 </div>
-<div class="norm"><span>Định mức</span><input type="range" id="norm" min="40" max="200" step="5" value="100"><b id="normv">100</b><span style="color:var(--mute);font-size:12px">đơn/NV</span></div>
+<div class="norm" style="display:none"><span>Định mức</span><input type="range" id="norm" min="40" max="200" step="5" value="100"><b id="normv">100</b><span style="color:var(--mute);font-size:12px">đơn/NV</span></div>
 <div class="sum"><div><b id="s_thieu">–</b>BC có tuyến thiếu</div><div><b id="s_sat">–</b>tuyến thiếu đã ghi</div><div><b id="s_nv">–</b>NV thiếu (theo tuyến)</div></div>
 </div>
 <div class="sec"><h3 class="colh" id="tuyenHead" title="Bấm để xổ/thu danh sách"><span><span class="car">▸</span> Tuyến / xã thiếu người</span><span id="markSum" style="text-transform:none;letter-spacing:0;color:var(--red);font-weight:700"></span></h3>
@@ -474,7 +474,7 @@ document.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{document.que
 let dmQ='',dmPv='';
 let dmPending=false;function renderDm(){const V=$('dmView');if(V.dataset.built&&document.activeElement&&document.activeElement.closest&&document.activeElement.closest('#dmBody,#xBody')&&document.activeElement.dataset.dirty){dmPending=true;return}if(!TERR||!document.body.classList.contains('dm')&&V.dataset.built)return;
  if(!V.dataset.built){V.dataset.built=1;V.innerHTML=`<div class="subtabs"><button data-s="bc" class="on">Định mức theo bưu cục</button><button data-s="xa">Định mức theo phường/xã cũ</button></div><div id="dmXA"></div><div id="dmBC"><div class="dmtop">
-  <div class="box"><label>Định mức chung</label><input type="number" id="dmChung" min="10" max="5000" step="5" style="width:90px"> <span style="color:var(--mute);font-size:12px">đơn/NV</span></div>
+  <div class="box" style="display:none"><label>Định mức chung</label><input type="number" id="dmChung" min="10" max="5000" step="5" style="width:90px"> <span style="color:var(--mute);font-size:12px">đơn/NV</span></div>
   <div class="box"><label>BC có định mức riêng</label><b id="dmN">0</b></div>
   <div class="box"><label>BC có tuyến thiếu</label><b id="dmTh" style="color:var(--red)">0</b></div>
   <div class="box"><label>NV thiếu (theo tuyến)</label><b id="dmNv" style="color:var(--red)">0</b></div>
