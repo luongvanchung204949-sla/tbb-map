@@ -155,21 +155,21 @@ table.dm input.own{border-color:var(--acc);background:#fff7f1;font-weight:700}
 <body>
 <div id="app">
 <header><b><span class="brand">GHN</span> · Tây Bắc Bộ · Địa giới & Vol tồn</b><button class="hbtn" id="sideHdr" title="Ẩn/hiện thanh bên trái">☰</button><nav class="tabs"><button data-v="map" class="on">Bản đồ</button><button data-v="dm">Định mức</button><button data-v="ad">Cập nhật dữ liệu</button></nav>
-<div class="kpis"><span class="k-opt"><b>54</b>BC</span><span class="k-opt"><b>543</b>NV</span><span><b id="k_giao">–</b>đơn giao tồn</span><span class="k-opt"><b id="k_24">–</b>tồn ≥24h</span><span><b id="k_thieu" style="color:#ff8a80">–</b>BC thiếu (định mức)</span><span><b id="k_mark" style="color:#ff8a80">0</b>tuyến thiếu đã đánh dấu</span></div></header>
+<div class="kpis"><span class="k-opt"><b>54</b>BC</span><span class="k-opt"><b>543</b>NV</span><span><b id="k_giao">–</b>đơn giao tồn</span><span class="k-opt"><b id="k_24">–</b>tồn ≥24h</span><span><b id="k_thieu" style="color:#ff8a80">–</b>BC thiếu người</span><span><b id="k_mark" style="color:#ff8a80">0</b>tuyến thiếu đã đánh dấu</span></div></header>
 <aside>
 <div class="sec"><h3>Xem theo đơn vị</h3>
 <div class="seg s2" id="unit"><button data-u="moi" class="on">Phường/xã mới (257)</button><button data-u="cu">Phường/xã cũ (754)</button></div>
 </div>
 <div class="sec"><h3>Tô màu bản đồ theo</h3>
 <div class="seg" id="mode">
-<button data-m="load" class="on">Mức tải BC</button>
+<button data-m="load" class="on">Thiếu người / tải xã</button>
 <button data-m="giao">Đơn giao tồn / xã</button>
 <button data-m="p24">% tồn ≥24h / xã</button>
 <button data-m="terr">Lãnh thổ BC</button>
 <button data-m="can" style="grid-column:1/3">NV cần theo xã (theo định mức xã/BC)</button>
 </div>
 <div class="norm"><span>Định mức</span><input type="range" id="norm" min="40" max="200" step="5" value="100"><b id="normv">100</b><span style="color:var(--mute);font-size:12px">đơn/NV</span></div>
-<div class="sum"><div><b id="s_thieu">–</b>BC thiếu (≥100%)</div><div><b id="s_sat">–</b>BC sát ngưỡng</div><div><b id="s_nv">–</b>NV thiếu (ước tính)</div></div>
+<div class="sum"><div><b id="s_thieu">–</b>BC có tuyến thiếu</div><div><b id="s_sat">–</b>tuyến thiếu đã ghi</div><div><b id="s_nv">–</b>NV thiếu (theo tuyến)</div></div>
 </div>
 <div class="sec"><h3 class="colh" id="tuyenHead" title="Bấm để xổ/thu danh sách"><span><span class="car">▸</span> Tuyến / xã thiếu người</span><span id="markSum" style="text-transform:none;letter-spacing:0;color:var(--red);font-weight:700"></span></h3>
 <div class="markbar"><button class="btn pri" id="btnMark">＋ Đánh dấu thiếu người</button><button class="btn" id="btnCsv" title="Sao chép danh sách dạng bảng để dán vào Excel/Sheets">Sao chép</button></div>
@@ -195,10 +195,10 @@ table.dm input.own{border-color:var(--acc);background:#fff7f1;font-weight:700}
 <div class="sec"><h3>Danh sách bưu cục</h3>
 <input type="search" id="q" placeholder="Tìm bưu cục hoặc xã…">
 <div class="row2"><select id="pv"><option value="">Tất cả tỉnh</option></select>
-<select id="sort"><option value="tai">Mức tải ↓</option><option value="thieu">NV thiếu ↓</option><option value="giao">Đơn giao tồn ↓</option><option value="p24">% tồn ≥24h ↓</option><option value="km2_nv">km²/NV ↓</option><option value="bc_name">Tên A→Z</option></select></div>
+<select id="sort"><option value="thieu">NV thiếu ↓</option><option value="giao">Đơn giao tồn ↓</option><option value="p24">% tồn ≥24h ↓</option><option value="km2_nv">km²/NV ↓</option><option value="bc_name">Tên A→Z</option></select></div>
 </div>
 <div id="list"></div>
-<div class="sec note"><b>Cách tính:</b> Mức tải = đơn giao tồn ÷ (NV × định mức). Số liệu là <b>ảnh chụp tồn đọng 12:34 ngày 18/11/2026</b>; định mức là giá trị tạm. Ranh giới 30 xã cũ (Sa Pa, Mộc Châu, Nghĩa Lộ, Mai Sơn, Trấn Yên) là <b>xấp xỉ</b>, chia theo tâm xã.</div>
+<div class="sec note"><b>Cách tính:</b> Số NV thiếu của BC = tổng NV thiếu của các tuyến đã đánh dấu. Màu xã = tải xã = đơn giao tồn của xã ÷ (định mức xã × NV phụ trách). Số liệu là <b>ảnh chụp tồn đọng 12:34 ngày 18/11/2026</b>; định mức là giá trị tạm. Ranh giới 30 xã cũ (Sa Pa, Mộc Châu, Nghĩa Lộ, Mai Sơn, Trấn Yên) là <b>xấp xỉ</b>, chia theo tâm xã.</div>
 </aside>
 <section id="dmView"></section><section id="adView"></section>
 <div id="map"><button id="sideBtn" title="Ẩn/hiện thanh bên trái">◀</button><div class="stamp" id="stamp">Tồn đọng · –</div><div class="markhint">Chế độ đánh dấu: bấm vào phường/xã để chọn, rồi điền thông tin tuyến bên trái</div><div id="tip"></div><div id="loading">Đang tải dữ liệu bản đồ…</div><div class="legend" id="leg"></div></div>
@@ -259,7 +259,7 @@ function recompute(){
  Object.values(XAI).forEach(p=>{p.wtai=p.wnv?p.wcan/p.wnv:0;p.wlvl=p.wany?(p.wtai>1.5?2:p.wtai>1?1:0):-1});
  if(ready)Object.values(XAI).forEach(p=>map.setFeatureState({source:'xa',id:p.ma_xa_moi},{can:p.can,wlvl:p.wlvl}));
  TERR.features.forEach(f=>{const p=f.properties;const own=BCDM[p.bc_id];p.dmOwn=own>0;p.dm=own>0?own:NORM;p.nXdm=nx[p.bc_id]||0;p.can=Math.max(0,p.giao/p.dm+(delta[p.bc_id]||0));p.tai=p.nv?p.can/p.nv:0;p.dmEff=p.can>0?Math.round(p.giao/p.can):p.dm;p.thieu=Math.max(0,Math.ceil(p.can-p.nv));
-  p.lvl=p.tai>=1?2:p.tai>=.85?1:0; if(p.lvl==2){th++;nvt+=p.thieu} else if(p.lvl==1)sat++;
+  {const mk=TUYEN.filter(t=>t.bc_ids&&t.bc_ids.includes(p.bc_id));p.ntuyen=mk.length;p.thieu=mk.reduce((s,t)=>s+(+t.nv_thieu||0),0);}p.lvl=(p.ntuyen>0)?2:0; if(p.lvl==2){th++;nvt+=p.thieu;sat+=p.ntuyen}
   if(ready)map.setFeatureState({source:'terr',id:f.id},{lvl:p.lvl});});
  const T=(id,v)=>document.getElementById(id).textContent=v;T('s_thieu',th);T('s_sat',sat);T('s_nv',nvt);T('k_thieu',th);
  renderList();legend();updLabelsStyle();renderDm();
@@ -273,7 +273,7 @@ function init(){
  const step=(prop,b)=>['step',['get',prop],SEQ[0],b[0]+.5,SEQ[1],b[1]+.5,SEQ[2],b[2]+.5,SEQ[3],b[3]+.5,SEQ[4]];
  const p24c=['step',['get','p24'],'#f1f8e9',.2,'#fff3c4',.35,'#fdae61',.5,'#f46d43',.65,'#c62828'];
  map.addLayer({id:'terr-fill',type:'fill',source:'terr',paint:{'fill-color':['get','color'],'fill-opacity':.55}});
- map.addLayer({id:'load-fill',type:'fill',source:'terr',paint:{'fill-color':['match',['feature-state','lvl'],2,'#e53935',1,'#f6b93b','#7dcea0'],'fill-opacity':['match',['feature-state','lvl'],2,.62,1,.5,.35]}});
+ map.addLayer({id:'load-fill',type:'fill',source:'terr',paint:{'fill-color':['match',['feature-state','lvl'],2,'#e53935',1,'#f6b93b','#7dcea0'],'fill-opacity':['match',['feature-state','lvl'],2,.4,1,.4,.25]}});
  // choropleth: xã mới view = new wards (non split) + old pieces of split wards; xã cũ view = all old wards
  map.addLayer({id:'m-giao',type:'fill',source:'xa',filter:['!=',['get','bi_tach'],true],paint:{'fill-color':step('giao',GBRM),'fill-opacity':.85}});
  map.addLayer({id:'mt-giao',type:'fill',source:'xc',filter:['==',['get','tach'],true],paint:{'fill-color':step('giao',GBR),'fill-opacity':.85}});
@@ -368,18 +368,18 @@ document.getElementById('norm').oninput=e=>{NORM=+e.target.value;document.getEle
 document.getElementById('norm').onchange=()=>saveChung();
 function updLabels(){const on=document.getElementById('L_lbl').checked&&map.getZoom()>=7.6;labels.forEach(m=>on?m.addTo(map):m.remove())}
 function updLabelsStyle(){labels.forEach(m=>{const el=m.getElement();const p=TERR.features.find(f=>f.properties.bc_id===el.dataset.id).properties;const nm=p.bc_name.replace(/^\(\w+\)\s*/,'');
- el.textContent=MODE==='load'&&p.lvl===2?`${nm} · thiếu ${p.thieu}`:(MODE==='load'||MODE==='can')&&p.nXdm?`${nm} · tải ${pct(p.tai)}`:nm;el.classList.toggle('red',MODE==='load'&&p.lvl===2)})}
+ el.textContent=MODE==='load'&&p.lvl===2?`${nm} · thiếu ${p.thieu}`:nm;el.classList.toggle('red',MODE==='load'&&p.lvl===2)})}
 function toggle(){applyView();updLabels()}
 function bbox(fc){let a=[180,90,-180,-90];const w=c=>typeof c[0]==='number'?(a=[Math.min(a[0],c[0]),Math.min(a[1],c[1]),Math.max(a[2],c[0]),Math.max(a[3],c[1])]):c.forEach(w);fc.features.forEach(f=>w(f.geometry.coordinates));return [[a[0],a[1]],[a[2],a[3]]]}
-function lvlTag(p){return p.lvl===2?`<span class="tag t-red">Thiếu ${p.thieu} NV</span>`:p.lvl===1?'<span class="tag t-amb">Sát ngưỡng</span>':'<span class="tag t-grn">Đủ</span>'}
+function lvlTag(p){return p.lvl===2?`<span class="tag t-red">Thiếu ${p.thieu} NV</span>`:'<span class="tag t-grn">Chưa ghi thiếu</span>'}
 function popup(ll,p,w){
  let unit='';
  if(w&&w.src==='cu'){const x=w.p;unit=`<div class="xa"><b>${esc(x.ten)}</b> (xã cũ, ${esc(x.huyen)}) → ${esc(x.xa_moi)}<br>Giao tồn <b>${fmt(x.giao)}</b> · ≥24h <b>${fmt(x.g24)}</b>${x.giao?` (${pct(x.p24)})`:''} · ≥72h ${fmt(x.g72)} · Lấy ${fmt(x.lay)} · Trả ${fmt(x.tra)}</div>`}
  else if(w){const x=w.p;unit=`<div class="xa"><b>${esc(x.ten_xa_moi)}</b> — Giao tồn <b>${fmt(x.giao)}</b> · ≥24h <b>${fmt(x.g24)}</b>${x.giao?` (${pct(x.p24)})`:''} · Lấy ${fmt(x.lay)} · Trả ${fmt(x.tra)}<br><span style="color:#6b7385">Theo xã cũ: ${esc(x.giao_xa_cu)}</span></div>`}
  const mk=TUYEN.filter(t=>t.bc_ids&&t.bc_ids.includes(p.bc_id));
- const mkh=mk.length?`<div class="xa"><b style="color:#d62f2f">Tuyến thiếu người đã đánh dấu (${mk.reduce((s,t)=>s+(+t.nv_thieu||0),0)} NV):</b><br>${mk.map(t=>`• ${esc(t.ten_tuyen)} – thiếu ${t.nv_thieu}`).join('<br>')}</div>`:'';
+ const mkh=mk.length?`<div class="xa"><b style="color:#d62f2f">Các tuyến thiếu:</b><br>${mk.map(t=>`• ${esc(t.ten_tuyen)} – thiếu ${t.nv_thieu}`).join('<br>')}</div>`:'';
  new maplibregl.Popup({maxWidth:'340px'}).setLngLat(ll).setHTML(`<div class="pp"><h4>${esc(p.bc_name)} ${lvlTag(p)}</h4>
- <div class="g"><span>Số NV</span><b>${fmt(p.nv)}${p.nvAt?` <span style="color:#6b7385;font-weight:400;font-size:11px">(cập nhật ${new Date(p.nvAt).toLocaleString('vi-VN',{hour:'2-digit',minute:'2-digit',day:'2-digit',month:'2-digit'})})</span>`:''} · cần ${p.can.toFixed(1)} (định mức ${p.dm}${p.dmOwn?' riêng':' chung'}${p.nXdm?` · ${p.nXdm} xã riêng → hiệu dụng ${p.dmEff}`:''})</b><span>Mức tải</span><b>${pct(p.tai)}</b><span>Giao tồn</span><b>${fmt(p.giao)} · đã trễ ${fmt(p.tre)}</b><span>Tồn ≥24h</span><b>${fmt(p.g24)} (${pct(p.p24)}) · ≥72h ${fmt(p.g72)}</b><span>Lấy / Trả</span><b>${fmt(p.lay)} / ${fmt(p.tra)}</b><span>Giữ ngoài địa giới</span><b>${fmt(p.lech)} đơn</b><span>Diện tích</span><b>${fmt(p.dien_tich_km2)} km² · ${p.km2_nv} km²/NV</b></div>${unit}${mkh}</div>`).addTo(map)}
+ <div class="g"><span>Số NV</span><b>${fmt(p.nv)}${p.nvAt?` <span style="color:#6b7385;font-weight:400;font-size:11px">(cập nhật ${new Date(p.nvAt).toLocaleString('vi-VN',{hour:'2-digit',minute:'2-digit',day:'2-digit',month:'2-digit'})})</span>`:''}</b><span>Thiếu</span><b class="${p.thieu?'r':''}">${p.thieu?`${p.thieu} NV · ${p.ntuyen} tuyến đã đánh dấu`:'Chưa ghi tuyến thiếu'}</b><span>Giao tồn</span><b>${fmt(p.giao)} · đã trễ ${fmt(p.tre)}</b><span>Tồn ≥24h</span><b>${fmt(p.g24)} (${pct(p.p24)}) · ≥72h ${fmt(p.g72)}</b><span>Lấy / Trả</span><b>${fmt(p.lay)} / ${fmt(p.tra)}</b><span>Giữ ngoài địa giới</span><b>${fmt(p.lech)} đơn</b><span>Diện tích</span><b>${fmt(p.dien_tich_km2)} km² · ${p.km2_nv} km²/NV</b></div>${unit}${mkh}</div>`).addTo(map)}
 function pick(id,fly){
  if(sel!==null)map.setFeatureState({source:'terr',id:sel},{sel:false});
  const f=TERR.features.find(x=>x.properties.bc_id===id);sel=f.id;map.setFeatureState({source:'terr',id:sel},{sel:true});
@@ -388,14 +388,14 @@ function pick(id,fly){
 function renderList(){
  if(!TERR)return;const q=document.getElementById('q').value.trim().toLowerCase(),pv=document.getElementById('pv').value,s=document.getElementById('sort').value;
  let a=TERR.features.map(f=>f.properties).filter(p=>(!pv||p.tinh===pv)&&(!q||p.bc_name.toLowerCase().includes(q)||p.xa_cu.toLowerCase().includes(q)));
- a.sort((x,y)=>s==='bc_name'?x.bc_name.localeCompare(y.bc_name,'vi'):(y[s]-x[s])||(y.tai-x.tai));
- const dot=p=>MODE==='load'?(p.lvl===2?'#e53935':p.lvl===1?'#f6b93b':'#7dcea0'):p.color;
+ a.sort((x,y)=>s==='bc_name'?x.bc_name.localeCompare(y.bc_name,'vi'):(y[s]-x[s])||(y.giao-x.giao));
+ const dot=p=>MODE==='load'?(p.lvl===2?'#e53935':'#7dcea0'):p.color;
  const mkn=id=>TUYEN.filter(t=>t.bc_ids&&t.bc_ids.includes(id)).reduce((s,t)=>s+(+t.nv_thieu||0),0);
- document.getElementById('list').innerHTML=a.map(p=>{const m=mkn(p.bc_id);return `<div class="bc" data-id="${p.bc_id}"><span class="d" style="background:${dot(p)}"></span><div>${esc(p.bc_name)}${lvlTag(p)}${m?`<span class="tag t-dark">Đã ghi thiếu ${m}</span>`:''}<small>${esc(p.tinh)} · ${p.nv} NV · định mức ${p.nXdm?p.dmEff+' (theo xã)':p.dm} · tồn ≥24h ${pct(p.p24)}</small></div><div class="n"><b>${fmt(p.giao)}</b> giao<br>${pct(p.tai)} tải</div></div>`}).join('')||'<div class="sec note">Không tìm thấy.</div>';
+ document.getElementById('list').innerHTML=a.map(p=>{const m=mkn(p.bc_id);return `<div class="bc" data-id="${p.bc_id}"><span class="d" style="background:${dot(p)}"></span><div>${esc(p.bc_name)}${lvlTag(p)}<small>${esc(p.tinh)} · ${p.nv} NV${p.ntuyen?` · ${p.ntuyen} tuyến thiếu`:''} · tồn ≥24h ${pct(p.p24)}</small></div><div class="n"><b>${fmt(p.giao)}</b> giao<br>${p.thieu?`<span style="color:#d62f2f">thiếu ${p.thieu}</span>`:'&nbsp;'}</div></div>`}).join('')||'<div class="sec note">Không tìm thấy.</div>';
  document.querySelectorAll('.bc').forEach(e=>e.onclick=()=>pick(e.dataset.id,true))}
 function legend(){const L=document.getElementById('leg');const r=(c,t,b)=>`<div class="r"><span class="sw" style="background:${c};${b||''}"></span>${t}</div>`;let h='';
  const cu=UNIT==='cu';
- if(MODE==='load')h=`<div class="t">Mức tải (định mức chung ${NORM}${Object.keys(BCDM).length?` · ${Object.keys(BCDM).length} BC riêng`:''})</div>`+r('#e53935','≥100% — thiếu người')+r('#f6b93b','85–99% — sát ngưỡng')+r('#7dcea0','<85% — đủ')+`<div style="font-size:11px;color:#6b7385;margin:4px 0 2px;max-width:230px">Nền nhạt = tải cả BC. Xã có định mức/NV riêng tô theo tải xã = NV cần ÷ NV phụ trách (mặc định 1): ≤100% xanh nhạt (đáp ứng), 100–150% vàng, >150% đỏ (viền đen).</div>`;
+ if(MODE==='load')h=`<div class="t">Nền BC (theo tuyến đã đánh dấu)</div>`+r('#e5393566','BC có tuyến thiếu người')+r('#7dcea044','Chưa ghi thiếu','border:1px solid #ccc')+`<div class="t" style="margin-top:6px">Tải xã (xã có định mức riêng)</div>`+r('#c9e7d6','≤100% — đáp ứng')+r('#f6b93b','100–150%')+r('#d32f2f','>150% — quá tải')+`<div style="font-size:11px;color:#6b7385;margin:4px 0 2px;max-width:230px">Tải xã = đơn giao tồn của xã ÷ (định mức xã × NV phụ trách, mặc định 1).</div>`;
  else if(MODE==='giao'){const b=cu?GBR:GBRM;h=`<div class="t">Đơn giao tồn theo ${cu?'xã cũ':'xã mới'}</div>`+r(SEQ[0],`≤ ${b[0]}`,'border:1px solid #ddd')+r(SEQ[1],`${b[0]+1}–${b[1]}`)+r(SEQ[2],`${b[1]+1}–${b[2]}`)+r(SEQ[3],`${b[2]+1}–${b[3]}`)+r(SEQ[4],`> ${b[3]}`)}
  else if(MODE==='p24')h=`<div class="t">% đơn giao tồn ≥24h theo ${cu?'xã cũ':'xã mới'}</div>`+r('#f1f8e9','<20%','border:1px solid #ddd')+r('#fff3c4','20–35%')+r('#fdae61','35–50%')+r('#f46d43','50–65%')+r('#c62828','≥65%')+r('#eef1f5','Không có đơn tồn','border:1px solid #ccc');
  else if(MODE==='can')h=`<div class="t">NV cần theo ${cu?'xã cũ':'xã mới'} (= đơn giao tồn ÷ định mức)</div>`+r('#f7fbff','< 0,5 NV','border:1px solid #ddd')+r('#c6dbef','0,5–1')+r('#6baed6','1–2')+r('#2171b5','2–3')+r('#08306b','≥ 3 NV');
@@ -460,7 +460,7 @@ function onTuyen(){
   <div class="act">${canWrite()?`<button class="btn" data-a="edit">Sửa</button><button class="btn" data-a="del">Xoá</button>`:''}</div></div>`).join('')
   :'<div class="note" style="margin-top:8px">Chưa có tuyến nào. Bấm <b>＋ Đánh dấu thiếu người</b>, chọn các phường/xã trên bản đồ (theo xã mới hoặc xã cũ), điền tên tuyến và số NV thiếu rồi Lưu.</div>';
  document.querySelectorAll('.tuyen').forEach(el=>{el.onclick=e=>{const a=e.target.dataset&&e.target.dataset.a;const id=el.dataset.id;if(a==='edit'){e.stopPropagation();editTuyen(id)}else if(a==='del'){e.stopPropagation();delTuyen(id)}else zoomTuyen(id)}});
- resolveNames();drawMarks();renderList()}
+ resolveNames();drawMarks();if(TERR)recompute();else renderList()}
 async function resolveNames(){if(!USER||!USER.profiles)return;const els=[...document.querySelectorAll('.who')];if(!els.length)return;
  try{const ps=await USER.profiles([...new Set(els.map(e=>e.dataset.u))]);els.forEach(e=>{const p=ps&&ps[e.dataset.u];e.textContent=(p&&p.name)||''})}catch(e){}}
 let WRITE=true;function canWrite(){return true}
@@ -476,15 +476,15 @@ let dmPending=false;function renderDm(){const V=$('dmView');if(V.dataset.built&&
  if(!V.dataset.built){V.dataset.built=1;V.innerHTML=`<div class="subtabs"><button data-s="bc" class="on">Định mức theo bưu cục</button><button data-s="xa">Định mức theo phường/xã cũ</button></div><div id="dmXA"></div><div id="dmBC"><div class="dmtop">
   <div class="box"><label>Định mức chung</label><input type="number" id="dmChung" min="10" max="5000" step="5" style="width:90px"> <span style="color:var(--mute);font-size:12px">đơn/NV</span></div>
   <div class="box"><label>BC có định mức riêng</label><b id="dmN">0</b></div>
-  <div class="box"><label>BC thiếu người</label><b id="dmTh" style="color:var(--red)">0</b></div>
-  <div class="box"><label>NV thiếu (ước tính)</label><b id="dmNv" style="color:var(--red)">0</b></div>
+  <div class="box"><label>BC có tuyến thiếu</label><b id="dmTh" style="color:var(--red)">0</b></div>
+  <div class="box"><label>NV thiếu (theo tuyến)</label><b id="dmNv" style="color:var(--red)">0</b></div>
   <div style="flex:1;min-width:200px"><input type="search" id="dmQ" placeholder="Tìm bưu cục…"></div>
   <div><select id="dmPv"><option value="">Tất cả tỉnh</option></select></div>
   <div><button class="btn" id="dmPaste">Dán từ Excel</button> <button class="btn" id="dmCopy">Sao chép bảng</button> ${canWrite()?'<button class="btn" id="dmClear">Xoá hết định mức riêng</button>':''}</div></div>
   <div id="pasteBox"><div style="font-size:12.5px;margin-bottom:6px">Dán 2 cột từ Excel/Sheets: <b>Mã BC</b> (hoặc tên BC) và <b>Định mức</b>, mỗi BC một dòng. Ô định mức trống hoặc 0 = dùng định mức chung.</div><textarea id="pasteTxt" rows="6" placeholder="20714000	90
 (SLA) Thuận Châu	110"></textarea><div class="row2"><button class="btn dark" id="pasteGo">Áp dụng</button><button class="btn" id="pasteX">Đóng</button><span id="pasteMsg" style="font-size:12px;color:var(--mute);align-self:center"></span></div></div>
   <div class="dmnote">Nhập định mức (đơn giao/NV) riêng cho từng BC ở cột <b>Định mức riêng</b>; để trống = dùng định mức chung. Lưu tự động khi rời ô, áp dụng ngay cho bản đồ (mức tải, NV thiếu, nhãn BC). BC có xã định mức riêng sẽ hiện thêm dòng xanh <b>“+ N xã riêng → hiệu dụng X”</b>: NV cần đã tính theo từng xã, X là định mức bình quân thực tế. Đơn giao tồn lấy từ ảnh chụp tồn đọng 12:34 ngày 18/11/2026.</div>
-  <table class="dm"><thead><tr>${[['bc_name','Bưu cục'],['tinh','Tỉnh'],['nv','Số NV','num'],['giao','Đơn giao tồn','num'],['p24','Tồn ≥24h','num'],['own','Định mức riêng','num'],['dm','Áp dụng','num'],['can','NV cần','num'],['tai','Mức tải','num'],['thieu','NV thiếu','num']].map(([k,t,c])=>`<th data-k="${k}" class="${c||''}">${t}</th>`).join('')}</tr></thead><tbody id="dmBody"></tbody></table></div>`;
+  <table class="dm"><thead><tr>${[['bc_name','Bưu cục'],['tinh','Tỉnh'],['nv','Số NV','num'],['giao','Đơn giao tồn','num'],['p24','Tồn ≥24h','num'],['own','Định mức riêng','num'],['dm','Áp dụng','num'],['can','NV cần','num'],['tai','Tải (tham khảo)','num'],['thieu','NV thiếu (tuyến)','num']].map(([k,t,c])=>`<th data-k="${k}" class="${c||''}">${t}</th>`).join('')}</tr></thead><tbody id="dmBody"></tbody></table></div>`;
   V.querySelectorAll('.subtabs button').forEach(b=>b.onclick=()=>{dmSub=b.dataset.s;V.querySelectorAll('.subtabs button').forEach(x=>x.classList.toggle('on',x===b));$('dmBC').style.display=dmSub==='bc'?'':'none';$('dmXA').style.display=dmSub==='xa'?'':'none';renderXa()});$('dmXA').style.display='none';
   $('dmPv').innerHTML+=[...new Set(TERR.features.map(f=>f.properties.tinh))].sort().map(p=>`<option>${p}</option>`).join('');
   $('dmQ').oninput=e=>{dmQ=e.target.value.toLowerCase();renderDm()};$('dmPv').oninput=e=>{dmPv=e.target.value;renderDm()};
